@@ -1,0 +1,10 @@
+{
+  "title": "Transparent queue design",
+  "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand.",
+  "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+  "provenance_type": "synthetic_local_reference",
+  "author": "Codex-assisted synthetic corpus",
+  "license": "CC0-1.0",
+  "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+  "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+}

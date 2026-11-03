@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0",
+  "document_id": "13_independent_pitch.mp4",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "extraction": {
+    "status": "ok",
+    "kind": "mp4",
+    "assessable": true,
+    "sha256": "d07ff5b59c4ad99cba4184cbcc095d6ef7cec70bda10575eb5fdfb53303a9b17",
+    "raw_word_count": 49,
+    "eligible_word_count": 49,
+    "excluded_word_count": 0,
+    "metadata": {
+      "duration_seconds": 19.644,
+      "audio_rms": 0.09982948750257492,
+      "asr_model": "Systran/faster-whisper-tiny.en",
+      "asr_compute_type": "int8",
+      "language": "en",
+      "segments": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 5.08,
+          "segment": 1,
+          "text": "Our astronomy club will map the moon with hand-drawn sketches rather than by a larger telescope.",
+          "avg_logprob": -0.14734728834522304,
+          "no_speech_prob": 0.0068292198702692986,
+          "raw_asr_start_seconds": 0.0,
+          "raw_asr_end_seconds": 5.08,
+          "words": [
+            {
+              "text": " Our",
+              "start_seconds": 0,
+              "end_seconds": 0.42,
+              "probability": 0.8091866970062256
+            },
+            {
+              "text": " astronomy",
+              "start_seconds": 0.42,
+              "end_seconds": 0.82,
+              "probability": 0.7401513457298279
+            },
+            {
+              "text": " club",
+              "start_seconds": 0.82,
+              "end_seconds": 1.22,
+              "probability": 0.9898878931999207
+            },
+            {
+              "text": " will",
+              "start_seconds": 1.22,
+              "end_seconds": 1.44,
+              "probability": 0.9951019287109375
+            },
+            {
+              "text": " map",
+              "start_seconds": 1.44,
+              "end_seconds": 1.66,
+              "probability": 0.9875513911247253
+            },
+            {
+              "text": " the",
+              "start_seconds": 1.66,
+              "end_seconds": 1.84,
+              "probability": 0.9981300234794617
+            },
+            {
+              "text": " moon",
+              "start_seconds": 1.84,
+              "end_seconds": 2.0,
+              "probability": 0.6954310536384583
+            },
+            {
+              "text": " with",
+              "start_seconds": 2.0,
+              "end_seconds": 2.3,
+              "probability": 0.9942903518676758
+            },
+            {
+              "text": " hand",
+              "start_seconds": 2.3,
+              "end_seconds": 2.54,
+              "probability": 0.9604628682136536
+            },
+            {
+              "text": "-drawn",
+              "start_seconds": 2.54,
+              "end_seconds": 2.74,
+              "probability": 0.74568010866642
+            },
+            {
+              "text": " sketches",
+              "start_seconds": 2.74,
+              "end_seconds": 3.1,
+              "probability": 0.9958095550537109
+            },
+            {
+              "text": " rather",
+              "start_seconds": 3.1,
+              "end_seconds": 3.58,
+              "probability": 0.9940506815910339
+            },
+            {
+              "text": " than",
+              "start_seconds": 3.58,
+              "end_seconds": 3.78,
+              "probability": 0.9979425072669983
+            },
+            {
+              "text": " by",
+              "start_seconds": 3.78,
+              "end_seconds": 4.02,
+              "probability": 0.9619003534317017
+            },
+            {
+              "text": " a",
+              "start_seconds": 4.02,
+              "end_seconds": 4.14,
+              "probability": 0.9945529103279114
+            },
+            {
+              "text": " larger",
+              "start_seconds": 4.14,
+              "end_seconds": 4.42,
+              "probability": 0.996507465839386
+            },
+            {
+              "text": " telescope.",
+              "start_seconds": 4.42,
+              "end_seconds": 5.08,
+              "probability": 0.9973478317260742
+            }
+          ]
+        },
+        {
+          "start_seconds": 6.22,
+          "end_seconds": 10.8,
+          "segment": 2,
+          "text": "Members will observe the same crater at different phases, marking shadows with pencils.",
+          "avg_logprob": -0.14734728834522304,
+          "no_speech_prob": 0.0068292198702692986,
+          "raw_asr_start_seconds": 6.22,
+          "raw_asr_end_seconds": 10.8,
+          "words": [
+            {
+              "text": " Members",
+              "start_seconds": 6.22,
+              "end_seconds": 6.3,
+              "probability": 0.9440004825592041
+            },
+            {
+              "text": " will",
+              "start_seconds": 6.3,
+              "end_seconds": 6.62,
+              "probability": 0.9977019429206848
+            },
+            {
+              "text": " observe",
+              "start_seconds": 6.62,
+              "end_seconds": 6.96,
+              "probability": 0.9986822009086609
+            },
+            {
+              "text": " the",
+              "start_seconds": 6.96,
+              "end_seconds": 7.22,
+              "probability": 0.9987047910690308
+            },
+            {
+              "text": " same",
+              "start_seconds": 7.22,
+              "end_seconds": 7.46,
+              "probability": 0.9984656572341919
+            },
+            {
+              "text": " crater",
+              "start_seconds": 7.46,
+              "end_seconds": 7.74,
+              "probability": 0.9839550256729126
+            },
+            {
+              "text": " at",
+              "start_seconds": 7.74,
+              "end_seconds": 8.08,
+              "probability": 0.9983105659484863
+            },
+            {
+              "text": " different",
+              "start_seconds": 8.08,
+              "end_seconds": 8.4,
+              "probability": 0.9994962215423584
+            },
+            {
+              "text": " phases,",
+              "start_seconds": 8.4,
+              "end_seconds": 8.78,
+              "probability": 0.9614400863647461
+            },
+            {
+              "text": " marking",
+              "start_seconds": 9.32,
+              "end_seconds": 9.74,
+              "probability": 0.9939239621162415
+            },
+            {
+              "text": " shadows",
+              "start_seconds": 9.74,
+              "end_seconds": 10.08,
+              "probability": 0.9947532415390015
+            },
+            {
+              "text": " with",
+              "start_seconds": 10.08,
+              "end_seconds": 10.46,
+              "probability": 0.999447762966156
+            },
+            {
+              "text": " pencils.",
+              "start_seconds": 10.46,
+              "end_seconds": 10.8,
+              "probability": 0.9952107965946198
+            }
+          ]
+        },
+        {
+          "start_seconds": 11.98,
+          "end_seconds": 15.74,
+          "segment": 3,
+          "text": "Comparing those sketches will teach how sunlight changes the visible relief.",
+          "avg_logprob": -0.14734728834522304,
+          "no_speech_prob": 0.0068292198702692986,
+          "raw_asr_start_seconds": 11.98,
+          "raw_asr_end_seconds": 15.74,
+          "words": [
+            {
+              "text": " Comparing",
+              "start_seconds": 11.98,
+              "end_seconds": 12.34,
+              "probability": 0.9738343060016632
+            },
+            {
+              "text": " those",
+              "start_seconds": 12.34,
+              "end_seconds": 12.7,
+              "probability": 0.9976475834846497
+            },
+            {
+              "text": " sketches",
+              "start_seconds": 12.7,
+              "end_seconds": 13.04,
+              "probability": 0.9991829991340637
+            },
+            {
+              "text": " will",
+              "start_seconds": 13.04,
+              "end_seconds": 13.34,
+              "probability": 0.993736982345581
+            },
+            {
+              "text": " teach",
+              "start_seconds": 13.34,
+              "end_seconds": 13.6,
+              "probability": 0.9971854090690613
+            },
+            {
+              "text": " how",
+              "start_seconds": 13.6,
+              "end_seconds": 13.88,
+              "probability": 0.990018367767334
+            },
+            {
+              "text": " sunlight",
+              "start_seconds": 13.88,
+              "end_seconds": 14.26,
+              "probability": 0.9853157997131348
+            },
+            {
+              "text": " changes",
+              "start_seconds": 14.26,
+              "end_seconds": 14.68,
+              "probability": 0.998149037361145
+            },
+            {
+              "text": " the",
+              "start_seconds": 14.68,
+              "end_seconds": 15.06,
+              "probability": 0.998794436454773
+            },
+            {
+              "text": " visible",
+              "start_seconds": 15.06,
+              "end_seconds": 15.24,
+              "probability": 0.997849702835083
+            },
+            {
+              "text": " relief.",
+              "start_seconds": 15.24,
+              "end_seconds": 15.74,
+              "probability": 0.9950582981109619
+            }
+          ]
+        },
+        {
+          "start_seconds": 16.58,
+          "end_seconds": 18.74,
+          "segment": 4,
+          "text": "We will keep the drawings in a shared notebook.",
+          "avg_logprob": -0.14734728834522304,
+          "no_speech_prob": 0.0068292198702692986,
+          "raw_asr_start_seconds": 16.58,
+          "raw_asr_end_seconds": 18.74,
+          "words": [
+            {
+              "text": " We",
+              "start_seconds": 16.58,
+              "end_seconds": 16.8,
+              "probability": 0.9910764694213867
+            },
+            {
+              "text": " will",
+              "start_seconds": 16.8,
+              "end_seconds": 17.0,
+              "probability": 0.9802700281143188
+            },
+            {
+              "text": " keep",
+              "start_seconds": 17.0,
+              "end_seconds": 17.22,
+              "probability": 0.9972875118255615
+            },
+            {
+              "text": " the",
+              "start_seconds": 17.22,
+              "end_seconds": 17.44,
+              "probability": 0.9987894892692566
+            },
+            {
+              "text": " drawings",
+              "start_seconds": 17.44,
+              "end_seconds": 17.66,
+              "probability": 0.9986396431922913
+            },
+            {
+              "text": " in",
+              "start_seconds": 17.66,
+              "end_seconds": 17.96,
+              "probability": 0.9995107650756836
+            },
+            {
+              "text": " a",
+              "start_seconds": 17.96,
+              "end_seconds": 18.12,
+              "probability": 0.9953497648239136
+            },
+            {
+              "text": " shared",
+              "start_seconds": 18.12,
+              "end_seconds": 18.34,
+              "probability": 0.9844765067100525
+            },
+            {
+              "text": " notebook.",
+              "start_seconds": 18.34,
+              "end_seconds": 18.74,
+              "probability": 0.9871090650558472
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "exclusions": [],
+  "warnings": [
+    "ASR passages are model transcripts, not verified verbatim speech; timestamps have segment resolution."
+  ],
+  "ai_indicator": {
+    "score": null,
+    "status": "insufficient_text",
+    "calibrated": false,
+    "explanation": "Need at least 50 words and 3 sentences; no reliable inference for short clips."
+  },
+  "scoring": {
+    "semantic_threshold": 0.8,
+    "coverage_unit": "unique eligible normalized word positions",
+    "percentage_formula": "100 * union of query word positions in accepted windows / eligible query words",
+    "coverage_caveat": "Coverage of candidate semantic windows; can include unmatched context. Not percentage proven plagiarized. Peer and external percentages are separate, not additive.",
+    "risk_rule": "HIGH coverage >=50%; MEDIUM >=15%; else LOW. AI indicator never raises risk alone.",
+    "unknown_rule": "Unassessable and fully excluded documents have null scores; partial PDFs cover extracted text only."
+  },
+  "explanations": "0 peer and 0 external evidence windows above cosine 0.8. Review exact source spans before any conclusion. AI style index is uncalibrated."
+}

@@ -1,0 +1,256 @@
+{
+  "dataset_version": "1.0",
+  "generation_command": "python scripts/generate_dataset.py",
+  "text_origin": "All prose generated with OpenAI Codex assistance on 2026-11-04. Independent labels describe relationships, not human authorship.",
+  "media_origin": "Local TTS: Windows SAPI default English voice at 145 words/min; FFmpeg H.264/AAC. Linux espeak-ng fallback changes audio and ASR outputs.",
+  "reproducibility": "Source texts and relationships fixed; DOCX ZIP metadata/TTS bytes may vary across runtimes. Committed files + SHA256 are benchmark identity.",
+  "runtime_isolation": "Only dataset generator and evaluation read these labels. Runtime excludes manifest metadata.",
+  "files": [
+    {
+      "file": "01_harbor.pdf",
+      "sha256": "f83cd564f7c645f488edb8ccb6e9dbd56b46b49557b0e14d568b7cc93d16f42c",
+      "bytes": 3573,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true
+    },
+    {
+      "file": "02_harbor_copy.pdf",
+      "sha256": "f83cd564f7c645f488edb8ccb6e9dbd56b46b49557b0e14d568b7cc93d16f42c",
+      "bytes": 3573,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true
+    },
+    {
+      "file": "03_clinic.docx",
+      "sha256": "624e7bf1405c2130e64384ff2240b241df9eb54c67b2d6a0960dc6cd6b98d5e4",
+      "bytes": 37223,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true
+    },
+    {
+      "file": "04_clinic_paraphrase.docx",
+      "sha256": "011b404840523d7cb52f0e4370b327bf52e40a9041d1d76ef0b68eacb8ebec3d",
+      "bytes": 37291,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true
+    },
+    {
+      "file": "05_prompt_water.pdf",
+      "sha256": "947d2ffef22d913ca679bbcbf7365a703c9cec897b3d8ab2b923f1a50c95c218",
+      "bytes": 2905,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "shared_prompt_words": 151,
+      "independent_answer": true
+    },
+    {
+      "file": "06_prompt_library.pdf",
+      "sha256": "4a64903bc381cdf6e63bba30791d4210b8bd63ae78a69a7c9c565f9507e604d9",
+      "bytes": 2928,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "shared_prompt_words": 151,
+      "independent_answer": true
+    },
+    {
+      "file": "07_prompt_bakery.docx",
+      "sha256": "1e75afa775401df4792af2d0d3f07ca3741ad8e39e4ed7b1e90c02bd8ae2dcc3",
+      "bytes": 37707,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "shared_prompt_words": 151,
+      "independent_answer": true
+    },
+    {
+      "file": "08_prompt_museum.docx",
+      "sha256": "095ca3daf8817a91a91171d17f7cd7ab6dead31b2fc9f9f28609c47f816d1ad3",
+      "bytes": 37702,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "shared_prompt_words": 151,
+      "independent_answer": true
+    },
+    {
+      "file": "09_prompt_garden_llm.docx",
+      "sha256": "621647949627ca7c03df8d3389fd292e319285eafcdd1bd40bb817da03657e71",
+      "bytes": 37731,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "shared_prompt_words": 151,
+      "independent_answer": true,
+      "explicit_llm_example": true
+    },
+    {
+      "file": "10_external.pdf",
+      "sha256": "26bdc8e189e4daee422b97bd72a9eb43e05aae6969b76ed629fae46f4862c6a3",
+      "bytes": 1831,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true
+    },
+    {
+      "file": "11_harbor_pitch.mp4",
+      "sha256": "9d0c52189aa50d1976e721e70c259119d3fdf025e490e30a1e2dcc3a81afc29d",
+      "bytes": 270580,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "duration_seconds": 20.965
+    },
+    {
+      "file": "12_external_pitch.mp4",
+      "sha256": "a488b88837d7319b1b59a082b24e07cbb71a6ac213b0b1e0bfef8cbe490a29fc",
+      "bytes": 212535,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "duration_seconds": 16.317
+    },
+    {
+      "file": "13_independent_pitch.mp4",
+      "sha256": "d07ff5b59c4ad99cba4184cbcc095d6ef7cec70bda10575eb5fdfb53303a9b17",
+      "bytes": 246646,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": true,
+      "duration_seconds": 19.621
+    },
+    {
+      "file": "14_silent.mp4",
+      "sha256": "c99f2573842d017044daa3cbf176e6fc6d4edd2db4ea52aabbc20bf28757e904",
+      "bytes": 7615,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": true,
+      "assessable": false,
+      "duration_seconds": 12
+    },
+    {
+      "file": "15_empty.pdf",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "provenance": "Synthetic, Codex-assisted content; no private student data",
+      "license": "CC0-1.0",
+      "ai_authored": true,
+      "valid": false,
+      "assessable": false
+    }
+  ],
+  "positive_peer_pairs": [
+    [
+      "01_harbor.pdf",
+      "02_harbor_copy.pdf"
+    ],
+    [
+      "01_harbor.pdf",
+      "11_harbor_pitch.mp4"
+    ],
+    [
+      "02_harbor_copy.pdf",
+      "11_harbor_pitch.mp4"
+    ],
+    [
+      "03_clinic.docx",
+      "04_clinic_paraphrase.docx"
+    ],
+    [
+      "10_external.pdf",
+      "12_external_pitch.mp4"
+    ]
+  ],
+  "relationships": [
+    {
+      "type": "exact_copy",
+      "files": [
+        "01_harbor.pdf",
+        "02_harbor_copy.pdf"
+      ]
+    },
+    {
+      "type": "semantic_paraphrase",
+      "files": [
+        "03_clinic.docx",
+        "04_clinic_paraphrase.docx"
+      ]
+    },
+    {
+      "type": "cross_modal",
+      "files": [
+        "01_harbor.pdf",
+        "11_harbor_pitch.mp4"
+      ],
+      "pdf_page": 2,
+      "intended_speech": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates would protect the catch. We would measure discarded kilograms each morning and pause expansion until spoilage falls for four consecutive weeks."
+    },
+    {
+      "type": "external_copy",
+      "files": [
+        "10_external.pdf",
+        "12_external_pitch.mp4"
+      ],
+      "reference": "reference:queue_design"
+    }
+  ],
+  "external_positive_files": [
+    "10_external.pdf",
+    "12_external_pitch.mp4"
+  ],
+  "shared_prompt_files": [
+    "05_prompt_water.pdf",
+    "06_prompt_library.pdf",
+    "07_prompt_bakery.docx",
+    "08_prompt_museum.docx",
+    "09_prompt_garden_llm.docx"
+  ],
+  "shared_prompt_word_count": 151,
+  "independent_files": [
+    "05_prompt_water.pdf",
+    "06_prompt_library.pdf",
+    "07_prompt_bakery.docx",
+    "08_prompt_museum.docx",
+    "09_prompt_garden_llm.docx",
+    "13_independent_pitch.mp4"
+  ],
+  "intended_transcripts": {
+    "11_harbor_pitch.mp4": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates would protect the catch. We would measure discarded kilograms each morning and pause expansion until spoilage falls for four consecutive weeks.",
+    "12_external_pitch.mp4": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk.",
+    "13_independent_pitch.mp4": "Our astronomy club will map the moon with hand drawn sketches rather than buy a larger telescope. Members will observe the same crater at different phases, marking shadows with pencils. Comparing those sketches will teach how sunlight changes the visible relief. We will keep the drawings in a shared notebook."
+  },
+  "label_policy": "Any substantive authored content copy/paraphrase is positive. Shared configured prompt is negative. Other assessable unordered pairs are negative. Invalid inputs excluded from pair classification and separately tested."
+}

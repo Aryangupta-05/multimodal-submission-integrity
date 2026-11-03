@@ -1,0 +1,3900 @@
+{
+  "schema_version": "1.0",
+  "document_id": "11_harbor_pitch.mp4",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:04.720",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 4.72,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:16.700",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 215,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.996827,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 334,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9697,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.996535,
+      "query_passage": "A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 49,
+            "char_end": 92,
+            "text": "A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 141,
+            "char_end": 334,
+            "text": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9615,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.991777,
+      "query_passage": "We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 2,
+            "char_start": 32,
+            "char_end": 85,
+            "text": "We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:11.540 - 00:00:20.140",
+        "query_start_seconds": 11.54,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 217,
+            "char_end": 334,
+            "text": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9412,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.989352,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 47,
+            "text": "Fish currently spoil while drivers wait for ice",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:11.540",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 11.54,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 139,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.984701,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:20.140",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 334,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9778,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.982671,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:16.700",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 215,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:04.720",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 4.72,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:16.700",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 215,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.996827,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 334,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9697,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.996535,
+      "query_passage": "A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 49,
+            "char_end": 92,
+            "text": "A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 141,
+            "char_end": 334,
+            "text": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9615,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.991777,
+      "query_passage": "We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 2,
+            "char_start": 32,
+            "char_end": 85,
+            "text": "We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:11.540 - 00:00:20.140",
+        "query_start_seconds": 11.54,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 217,
+            "char_end": 334,
+            "text": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9412,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.989352,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 47,
+            "text": "Fish currently spoil while drivers wait for ice",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:11.540",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 11.54,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 139,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.984701,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:20.140",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 334,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9778,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.982671,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:16.700",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 215,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    }
+  ],
+  "multimodal_matches": [
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:04.720",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 4.72,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:16.700",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 215,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.996827,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 334,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9697,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.996535,
+      "query_passage": "A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 49,
+            "char_end": 92,
+            "text": "A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 141,
+            "char_end": 334,
+            "text": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9615,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.991777,
+      "query_passage": "We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 2,
+            "char_start": 32,
+            "char_end": 85,
+            "text": "We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:11.540 - 00:00:20.140",
+        "query_start_seconds": 11.54,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 217,
+            "char_end": 334,
+            "text": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9412,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.989352,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 47,
+            "text": "Fish currently spoil while drivers wait for ice",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:11.540",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 11.54,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 139,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.984701,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:20.140",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 334,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9778,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "01_harbor.pdf",
+      "similarity_score": 0.982671,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:16.700",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 215,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:04.720",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 4.72,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:16.700",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 215,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.996827,
+      "query_passage": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 92,
+            "char_end": 334,
+            "text": "Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9697,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.996535,
+      "query_passage": "A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 49,
+            "char_end": 92,
+            "text": "A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:05.800 - 00:00:20.140",
+        "query_start_seconds": 5.8,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 141,
+            "char_end": 334,
+            "text": "A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9615,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.991777,
+      "query_passage": "We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 2,
+            "char_start": 32,
+            "char_end": 85,
+            "text": "We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:11.540 - 00:00:20.140",
+        "query_start_seconds": 11.54,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 217,
+            "char_end": 334,
+            "text": "We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9412,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.989352,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 47,
+            "text": "Fish currently spoil while drivers wait for ice",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:11.540",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 11.54,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 139,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.984701,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch. We would measure discarded kilograms each morning and\nexpansion until spoilage falls for four consecutive weeks",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 85,
+            "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          },
+          {
+            "unit_index": 3,
+            "char_start": 0,
+            "char_end": 57,
+            "text": "expansion until spoilage falls for four consecutive weeks",
+            "start_seconds": 16.7,
+            "end_seconds": 20.14,
+            "segment": 4
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:20.140",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 20.14,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 334,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch. We would measure discarded kilograms each morning and pause\nexpansion until spoilage falls for four consecutive weeks",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9778,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "02_harbor_copy.pdf",
+      "similarity_score": 0.982671,
+      "query_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck\nFish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated\ncrates would protect the catch",
+      "matched_passage": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 90,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck",
+            "start_seconds": 0.0,
+            "end_seconds": 4.72,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+            "start_seconds": 5.8,
+            "end_seconds": 11.54,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 30,
+            "text": "crates would protect the catch",
+            "start_seconds": 11.54,
+            "end_seconds": 16.7,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:16.700",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 16.7,
+        "matched_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 215,
+            "text": "The harbor cooperative should repair its cold storage before buying another delivery truck. Fish\ncurrently spoil while drivers wait for ice. A shared maintenance schedule and insulated crates\nwould protect the catch",
+            "page": 2
+          }
+        ],
+        "matched_page": 2,
+        "matched_pages": [
+          2
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "matched_token_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    }
+  ],
+  "external_matches": [],
+  "extraction": {
+    "status": "ok",
+    "kind": "mp4",
+    "assessable": true,
+    "sha256": "9d0c52189aa50d1976e721e70c259119d3fdf025e490e30a1e2dcc3a81afc29d",
+    "raw_word_count": 48,
+    "eligible_word_count": 48,
+    "excluded_word_count": 0,
+    "metadata": {
+      "duration_seconds": 20.991,
+      "audio_rms": 0.10150732100009918,
+      "asr_model": "Systran/faster-whisper-tiny.en",
+      "asr_compute_type": "int8",
+      "language": "en",
+      "segments": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 4.72,
+          "segment": 1,
+          "text": "The harbor cooperative should repair its cold storage before buying another delivery truck.",
+          "avg_logprob": -0.12445045160312279,
+          "no_speech_prob": 0.006078062113374472,
+          "raw_asr_start_seconds": 0.0,
+          "raw_asr_end_seconds": 4.72,
+          "words": [
+            {
+              "text": " The",
+              "start_seconds": 0,
+              "end_seconds": 0.36,
+              "probability": 0.8352431654930115
+            },
+            {
+              "text": " harbor",
+              "start_seconds": 0.36,
+              "end_seconds": 0.64,
+              "probability": 0.6119392514228821
+            },
+            {
+              "text": " cooperative",
+              "start_seconds": 0.64,
+              "end_seconds": 1.18,
+              "probability": 0.7390486001968384
+            },
+            {
+              "text": " should",
+              "start_seconds": 1.18,
+              "end_seconds": 1.62,
+              "probability": 0.9961763620376587
+            },
+            {
+              "text": " repair",
+              "start_seconds": 1.62,
+              "end_seconds": 1.82,
+              "probability": 0.9592476487159729
+            },
+            {
+              "text": " its",
+              "start_seconds": 1.82,
+              "end_seconds": 2.12,
+              "probability": 0.9782957434654236
+            },
+            {
+              "text": " cold",
+              "start_seconds": 2.12,
+              "end_seconds": 2.44,
+              "probability": 0.9931225180625916
+            },
+            {
+              "text": " storage",
+              "start_seconds": 2.44,
+              "end_seconds": 2.8,
+              "probability": 0.9979521632194519
+            },
+            {
+              "text": " before",
+              "start_seconds": 2.8,
+              "end_seconds": 3.22,
+              "probability": 0.9985421895980835
+            },
+            {
+              "text": " buying",
+              "start_seconds": 3.22,
+              "end_seconds": 3.52,
+              "probability": 0.9979656934738159
+            },
+            {
+              "text": " another",
+              "start_seconds": 3.52,
+              "end_seconds": 3.92,
+              "probability": 0.9990098476409912
+            },
+            {
+              "text": " delivery",
+              "start_seconds": 3.92,
+              "end_seconds": 4.36,
+              "probability": 0.9981922507286072
+            },
+            {
+              "text": " truck.",
+              "start_seconds": 4.36,
+              "end_seconds": 4.72,
+              "probability": 0.9988297820091248
+            }
+          ]
+        },
+        {
+          "start_seconds": 5.8,
+          "end_seconds": 11.54,
+          "segment": 2,
+          "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+          "avg_logprob": -0.12445045160312279,
+          "no_speech_prob": 0.006078062113374472,
+          "raw_asr_start_seconds": 5.8,
+          "raw_asr_end_seconds": 11.54,
+          "words": [
+            {
+              "text": " Fish",
+              "start_seconds": 5.8,
+              "end_seconds": 6.06,
+              "probability": 0.9731299877166748
+            },
+            {
+              "text": " currently",
+              "start_seconds": 6.06,
+              "end_seconds": 6.4,
+              "probability": 0.9697831869125366
+            },
+            {
+              "text": " spoil",
+              "start_seconds": 6.4,
+              "end_seconds": 6.9,
+              "probability": 0.9460500478744507
+            },
+            {
+              "text": " while",
+              "start_seconds": 6.9,
+              "end_seconds": 7.2,
+              "probability": 0.9069255590438843
+            },
+            {
+              "text": " drivers",
+              "start_seconds": 7.2,
+              "end_seconds": 7.5,
+              "probability": 0.9442489147186279
+            },
+            {
+              "text": " wait",
+              "start_seconds": 7.5,
+              "end_seconds": 7.9,
+              "probability": 0.9831147193908691
+            },
+            {
+              "text": " for",
+              "start_seconds": 7.9,
+              "end_seconds": 8.12,
+              "probability": 0.9994964599609375
+            },
+            {
+              "text": " ice.",
+              "start_seconds": 8.12,
+              "end_seconds": 8.9,
+              "probability": 0.9729664325714111
+            },
+            {
+              "text": " A",
+              "start_seconds": 9.32,
+              "end_seconds": 9.58,
+              "probability": 0.9869868159294128
+            },
+            {
+              "text": " shared",
+              "start_seconds": 9.58,
+              "end_seconds": 9.84,
+              "probability": 0.9064856171607971
+            },
+            {
+              "text": " maintenance",
+              "start_seconds": 9.84,
+              "end_seconds": 10.32,
+              "probability": 0.9968473315238953
+            },
+            {
+              "text": " schedule",
+              "start_seconds": 10.32,
+              "end_seconds": 10.76,
+              "probability": 0.9972007274627686
+            },
+            {
+              "text": " and",
+              "start_seconds": 10.76,
+              "end_seconds": 11.14,
+              "probability": 0.9884250164031982
+            },
+            {
+              "text": " insulated",
+              "start_seconds": 11.14,
+              "end_seconds": 11.54,
+              "probability": 0.9959152340888977
+            }
+          ]
+        },
+        {
+          "start_seconds": 11.54,
+          "end_seconds": 16.7,
+          "segment": 3,
+          "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+          "avg_logprob": -0.12445045160312279,
+          "no_speech_prob": 0.006078062113374472,
+          "raw_asr_start_seconds": 11.54,
+          "raw_asr_end_seconds": 16.7,
+          "words": [
+            {
+              "text": " crates",
+              "start_seconds": 11.54,
+              "end_seconds": 11.92,
+              "probability": 0.9942031502723694
+            },
+            {
+              "text": " would",
+              "start_seconds": 11.92,
+              "end_seconds": 12.26,
+              "probability": 0.9983096122741699
+            },
+            {
+              "text": " protect",
+              "start_seconds": 12.26,
+              "end_seconds": 12.52,
+              "probability": 0.9975906610488892
+            },
+            {
+              "text": " the",
+              "start_seconds": 12.52,
+              "end_seconds": 12.8,
+              "probability": 0.9995343685150146
+            },
+            {
+              "text": " catch.",
+              "start_seconds": 12.8,
+              "end_seconds": 13.12,
+              "probability": 0.9111214876174927
+            },
+            {
+              "text": " We",
+              "start_seconds": 13.96,
+              "end_seconds": 14.14,
+              "probability": 0.9910334944725037
+            },
+            {
+              "text": " would",
+              "start_seconds": 14.14,
+              "end_seconds": 14.36,
+              "probability": 0.9986206293106079
+            },
+            {
+              "text": " measure",
+              "start_seconds": 14.36,
+              "end_seconds": 14.64,
+              "probability": 0.9954832792282104
+            },
+            {
+              "text": " discarded",
+              "start_seconds": 14.64,
+              "end_seconds": 15.18,
+              "probability": 0.9948787689208984
+            },
+            {
+              "text": " kilograms",
+              "start_seconds": 15.18,
+              "end_seconds": 15.62,
+              "probability": 0.9490908980369568
+            },
+            {
+              "text": " each",
+              "start_seconds": 15.62,
+              "end_seconds": 16.14,
+              "probability": 0.999091386795044
+            },
+            {
+              "text": " morning",
+              "start_seconds": 16.14,
+              "end_seconds": 16.42,
+              "probability": 0.992428719997406
+            },
+            {
+              "text": " and",
+              "start_seconds": 16.42,
+              "end_seconds": 16.7,
+              "probability": 0.988186776638031
+            }
+          ]
+        },
+        {
+          "start_seconds": 16.7,
+          "end_seconds": 20.14,
+          "segment": 4,
+          "text": "expansion until spoilage falls for four consecutive weeks.",
+          "avg_logprob": -0.36115911373725307,
+          "no_speech_prob": 0.11460977047681808,
+          "raw_asr_start_seconds": 16.7,
+          "raw_asr_end_seconds": 20.14,
+          "words": [
+            {
+              "text": " expansion",
+              "start_seconds": 16.7,
+              "end_seconds": 17.42,
+              "probability": 0.6901317834854126
+            },
+            {
+              "text": " until",
+              "start_seconds": 17.42,
+              "end_seconds": 17.92,
+              "probability": 0.9792510271072388
+            },
+            {
+              "text": " spoilage",
+              "start_seconds": 17.92,
+              "end_seconds": 18.4,
+              "probability": 0.9297831654548645
+            },
+            {
+              "text": " falls",
+              "start_seconds": 18.4,
+              "end_seconds": 18.68,
+              "probability": 0.9945604205131531
+            },
+            {
+              "text": " for",
+              "start_seconds": 18.68,
+              "end_seconds": 19.02,
+              "probability": 0.9970970153808594
+            },
+            {
+              "text": " four",
+              "start_seconds": 19.02,
+              "end_seconds": 19.22,
+              "probability": 0.6683386564254761
+            },
+            {
+              "text": " consecutive",
+              "start_seconds": 19.22,
+              "end_seconds": 19.7,
+              "probability": 0.9996882677078247
+            },
+            {
+              "text": " weeks.",
+              "start_seconds": 19.7,
+              "end_seconds": 20.14,
+              "probability": 0.9980311989784241
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "exclusions": [],
+  "warnings": [
+    "ASR passages are model transcripts, not verified verbatim speech; timestamps have segment resolution."
+  ],
+  "ai_indicator": {
+    "score": null,
+    "status": "insufficient_text",
+    "calibrated": false,
+    "explanation": "Need at least 50 words and 3 sentences; no reliable inference for short clips."
+  },
+  "scoring": {
+    "semantic_threshold": 0.8,
+    "coverage_unit": "unique eligible normalized word positions",
+    "percentage_formula": "100 * union of query word positions in accepted windows / eligible query words",
+    "coverage_caveat": "Coverage of candidate semantic windows; can include unmatched context. Not percentage proven plagiarized. Peer and external percentages are separate, not additive.",
+    "risk_rule": "HIGH coverage >=50%; MEDIUM >=15%; else LOW. AI indicator never raises risk alone.",
+    "unknown_rule": "Unassessable and fully excluded documents have null scores; partial PDFs cover extracted text only."
+  },
+  "explanations": "16 peer and 0 external evidence windows above cosine 0.8. Review exact source spans before any conclusion. AI style index is uncalibrated."
+}

@@ -1,0 +1,213 @@
+{
+  "documents": 16,
+  "assessable": 7,
+  "statuses": {
+    "attributed.docx": "ok",
+    "blank.pdf": "unextractable",
+    "broken.mp4": "error",
+    "corrupt.pdf": "error",
+    "invalid.docx": "error",
+    "muted.mp4": "silent",
+    "only_prompt.docx": "ok",
+    "opposite_a.docx": "ok",
+    "opposite_b.docx": "ok",
+    "partial.pdf": "partial",
+    "prompt_copy_a.docx": "ok",
+    "prompt_copy_b.docx": "ok",
+    "scanned.pdf": "unextractable",
+    "short_copy_a.docx": "ok",
+    "short_copy_b.docx": "ok",
+    "unsupported.xyz": "unsupported"
+  },
+  "chunks": 8,
+  "indexed_windows": 158,
+  "runtime_seconds": 14.9276,
+  "embedding_and_index_seconds": 14.4465,
+  "extraction_seconds": {
+    "attributed.docx": 0.0168,
+    "blank.pdf": 0.0036,
+    "broken.mp4": 0.1292,
+    "corrupt.pdf": 0.0028,
+    "invalid.docx": 0.0018,
+    "muted.mp4": 0.0524,
+    "only_prompt.docx": 0.0128,
+    "opposite_a.docx": 0.012,
+    "opposite_b.docx": 0.0123,
+    "partial.pdf": 0.0093,
+    "prompt_copy_a.docx": 0.0205,
+    "prompt_copy_b.docx": 0.0196,
+    "scanned.pdf": 0.01,
+    "short_copy_a.docx": 0.0132,
+    "short_copy_b.docx": 0.013,
+    "unsupported.xyz": 0.001
+  },
+  "cpu_seconds": 18.7031,
+  "rss_end_mb": 545.75,
+  "peak_working_set_mb": 592.25,
+  "hardware": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "logical_cpus": 12,
+    "ram_gb": 7.31
+  },
+  "models": {
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+    "asr": "Systran/faster-whisper-tiny.en",
+    "asr_revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba"
+  },
+  "config": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+    "asr_model": "Systran/faster-whisper-tiny.en",
+    "asr_revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "ignored_margin_patterns": [
+      "^Riverton synthetic case collection$",
+      "^Case collection \\| Page \\d+$"
+    ],
+    "semantic_threshold": 0.8,
+    "minimum_evidence_words": 12,
+    "chunk_tokens": 220,
+    "chunk_overlap": 35,
+    "evidence_tokens": 95,
+    "evidence_overlap": 25,
+    "cpu_threads": 4,
+    "embedding_batch_size": 32,
+    "silence_rms": 0.0001,
+    "max_file_mb": 100,
+    "max_pdf_pages": 500,
+    "max_video_seconds": 120,
+    "decode_timeout_seconds": 180
+  },
+  "warning": "Measured on synthetic English/TTS data. Pairwise coverage is directional. Null diagonal/self or unavailable. AI scores never prove misconduct.",
+  "reports": [
+    {
+      "document_id": "attributed.docx",
+      "status": "ok",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "blank.pdf",
+      "status": "unextractable",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "broken.mp4",
+      "status": "error",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "corrupt.pdf",
+      "status": "error",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "invalid.docx",
+      "status": "error",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "muted.mp4",
+      "status": "silent",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "only_prompt.docx",
+      "status": "ok",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "opposite_a.docx",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "opposite_b.docx",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "partial.pdf",
+      "status": "partial",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 100.0,
+      "ai_generated_probability": 50.97
+    },
+    {
+      "document_id": "prompt_copy_a.docx",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 48.39
+    },
+    {
+      "document_id": "prompt_copy_b.docx",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 48.39
+    },
+    {
+      "document_id": "scanned.pdf",
+      "status": "unextractable",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "short_copy_a.docx",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 37.97
+    },
+    {
+      "document_id": "short_copy_b.docx",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 36.15
+    },
+    {
+      "document_id": "unsupported.xyz",
+      "status": "unsupported",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    }
+  ]
+}

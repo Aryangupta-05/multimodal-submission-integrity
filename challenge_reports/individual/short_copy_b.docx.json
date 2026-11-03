@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "document_id": "short_copy_b.docx",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 36.15
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "extraction": {
+    "status": "ok",
+    "kind": "docx",
+    "assessable": true,
+    "sha256": "472e72c7f9fe4793b21ed843ddd46b71c6e364bb267f77e37aff15c48a244601",
+    "raw_word_count": 77,
+    "eligible_word_count": 77,
+    "excluded_word_count": 0,
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    }
+  },
+  "exclusions": [],
+  "warnings": [],
+  "ai_indicator": {
+    "score": 36.15,
+    "status": "heuristic_only",
+    "calibrated": false,
+    "features": {
+      "sentence_length_cv": 0.3994,
+      "type_token_ratio": 0.8961,
+      "transition_count": 0,
+      "words": 77
+    },
+    "explanation": "Weighted style regularity/repetition/transition index. Not a calibrated probability or proof of AI authorship. Synthetic AI labels do not establish detector validity."
+  },
+  "scoring": {
+    "semantic_threshold": 0.8,
+    "coverage_unit": "unique eligible normalized word positions",
+    "percentage_formula": "100 * union of query word positions in accepted windows / eligible query words",
+    "coverage_caveat": "Coverage of candidate semantic windows; can include unmatched context. Not percentage proven plagiarized. Peer and external percentages are separate, not additive.",
+    "risk_rule": "HIGH coverage >=50%; MEDIUM >=15%; else LOW. AI indicator never raises risk alone.",
+    "unknown_rule": "Unassessable and fully excluded documents have null scores; partial PDFs cover extracted text only."
+  },
+  "explanations": "0 peer and 0 external evidence windows above cosine 0.8. Review exact source spans before any conclusion. AI style index is uncalibrated."
+}

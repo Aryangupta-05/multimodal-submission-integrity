@@ -1,0 +1,2153 @@
+{
+  "schema_version": "1.0",
+  "document_id": "12_external_pitch.mp4",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 100.0,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+      "matched_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:04.840",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 4.84,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 163,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.980178,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands\nThis lets people sit, read, or wait and shade without losing their turn",
+      "matched_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:09.860",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 9.86,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 235,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.963,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.976205,
+      "query_passage": "This lets people sit, read, or wait and shade without losing their turn",
+      "matched_passage": "This lets people sit, read,\nor wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:05.740 - 00:00:09.860",
+        "query_start_seconds": 5.74,
+        "query_end_seconds": 9.86,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 235,
+            "text": "This lets people sit, read,\nor wait in shade without losing their turn",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8571,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.951753,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands\nThis lets people sit, read, or wait and shade without losing their turn\nThe organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:15.520",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 333,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.95,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.898753,
+      "query_passage": "This lets people sit, read, or wait and shade without losing their turn\nThe organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:05.740 - 00:00:15.520",
+        "query_start_seconds": 5.74,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 333,
+            "text": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8929,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.888483,
+      "query_passage": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:10.560 - 00:00:15.520",
+        "query_start_seconds": 10.56,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 237,
+            "char_end": 333,
+            "text": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8667,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    }
+  ],
+  "multimodal_matches": [
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+      "matched_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:04.840",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 4.84,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 163,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.980178,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands\nThis lets people sit, read, or wait and shade without losing their turn",
+      "matched_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:09.860",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 9.86,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 235,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.963,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.976205,
+      "query_passage": "This lets people sit, read, or wait and shade without losing their turn",
+      "matched_passage": "This lets people sit, read,\nor wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:05.740 - 00:00:09.860",
+        "query_start_seconds": 5.74,
+        "query_end_seconds": 9.86,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 235,
+            "text": "This lets people sit, read,\nor wait in shade without losing their turn",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8571,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.951753,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands\nThis lets people sit, read, or wait and shade without losing their turn\nThe organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:15.520",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 333,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.95,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.898753,
+      "query_passage": "This lets people sit, read, or wait and shade without losing their turn\nThe organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:05.740 - 00:00:15.520",
+        "query_start_seconds": 5.74,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 333,
+            "text": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8929,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "10_external.pdf",
+      "similarity_score": 0.888483,
+      "query_passage": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:10.560 - 00:00:15.520",
+        "query_start_seconds": 10.56,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 237,
+            "char_end": 333,
+            "text": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "matched_page": 1,
+        "matched_pages": [
+          1
+        ]
+      },
+      "query_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8667,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    }
+  ],
+  "external_matches": [
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+      "matched_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:04.840",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 4.84,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 163,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 0.980178,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands\nThis lets people sit, read, or wait and shade without losing their turn",
+      "matched_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:09.860",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 9.86,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 235,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.963,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 0.976205,
+      "query_passage": "This lets people sit, read, or wait and shade without losing their turn",
+      "matched_passage": "This lets people sit, read, or wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          }
+        ],
+        "query_timestamp": "00:00:05.740 - 00:00:09.860",
+        "query_start_seconds": 5.74,
+        "query_end_seconds": 9.86,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 235,
+            "text": "This lets people sit, read, or wait in shade without losing their turn",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8571,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 0.951753,
+      "query_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands\nThis lets people sit, read, or wait and shade without losing their turn\nThe organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 92,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "start_seconds": 0.0,
+            "end_seconds": 4.84,
+            "segment": 1
+          },
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:00.000 - 00:00:15.520",
+        "query_start_seconds": 0.0,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 333,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.95,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 0.898753,
+      "query_passage": "This lets people sit, read, or wait and shade without losing their turn\nThe organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 1,
+            "char_start": 0,
+            "char_end": 71,
+            "text": "This lets people sit, read, or wait and shade without losing their turn",
+            "start_seconds": 5.74,
+            "end_seconds": 9.86,
+            "segment": 2
+          },
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:05.740 - 00:00:15.520",
+        "query_start_seconds": 5.74,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 333,
+            "text": "This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8929,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 0.888483,
+      "query_passage": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+      "matched_passage": "The organiser should announce exceptions openly and keep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 2,
+            "char_start": 0,
+            "char_end": 96,
+            "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk",
+            "start_seconds": 10.56,
+            "end_seconds": 15.52,
+            "segment": 3
+          }
+        ],
+        "query_timestamp": "00:00:10.560 - 00:00:15.520",
+        "query_start_seconds": 10.56,
+        "query_end_seconds": 15.52,
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 237,
+            "char_end": 333,
+            "text": "The organiser should announce exceptions openly and keep an accessible route to the service desk",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "matched_token_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8667,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    }
+  ],
+  "extraction": {
+    "status": "ok",
+    "kind": "mp4",
+    "assessable": true,
+    "sha256": "a488b88837d7319b1b59a082b24e07cbb71a6ac213b0b1e0bfef8cbe490a29fc",
+    "raw_word_count": 43,
+    "eligible_word_count": 43,
+    "excluded_word_count": 0,
+    "metadata": {
+      "duration_seconds": 16.347,
+      "audio_rms": 0.09422057121992111,
+      "asr_model": "Systran/faster-whisper-tiny.en",
+      "asr_compute_type": "int8",
+      "language": "en",
+      "segments": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 4.84,
+          "segment": 1,
+          "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands.",
+          "avg_logprob": -0.2465186830152545,
+          "no_speech_prob": 0.011393110267817974,
+          "raw_asr_start_seconds": 0.0,
+          "raw_asr_end_seconds": 4.84,
+          "words": [
+            {
+              "text": " Numbered",
+              "start_seconds": 0,
+              "end_seconds": 0.54,
+              "probability": 0.4671022444963455
+            },
+            {
+              "text": " tickets",
+              "start_seconds": 0.54,
+              "end_seconds": 0.92,
+              "probability": 0.920253336429596
+            },
+            {
+              "text": " separate",
+              "start_seconds": 0.92,
+              "end_seconds": 1.36,
+              "probability": 0.9266635775566101
+            },
+            {
+              "text": " a",
+              "start_seconds": 1.36,
+              "end_seconds": 1.64,
+              "probability": 0.9720354080200195
+            },
+            {
+              "text": " visitor's",
+              "start_seconds": 1.64,
+              "end_seconds": 2.06,
+              "probability": 0.822346568107605
+            },
+            {
+              "text": " place",
+              "start_seconds": 2.06,
+              "end_seconds": 2.36,
+              "probability": 0.996358335018158
+            },
+            {
+              "text": " in",
+              "start_seconds": 2.36,
+              "end_seconds": 2.5,
+              "probability": 0.8916583061218262
+            },
+            {
+              "text": " line",
+              "start_seconds": 2.5,
+              "end_seconds": 2.74,
+              "probability": 0.990098774433136
+            },
+            {
+              "text": " from",
+              "start_seconds": 2.74,
+              "end_seconds": 2.98,
+              "probability": 0.9946256279945374
+            },
+            {
+              "text": " the",
+              "start_seconds": 2.98,
+              "end_seconds": 3.16,
+              "probability": 0.9955625534057617
+            },
+            {
+              "text": " place",
+              "start_seconds": 3.16,
+              "end_seconds": 3.44,
+              "probability": 0.9929319620132446
+            },
+            {
+              "text": " where",
+              "start_seconds": 3.44,
+              "end_seconds": 3.66,
+              "probability": 0.9973773956298828
+            },
+            {
+              "text": " that",
+              "start_seconds": 3.66,
+              "end_seconds": 3.92,
+              "probability": 0.9896613359451294
+            },
+            {
+              "text": " visitor",
+              "start_seconds": 3.92,
+              "end_seconds": 4.16,
+              "probability": 0.967484712600708
+            },
+            {
+              "text": " stands.",
+              "start_seconds": 4.16,
+              "end_seconds": 4.84,
+              "probability": 0.976439893245697
+            }
+          ]
+        },
+        {
+          "start_seconds": 5.74,
+          "end_seconds": 9.86,
+          "segment": 2,
+          "text": "This lets people sit, read, or wait and shade without losing their turn.",
+          "avg_logprob": -0.2465186830152545,
+          "no_speech_prob": 0.011393110267817974,
+          "raw_asr_start_seconds": 5.74,
+          "raw_asr_end_seconds": 9.86,
+          "words": [
+            {
+              "text": " This",
+              "start_seconds": 5.74,
+              "end_seconds": 5.98,
+              "probability": 0.9681435823440552
+            },
+            {
+              "text": " lets",
+              "start_seconds": 5.98,
+              "end_seconds": 6.24,
+              "probability": 0.9644162058830261
+            },
+            {
+              "text": " people",
+              "start_seconds": 6.24,
+              "end_seconds": 6.6,
+              "probability": 0.9970244765281677
+            },
+            {
+              "text": " sit,",
+              "start_seconds": 6.6,
+              "end_seconds": 7.12,
+              "probability": 0.9790166020393372
+            },
+            {
+              "text": " read,",
+              "start_seconds": 7.16,
+              "end_seconds": 7.56,
+              "probability": 0.984961748123169
+            },
+            {
+              "text": " or",
+              "start_seconds": 7.6,
+              "end_seconds": 7.78,
+              "probability": 0.9970415234565735
+            },
+            {
+              "text": " wait",
+              "start_seconds": 7.78,
+              "end_seconds": 8.0,
+              "probability": 0.9957757592201233
+            },
+            {
+              "text": " and",
+              "start_seconds": 8.0,
+              "end_seconds": 8.22,
+              "probability": 0.4258427023887634
+            },
+            {
+              "text": " shade",
+              "start_seconds": 8.22,
+              "end_seconds": 8.4,
+              "probability": 0.9434502720832825
+            },
+            {
+              "text": " without",
+              "start_seconds": 8.4,
+              "end_seconds": 8.78,
+              "probability": 0.9972604513168335
+            },
+            {
+              "text": " losing",
+              "start_seconds": 8.78,
+              "end_seconds": 9.08,
+              "probability": 0.9947642087936401
+            },
+            {
+              "text": " their",
+              "start_seconds": 9.08,
+              "end_seconds": 9.38,
+              "probability": 0.9976257681846619
+            },
+            {
+              "text": " turn.",
+              "start_seconds": 9.38,
+              "end_seconds": 9.86,
+              "probability": 0.9972707629203796
+            }
+          ]
+        },
+        {
+          "start_seconds": 10.56,
+          "end_seconds": 15.52,
+          "segment": 3,
+          "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk.",
+          "avg_logprob": -0.2465186830152545,
+          "no_speech_prob": 0.011393110267817974,
+          "raw_asr_start_seconds": 10.56,
+          "raw_asr_end_seconds": 15.52,
+          "words": [
+            {
+              "text": " The",
+              "start_seconds": 10.56,
+              "end_seconds": 10.92,
+              "probability": 0.9855174422264099
+            },
+            {
+              "text": " organizer",
+              "start_seconds": 10.92,
+              "end_seconds": 11.26,
+              "probability": 0.6954922676086426
+            },
+            {
+              "text": " should",
+              "start_seconds": 11.26,
+              "end_seconds": 11.62,
+              "probability": 0.9993165731430054
+            },
+            {
+              "text": " announce",
+              "start_seconds": 11.62,
+              "end_seconds": 11.92,
+              "probability": 0.9920963048934937
+            },
+            {
+              "text": " exceptions",
+              "start_seconds": 11.92,
+              "end_seconds": 12.5,
+              "probability": 0.9857040047645569
+            },
+            {
+              "text": " openly",
+              "start_seconds": 12.5,
+              "end_seconds": 12.98,
+              "probability": 0.9917467832565308
+            },
+            {
+              "text": " and",
+              "start_seconds": 12.98,
+              "end_seconds": 13.28,
+              "probability": 0.9927943348884583
+            },
+            {
+              "text": " keep",
+              "start_seconds": 13.28,
+              "end_seconds": 13.48,
+              "probability": 0.9973742961883545
+            },
+            {
+              "text": " an",
+              "start_seconds": 13.48,
+              "end_seconds": 13.68,
+              "probability": 0.9980801343917847
+            },
+            {
+              "text": " accessible",
+              "start_seconds": 13.68,
+              "end_seconds": 14.18,
+              "probability": 0.984940230846405
+            },
+            {
+              "text": " route",
+              "start_seconds": 14.18,
+              "end_seconds": 14.48,
+              "probability": 0.9788962006568909
+            },
+            {
+              "text": " to",
+              "start_seconds": 14.48,
+              "end_seconds": 14.68,
+              "probability": 0.9991328120231628
+            },
+            {
+              "text": " the",
+              "start_seconds": 14.68,
+              "end_seconds": 15.06,
+              "probability": 0.9976805448532104
+            },
+            {
+              "text": " service",
+              "start_seconds": 15.06,
+              "end_seconds": 15.12,
+              "probability": 0.9532865285873413
+            },
+            {
+              "text": " desk.",
+              "start_seconds": 15.12,
+              "end_seconds": 15.52,
+              "probability": 0.9923572540283203
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "exclusions": [],
+  "warnings": [
+    "ASR passages are model transcripts, not verified verbatim speech; timestamps have segment resolution."
+  ],
+  "ai_indicator": {
+    "score": null,
+    "status": "insufficient_text",
+    "calibrated": false,
+    "explanation": "Need at least 50 words and 3 sentences; no reliable inference for short clips."
+  },
+  "scoring": {
+    "semantic_threshold": 0.8,
+    "coverage_unit": "unique eligible normalized word positions",
+    "percentage_formula": "100 * union of query word positions in accepted windows / eligible query words",
+    "coverage_caveat": "Coverage of candidate semantic windows; can include unmatched context. Not percentage proven plagiarized. Peer and external percentages are separate, not additive.",
+    "risk_rule": "HIGH coverage >=50%; MEDIUM >=15%; else LOW. AI indicator never raises risk alone.",
+    "unknown_rule": "Unassessable and fully excluded documents have null scores; partial PDFs cover extracted text only."
+  },
+  "explanations": "6 peer and 6 external evidence windows above cosine 0.8. Review exact source spans before any conclusion. AI style index is uncalibrated."
+}

@@ -1,0 +1,1910 @@
+{
+  "schema_version": "1.0",
+  "document_id": "partial.pdf",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 100.0,
+    "ai_generated_probability": 50.97
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+      "matched_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 453,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 453,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "chunk",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "A queue works best when arrivals can see how service order is decided",
+      "matched_passage": "A queue works best when arrivals can see how service order is decided",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 69,
+            "text": "A queue works best when arrivals can see how service order is decided",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 69,
+            "text": "A queue works best when arrivals can see how service order is decided",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+      "matched_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 163,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 163,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+      "matched_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 235,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 235,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "matched_passage": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 333,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 333,
+            "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+      "matched_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 163,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 163,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+      "matched_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 235,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 235,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "matched_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 333,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 333,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+      "matched_passage": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 453,
+            "text": "Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 71,
+            "char_end": 453,
+            "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "This lets people sit, read,\nor wait in shade without losing their turn",
+      "matched_passage": "This lets people sit, read, or wait in shade without losing their turn",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 235,
+            "text": "This lets people sit, read,\nor wait in shade without losing their turn",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 235,
+            "text": "This lets people sit, read, or wait in shade without losing their turn",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "matched_passage": "This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 333,
+            "text": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 333,
+            "text": "This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+      "matched_passage": "This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 453,
+            "text": "This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 165,
+            "char_end": 453,
+            "text": "This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "matched_token_ids": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+      "matched_passage": "The organiser should announce exceptions openly and keep an accessible route to the service desk",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 237,
+            "char_end": 333,
+            "text": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 237,
+            "char_end": 333,
+            "text": "The organiser should announce exceptions openly and keep an accessible route to the service desk",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "matched_token_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+      "matched_passage": "The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 237,
+            "char_end": 453,
+            "text": "The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 237,
+            "char_end": 453,
+            "text": "The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "matched_token_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    },
+    {
+      "matched_file": "reference:queue_design",
+      "similarity_score": 1.0,
+      "query_passage": "A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+      "matched_passage": "A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 335,
+            "char_end": 453,
+            "text": "A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand",
+            "page": 1
+          }
+        ],
+        "query_page": 1,
+        "query_pages": [
+          1
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 335,
+            "char_end": 453,
+            "text": "A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand",
+            "paragraph": 1,
+            "section": "Transparent queue design"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Transparent queue design"
+        ]
+      },
+      "query_token_ids": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "matched_token_ids": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 1.0,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding.",
+      "provenance": {
+        "title": "Transparent queue design",
+        "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+        "provenance_type": "synthetic_local_reference",
+        "author": "Codex-assisted synthetic corpus",
+        "license": "CC0-1.0",
+        "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+        "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+      }
+    }
+  ],
+  "extraction": {
+    "status": "partial",
+    "kind": "pdf",
+    "assessable": true,
+    "sha256": "35810d7d169be5f5bb89a8a0bbe7d49ab5e492890b80fa4576c1956ee4b7d668",
+    "raw_word_count": 75,
+    "eligible_word_count": 75,
+    "excluded_word_count": 0,
+    "metadata": {
+      "page_count": 2,
+      "removed_margins": [
+        {
+          "page": 1,
+          "text": "Riverton synthetic case collection",
+          "reason": "repeated_margin"
+        },
+        {
+          "page": 1,
+          "text": "Case collection | Page 1",
+          "reason": "repeated_margin"
+        }
+      ],
+      "unextractable_pages": [
+        2
+      ]
+    }
+  },
+  "exclusions": [],
+  "warnings": [
+    "Pages [2] have no extractable text; OCR not implemented."
+  ],
+  "ai_indicator": {
+    "score": 50.97,
+    "status": "heuristic_only",
+    "calibrated": false,
+    "features": {
+      "sentence_length_cv": 0.1461,
+      "type_token_ratio": 0.8667,
+      "transition_count": 0,
+      "words": 75
+    },
+    "explanation": "Weighted style regularity/repetition/transition index. Not a calibrated probability or proof of AI authorship. Synthetic AI labels do not establish detector validity."
+  },
+  "scoring": {
+    "semantic_threshold": 0.8,
+    "coverage_unit": "unique eligible normalized word positions",
+    "percentage_formula": "100 * union of query word positions in accepted windows / eligible query words",
+    "coverage_caveat": "Coverage of candidate semantic windows; can include unmatched context. Not percentage proven plagiarized. Peer and external percentages are separate, not additive.",
+    "risk_rule": "HIGH coverage >=50%; MEDIUM >=15%; else LOW. AI indicator never raises risk alone.",
+    "unknown_rule": "Unassessable and fully excluded documents have null scores; partial PDFs cover extracted text only."
+  },
+  "explanations": "0 peer and 15 external evidence windows above cosine 0.8. Review exact source spans before any conclusion. AI style index is uncalibrated."
+}

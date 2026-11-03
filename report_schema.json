@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "document_id", "total_integrity_risk", "scores", "peer_matches", "multimodal_matches", "external_matches", "explanations", "extraction", "warnings", "scoring", "ai_indicator"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "document_id": {"type": "string"},
+    "total_integrity_risk": {"enum": ["HIGH", "MEDIUM", "LOW", "UNABLE_TO_ASSESS"]},
+    "scores": {
+      "type": "object",
+      "required": ["peer_similarity_percentage", "external_similarity_percentage", "ai_generated_probability"],
+      "additionalProperties": false,
+      "properties": {
+        "peer_similarity_percentage": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "external_similarity_percentage": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "ai_generated_probability": {"type": ["number", "null"], "minimum": 0, "maximum": 100}
+      }
+    },
+    "peer_matches": {"type": "array", "items": {"$ref": "#/$defs/match"}},
+    "multimodal_matches": {"type": "array", "items": {"$ref": "#/$defs/match"}},
+    "external_matches": {"type": "array", "items": {"allOf": [{"$ref": "#/$defs/match"}, {"required": ["provenance"]}]}},
+    "explanations": {"type": "string"},
+    "extraction": {"type": "object", "required": ["status", "assessable", "sha256", "eligible_word_count"]},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "scoring": {"type": "object"},
+    "ai_indicator": {"type": "object", "required": ["score", "status", "calibrated"]}
+  },
+  "$defs": {
+    "match": {
+      "type": "object",
+      "required": ["matched_file", "similarity_score", "query_passage", "matched_passage", "location", "query_token_ids", "matched_token_ids"],
+      "properties": {
+        "matched_file": {"type": "string"},
+        "similarity_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "query_passage": {"type": "string", "minLength": 1},
+        "matched_passage": {"type": "string", "minLength": 1},
+        "location": {"type": "object", "required": ["query_spans", "matched_spans"]},
+        "provenance": {"type": "object", "required": ["source_url", "provenance_type", "license"]}
+      }
+    }
+  }
+}

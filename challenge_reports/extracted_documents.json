@@ -1,0 +1,7899 @@
+{
+  "attributed.docx": {
+    "document_id": "attributed.docx",
+    "kind": "docx",
+    "sha256": "dc1a6f3565e608f9310d1363afe20e91d0b8c888ce5bd519124366fab923ce84",
+    "status": "ok",
+    "units": [
+      {
+        "text": "\"Copper lanterns guide midnight ferries across the frozen estuary\" (Source: synthetic poem).",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      },
+      {
+        "text": "References:\nSynthetic poem, CC0, local challenge corpus.",
+        "location": {
+          "paragraph": 2,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "copper",
+        "unit": 0,
+        "start": 1,
+        "end": 7
+      },
+      {
+        "value": "lanterns",
+        "unit": 0,
+        "start": 8,
+        "end": 16
+      },
+      {
+        "value": "guide",
+        "unit": 0,
+        "start": 17,
+        "end": 22
+      },
+      {
+        "value": "midnight",
+        "unit": 0,
+        "start": 23,
+        "end": 31
+      },
+      {
+        "value": "ferries",
+        "unit": 0,
+        "start": 32,
+        "end": 39
+      },
+      {
+        "value": "across",
+        "unit": 0,
+        "start": 40,
+        "end": 46
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 47,
+        "end": 50
+      },
+      {
+        "value": "frozen",
+        "unit": 0,
+        "start": 51,
+        "end": 57
+      },
+      {
+        "value": "estuary",
+        "unit": 0,
+        "start": 58,
+        "end": 65
+      },
+      {
+        "value": "source",
+        "unit": 0,
+        "start": 68,
+        "end": 74
+      },
+      {
+        "value": "synthetic",
+        "unit": 0,
+        "start": 76,
+        "end": 85
+      },
+      {
+        "value": "poem",
+        "unit": 0,
+        "start": 86,
+        "end": 90
+      },
+      {
+        "value": "references",
+        "unit": 1,
+        "start": 0,
+        "end": 10
+      },
+      {
+        "value": "synthetic",
+        "unit": 1,
+        "start": 12,
+        "end": 21
+      },
+      {
+        "value": "poem",
+        "unit": 1,
+        "start": 22,
+        "end": 26
+      },
+      {
+        "value": "cc0",
+        "unit": 1,
+        "start": 28,
+        "end": 31
+      },
+      {
+        "value": "local",
+        "unit": 1,
+        "start": 33,
+        "end": 38
+      },
+      {
+        "value": "challenge",
+        "unit": 1,
+        "start": 39,
+        "end": 48
+      },
+      {
+        "value": "corpus",
+        "unit": 1,
+        "start": 49,
+        "end": 55
+      }
+    ],
+    "excluded": {
+      "0": "explicitly_attributed_quotation",
+      "1": "explicitly_attributed_quotation",
+      "2": "explicitly_attributed_quotation",
+      "3": "explicitly_attributed_quotation",
+      "4": "explicitly_attributed_quotation",
+      "5": "explicitly_attributed_quotation",
+      "6": "explicitly_attributed_quotation",
+      "7": "explicitly_attributed_quotation",
+      "8": "explicitly_attributed_quotation",
+      "9": "explicitly_attributed_quotation",
+      "10": "explicitly_attributed_quotation",
+      "11": "explicitly_attributed_quotation",
+      "12": "reference_list",
+      "13": "reference_list",
+      "14": "reference_list",
+      "15": "reference_list",
+      "16": "reference_list",
+      "17": "reference_list",
+      "18": "reference_list"
+    }
+  },
+  "blank.pdf": {
+    "document_id": "blank.pdf",
+    "kind": "pdf",
+    "sha256": "10f47602a2fe42157ab6005c4baab1c8acaee2eb16c45f06d333ad78dbcf1f80",
+    "status": "unextractable",
+    "units": [
+      {
+        "text": "",
+        "location": {
+          "page": 1
+        }
+      }
+    ],
+    "warnings": [
+      "Pages [1] have no extractable text; OCR not implemented.",
+      "No extractable text. Scanned PDFs need OCR (not implemented)."
+    ],
+    "metadata": {
+      "page_count": 1,
+      "removed_margins": [],
+      "unextractable_pages": [
+        1
+      ]
+    },
+    "tokens": [],
+    "excluded": {}
+  },
+  "broken.mp4": {
+    "document_id": "broken.mp4",
+    "kind": "mp4",
+    "sha256": "12fc998f78f9827a75a9b9fc3c02895522ae50f6eb9b52239585a500c383af90",
+    "status": "error",
+    "units": [],
+    "warnings": [
+      "ValueError: Audio decode failed: [mov,mp4,m4a,3gp,3g2,mj2 @ 000001f33c335100] moov atom not found\n[in#0 @ 000001f33c334d00] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\aryan\\Documents\\Codex\\2026-11-04\\complete-the-attached-ai-engineer-assignment\\outputs\\integrity-check\\challenge_submissions\\broken.mp4.\nError opening input files: Invalid data found when processing input. Unable to assess this file."
+    ],
+    "metadata": {},
+    "tokens": [],
+    "excluded": {}
+  },
+  "corrupt.pdf": {
+    "document_id": "corrupt.pdf",
+    "kind": "pdf",
+    "sha256": "a428d127e54dd643e9ce1fb6644298845887be5d64461683a75a08d0a5221be2",
+    "status": "error",
+    "units": [],
+    "warnings": [
+      "FileDataError: Failed to open file 'C:\\\\Users\\\\aryan\\\\Documents\\\\Codex\\\\2026-11-04\\\\complete-the-attached-ai-engineer-assignment\\\\outputs\\\\integrity-check\\\\challenge_submissions\\\\corrupt.pdf'.. Unable to assess this file."
+    ],
+    "metadata": {},
+    "tokens": [],
+    "excluded": {}
+  },
+  "invalid.docx": {
+    "document_id": "invalid.docx",
+    "kind": "docx",
+    "sha256": "a90877b716582c036052f8b70ed0e9a60464ad21daa00ed4c77d2f478ca16239",
+    "status": "error",
+    "units": [],
+    "warnings": [
+      "BadZipFile: File is not a zip file. Unable to assess this file."
+    ],
+    "metadata": {},
+    "tokens": [],
+    "excluded": {}
+  },
+  "muted.mp4": {
+    "document_id": "muted.mp4",
+    "kind": "mp4",
+    "sha256": "0b3ac4209739d6691c1cb4c22de845f873d9d4fdbb1f1bfbba05a0ee7ae9a6d1",
+    "status": "silent",
+    "units": [],
+    "warnings": [
+      "Audio energy below silence threshold: unable to assess."
+    ],
+    "metadata": {
+      "duration_seconds": 10.048,
+      "audio_rms": 0.0
+    },
+    "tokens": [],
+    "excluded": {}
+  },
+  "only_prompt.docx": {
+    "document_id": "only_prompt.docx",
+    "kind": "docx",
+    "sha256": "4e2b4f70bb8b6e3beb7238685e88b3e6fe0f9c65ef0ba8afdef6391ccb7b8cbd",
+    "status": "ok",
+    "units": [
+      {
+        "text": "Riverton University invites teams to design a practical improvement for a small community institution. The institution has limited money, uncertain demand, and a responsibility to serve residents fairly. Your proposal should identify one operational problem, explain why existing practices are inadequate, and recommend an intervention that can be tested within one academic term. State the assumptions behind your analysis and explain which observations would cause you to change your recommendation. Include a way to measure progress without collecting unnecessary personal information. Discuss an implementation risk, a possible unintended consequence, and a low cost method for gathering feedback. The evaluation panel values clear reasoning over ambitious technology. Teams may use simple schedules, physical tools, or public information where appropriate. Do not assume that additional staff, permanent subsidies, or expensive equipment will become available. Conclude by explaining how the institution could decide whether to continue, adapt, or stop the proposed pilot after review.",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "riverton",
+        "unit": 0,
+        "start": 0,
+        "end": 8
+      },
+      {
+        "value": "university",
+        "unit": 0,
+        "start": 9,
+        "end": 19
+      },
+      {
+        "value": "invites",
+        "unit": 0,
+        "start": 20,
+        "end": 27
+      },
+      {
+        "value": "teams",
+        "unit": 0,
+        "start": 28,
+        "end": 33
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 34,
+        "end": 36
+      },
+      {
+        "value": "design",
+        "unit": 0,
+        "start": 37,
+        "end": 43
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 44,
+        "end": 45
+      },
+      {
+        "value": "practical",
+        "unit": 0,
+        "start": 46,
+        "end": 55
+      },
+      {
+        "value": "improvement",
+        "unit": 0,
+        "start": 56,
+        "end": 67
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 68,
+        "end": 71
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 72,
+        "end": 73
+      },
+      {
+        "value": "small",
+        "unit": 0,
+        "start": 74,
+        "end": 79
+      },
+      {
+        "value": "community",
+        "unit": 0,
+        "start": 80,
+        "end": 89
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 90,
+        "end": 101
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 103,
+        "end": 106
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 107,
+        "end": 118
+      },
+      {
+        "value": "has",
+        "unit": 0,
+        "start": 119,
+        "end": 122
+      },
+      {
+        "value": "limited",
+        "unit": 0,
+        "start": 123,
+        "end": 130
+      },
+      {
+        "value": "money",
+        "unit": 0,
+        "start": 131,
+        "end": 136
+      },
+      {
+        "value": "uncertain",
+        "unit": 0,
+        "start": 138,
+        "end": 147
+      },
+      {
+        "value": "demand",
+        "unit": 0,
+        "start": 148,
+        "end": 154
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 156,
+        "end": 159
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 160,
+        "end": 161
+      },
+      {
+        "value": "responsibility",
+        "unit": 0,
+        "start": 162,
+        "end": 176
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 177,
+        "end": 179
+      },
+      {
+        "value": "serve",
+        "unit": 0,
+        "start": 180,
+        "end": 185
+      },
+      {
+        "value": "residents",
+        "unit": 0,
+        "start": 186,
+        "end": 195
+      },
+      {
+        "value": "fairly",
+        "unit": 0,
+        "start": 196,
+        "end": 202
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 204,
+        "end": 208
+      },
+      {
+        "value": "proposal",
+        "unit": 0,
+        "start": 209,
+        "end": 217
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 218,
+        "end": 224
+      },
+      {
+        "value": "identify",
+        "unit": 0,
+        "start": 225,
+        "end": 233
+      },
+      {
+        "value": "one",
+        "unit": 0,
+        "start": 234,
+        "end": 237
+      },
+      {
+        "value": "operational",
+        "unit": 0,
+        "start": 238,
+        "end": 249
+      },
+      {
+        "value": "problem",
+        "unit": 0,
+        "start": 250,
+        "end": 257
+      },
+      {
+        "value": "explain",
+        "unit": 0,
+        "start": 259,
+        "end": 266
+      },
+      {
+        "value": "why",
+        "unit": 0,
+        "start": 267,
+        "end": 270
+      },
+      {
+        "value": "existing",
+        "unit": 0,
+        "start": 271,
+        "end": 279
+      },
+      {
+        "value": "practices",
+        "unit": 0,
+        "start": 280,
+        "end": 289
+      },
+      {
+        "value": "are",
+        "unit": 0,
+        "start": 290,
+        "end": 293
+      },
+      {
+        "value": "inadequate",
+        "unit": 0,
+        "start": 294,
+        "end": 304
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 306,
+        "end": 309
+      },
+      {
+        "value": "recommend",
+        "unit": 0,
+        "start": 310,
+        "end": 319
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 320,
+        "end": 322
+      },
+      {
+        "value": "intervention",
+        "unit": 0,
+        "start": 323,
+        "end": 335
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 336,
+        "end": 340
+      },
+      {
+        "value": "can",
+        "unit": 0,
+        "start": 341,
+        "end": 344
+      },
+      {
+        "value": "be",
+        "unit": 0,
+        "start": 345,
+        "end": 347
+      },
+      {
+        "value": "tested",
+        "unit": 0,
+        "start": 348,
+        "end": 354
+      },
+      {
+        "value": "within",
+        "unit": 0,
+        "start": 355,
+        "end": 361
+      },
+      {
+        "value": "one",
+        "unit": 0,
+        "start": 362,
+        "end": 365
+      },
+      {
+        "value": "academic",
+        "unit": 0,
+        "start": 366,
+        "end": 374
+      },
+      {
+        "value": "term",
+        "unit": 0,
+        "start": 375,
+        "end": 379
+      },
+      {
+        "value": "state",
+        "unit": 0,
+        "start": 381,
+        "end": 386
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 387,
+        "end": 390
+      },
+      {
+        "value": "assumptions",
+        "unit": 0,
+        "start": 391,
+        "end": 402
+      },
+      {
+        "value": "behind",
+        "unit": 0,
+        "start": 403,
+        "end": 409
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 410,
+        "end": 414
+      },
+      {
+        "value": "analysis",
+        "unit": 0,
+        "start": 415,
+        "end": 423
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 424,
+        "end": 427
+      },
+      {
+        "value": "explain",
+        "unit": 0,
+        "start": 428,
+        "end": 435
+      },
+      {
+        "value": "which",
+        "unit": 0,
+        "start": 436,
+        "end": 441
+      },
+      {
+        "value": "observations",
+        "unit": 0,
+        "start": 442,
+        "end": 454
+      },
+      {
+        "value": "would",
+        "unit": 0,
+        "start": 455,
+        "end": 460
+      },
+      {
+        "value": "cause",
+        "unit": 0,
+        "start": 461,
+        "end": 466
+      },
+      {
+        "value": "you",
+        "unit": 0,
+        "start": 467,
+        "end": 470
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 471,
+        "end": 473
+      },
+      {
+        "value": "change",
+        "unit": 0,
+        "start": 474,
+        "end": 480
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 481,
+        "end": 485
+      },
+      {
+        "value": "recommendation",
+        "unit": 0,
+        "start": 486,
+        "end": 500
+      },
+      {
+        "value": "include",
+        "unit": 0,
+        "start": 502,
+        "end": 509
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 510,
+        "end": 511
+      },
+      {
+        "value": "way",
+        "unit": 0,
+        "start": 512,
+        "end": 515
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 516,
+        "end": 518
+      },
+      {
+        "value": "measure",
+        "unit": 0,
+        "start": 519,
+        "end": 526
+      },
+      {
+        "value": "progress",
+        "unit": 0,
+        "start": 527,
+        "end": 535
+      },
+      {
+        "value": "without",
+        "unit": 0,
+        "start": 536,
+        "end": 543
+      },
+      {
+        "value": "collecting",
+        "unit": 0,
+        "start": 544,
+        "end": 554
+      },
+      {
+        "value": "unnecessary",
+        "unit": 0,
+        "start": 555,
+        "end": 566
+      },
+      {
+        "value": "personal",
+        "unit": 0,
+        "start": 567,
+        "end": 575
+      },
+      {
+        "value": "information",
+        "unit": 0,
+        "start": 576,
+        "end": 587
+      },
+      {
+        "value": "discuss",
+        "unit": 0,
+        "start": 589,
+        "end": 596
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 597,
+        "end": 599
+      },
+      {
+        "value": "implementation",
+        "unit": 0,
+        "start": 600,
+        "end": 614
+      },
+      {
+        "value": "risk",
+        "unit": 0,
+        "start": 615,
+        "end": 619
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 621,
+        "end": 622
+      },
+      {
+        "value": "possible",
+        "unit": 0,
+        "start": 623,
+        "end": 631
+      },
+      {
+        "value": "unintended",
+        "unit": 0,
+        "start": 632,
+        "end": 642
+      },
+      {
+        "value": "consequence",
+        "unit": 0,
+        "start": 643,
+        "end": 654
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 656,
+        "end": 659
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 660,
+        "end": 661
+      },
+      {
+        "value": "low",
+        "unit": 0,
+        "start": 662,
+        "end": 665
+      },
+      {
+        "value": "cost",
+        "unit": 0,
+        "start": 666,
+        "end": 670
+      },
+      {
+        "value": "method",
+        "unit": 0,
+        "start": 671,
+        "end": 677
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 678,
+        "end": 681
+      },
+      {
+        "value": "gathering",
+        "unit": 0,
+        "start": 682,
+        "end": 691
+      },
+      {
+        "value": "feedback",
+        "unit": 0,
+        "start": 692,
+        "end": 700
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 702,
+        "end": 705
+      },
+      {
+        "value": "evaluation",
+        "unit": 0,
+        "start": 706,
+        "end": 716
+      },
+      {
+        "value": "panel",
+        "unit": 0,
+        "start": 717,
+        "end": 722
+      },
+      {
+        "value": "values",
+        "unit": 0,
+        "start": 723,
+        "end": 729
+      },
+      {
+        "value": "clear",
+        "unit": 0,
+        "start": 730,
+        "end": 735
+      },
+      {
+        "value": "reasoning",
+        "unit": 0,
+        "start": 736,
+        "end": 745
+      },
+      {
+        "value": "over",
+        "unit": 0,
+        "start": 746,
+        "end": 750
+      },
+      {
+        "value": "ambitious",
+        "unit": 0,
+        "start": 751,
+        "end": 760
+      },
+      {
+        "value": "technology",
+        "unit": 0,
+        "start": 761,
+        "end": 771
+      },
+      {
+        "value": "teams",
+        "unit": 0,
+        "start": 773,
+        "end": 778
+      },
+      {
+        "value": "may",
+        "unit": 0,
+        "start": 779,
+        "end": 782
+      },
+      {
+        "value": "use",
+        "unit": 0,
+        "start": 783,
+        "end": 786
+      },
+      {
+        "value": "simple",
+        "unit": 0,
+        "start": 787,
+        "end": 793
+      },
+      {
+        "value": "schedules",
+        "unit": 0,
+        "start": 794,
+        "end": 803
+      },
+      {
+        "value": "physical",
+        "unit": 0,
+        "start": 805,
+        "end": 813
+      },
+      {
+        "value": "tools",
+        "unit": 0,
+        "start": 814,
+        "end": 819
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 821,
+        "end": 823
+      },
+      {
+        "value": "public",
+        "unit": 0,
+        "start": 824,
+        "end": 830
+      },
+      {
+        "value": "information",
+        "unit": 0,
+        "start": 831,
+        "end": 842
+      },
+      {
+        "value": "where",
+        "unit": 0,
+        "start": 843,
+        "end": 848
+      },
+      {
+        "value": "appropriate",
+        "unit": 0,
+        "start": 849,
+        "end": 860
+      },
+      {
+        "value": "do",
+        "unit": 0,
+        "start": 862,
+        "end": 864
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 865,
+        "end": 868
+      },
+      {
+        "value": "assume",
+        "unit": 0,
+        "start": 869,
+        "end": 875
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 876,
+        "end": 880
+      },
+      {
+        "value": "additional",
+        "unit": 0,
+        "start": 881,
+        "end": 891
+      },
+      {
+        "value": "staff",
+        "unit": 0,
+        "start": 892,
+        "end": 897
+      },
+      {
+        "value": "permanent",
+        "unit": 0,
+        "start": 899,
+        "end": 908
+      },
+      {
+        "value": "subsidies",
+        "unit": 0,
+        "start": 909,
+        "end": 918
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 920,
+        "end": 922
+      },
+      {
+        "value": "expensive",
+        "unit": 0,
+        "start": 923,
+        "end": 932
+      },
+      {
+        "value": "equipment",
+        "unit": 0,
+        "start": 933,
+        "end": 942
+      },
+      {
+        "value": "will",
+        "unit": 0,
+        "start": 943,
+        "end": 947
+      },
+      {
+        "value": "become",
+        "unit": 0,
+        "start": 948,
+        "end": 954
+      },
+      {
+        "value": "available",
+        "unit": 0,
+        "start": 955,
+        "end": 964
+      },
+      {
+        "value": "conclude",
+        "unit": 0,
+        "start": 966,
+        "end": 974
+      },
+      {
+        "value": "by",
+        "unit": 0,
+        "start": 975,
+        "end": 977
+      },
+      {
+        "value": "explaining",
+        "unit": 0,
+        "start": 978,
+        "end": 988
+      },
+      {
+        "value": "how",
+        "unit": 0,
+        "start": 989,
+        "end": 992
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 993,
+        "end": 996
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 997,
+        "end": 1008
+      },
+      {
+        "value": "could",
+        "unit": 0,
+        "start": 1009,
+        "end": 1014
+      },
+      {
+        "value": "decide",
+        "unit": 0,
+        "start": 1015,
+        "end": 1021
+      },
+      {
+        "value": "whether",
+        "unit": 0,
+        "start": 1022,
+        "end": 1029
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 1030,
+        "end": 1032
+      },
+      {
+        "value": "continue",
+        "unit": 0,
+        "start": 1033,
+        "end": 1041
+      },
+      {
+        "value": "adapt",
+        "unit": 0,
+        "start": 1043,
+        "end": 1048
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 1050,
+        "end": 1052
+      },
+      {
+        "value": "stop",
+        "unit": 0,
+        "start": 1053,
+        "end": 1057
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 1058,
+        "end": 1061
+      },
+      {
+        "value": "proposed",
+        "unit": 0,
+        "start": 1062,
+        "end": 1070
+      },
+      {
+        "value": "pilot",
+        "unit": 0,
+        "start": 1071,
+        "end": 1076
+      },
+      {
+        "value": "after",
+        "unit": 0,
+        "start": 1077,
+        "end": 1082
+      },
+      {
+        "value": "review",
+        "unit": 0,
+        "start": 1083,
+        "end": 1089
+      }
+    ],
+    "excluded": {
+      "0": "configured_common_prompt",
+      "1": "configured_common_prompt",
+      "2": "configured_common_prompt",
+      "3": "configured_common_prompt",
+      "4": "configured_common_prompt",
+      "5": "configured_common_prompt",
+      "6": "configured_common_prompt",
+      "7": "configured_common_prompt",
+      "8": "configured_common_prompt",
+      "9": "configured_common_prompt",
+      "10": "configured_common_prompt",
+      "11": "configured_common_prompt",
+      "12": "configured_common_prompt",
+      "13": "configured_common_prompt",
+      "14": "configured_common_prompt",
+      "15": "configured_common_prompt",
+      "16": "configured_common_prompt",
+      "17": "configured_common_prompt",
+      "18": "configured_common_prompt",
+      "19": "configured_common_prompt",
+      "20": "configured_common_prompt",
+      "21": "configured_common_prompt",
+      "22": "configured_common_prompt",
+      "23": "configured_common_prompt",
+      "24": "configured_common_prompt",
+      "25": "configured_common_prompt",
+      "26": "configured_common_prompt",
+      "27": "configured_common_prompt",
+      "28": "configured_common_prompt",
+      "29": "configured_common_prompt",
+      "30": "configured_common_prompt",
+      "31": "configured_common_prompt",
+      "32": "configured_common_prompt",
+      "33": "configured_common_prompt",
+      "34": "configured_common_prompt",
+      "35": "configured_common_prompt",
+      "36": "configured_common_prompt",
+      "37": "configured_common_prompt",
+      "38": "configured_common_prompt",
+      "39": "configured_common_prompt",
+      "40": "configured_common_prompt",
+      "41": "configured_common_prompt",
+      "42": "configured_common_prompt",
+      "43": "configured_common_prompt",
+      "44": "configured_common_prompt",
+      "45": "configured_common_prompt",
+      "46": "configured_common_prompt",
+      "47": "configured_common_prompt",
+      "48": "configured_common_prompt",
+      "49": "configured_common_prompt",
+      "50": "configured_common_prompt",
+      "51": "configured_common_prompt",
+      "52": "configured_common_prompt",
+      "53": "configured_common_prompt",
+      "54": "configured_common_prompt",
+      "55": "configured_common_prompt",
+      "56": "configured_common_prompt",
+      "57": "configured_common_prompt",
+      "58": "configured_common_prompt",
+      "59": "configured_common_prompt",
+      "60": "configured_common_prompt",
+      "61": "configured_common_prompt",
+      "62": "configured_common_prompt",
+      "63": "configured_common_prompt",
+      "64": "configured_common_prompt",
+      "65": "configured_common_prompt",
+      "66": "configured_common_prompt",
+      "67": "configured_common_prompt",
+      "68": "configured_common_prompt",
+      "69": "configured_common_prompt",
+      "70": "configured_common_prompt",
+      "71": "configured_common_prompt",
+      "72": "configured_common_prompt",
+      "73": "configured_common_prompt",
+      "74": "configured_common_prompt",
+      "75": "configured_common_prompt",
+      "76": "configured_common_prompt",
+      "77": "configured_common_prompt",
+      "78": "configured_common_prompt",
+      "79": "configured_common_prompt",
+      "80": "configured_common_prompt",
+      "81": "configured_common_prompt",
+      "82": "configured_common_prompt",
+      "83": "configured_common_prompt",
+      "84": "configured_common_prompt",
+      "85": "configured_common_prompt",
+      "86": "configured_common_prompt",
+      "87": "configured_common_prompt",
+      "88": "configured_common_prompt",
+      "89": "configured_common_prompt",
+      "90": "configured_common_prompt",
+      "91": "configured_common_prompt",
+      "92": "configured_common_prompt",
+      "93": "configured_common_prompt",
+      "94": "configured_common_prompt",
+      "95": "configured_common_prompt",
+      "96": "configured_common_prompt",
+      "97": "configured_common_prompt",
+      "98": "configured_common_prompt",
+      "99": "configured_common_prompt",
+      "100": "configured_common_prompt",
+      "101": "configured_common_prompt",
+      "102": "configured_common_prompt",
+      "103": "configured_common_prompt",
+      "104": "configured_common_prompt",
+      "105": "configured_common_prompt",
+      "106": "configured_common_prompt",
+      "107": "configured_common_prompt",
+      "108": "configured_common_prompt",
+      "109": "configured_common_prompt",
+      "110": "configured_common_prompt",
+      "111": "configured_common_prompt",
+      "112": "configured_common_prompt",
+      "113": "configured_common_prompt",
+      "114": "configured_common_prompt",
+      "115": "configured_common_prompt",
+      "116": "configured_common_prompt",
+      "117": "configured_common_prompt",
+      "118": "configured_common_prompt",
+      "119": "configured_common_prompt",
+      "120": "configured_common_prompt",
+      "121": "configured_common_prompt",
+      "122": "configured_common_prompt",
+      "123": "configured_common_prompt",
+      "124": "configured_common_prompt",
+      "125": "configured_common_prompt",
+      "126": "configured_common_prompt",
+      "127": "configured_common_prompt",
+      "128": "configured_common_prompt",
+      "129": "configured_common_prompt",
+      "130": "configured_common_prompt",
+      "131": "configured_common_prompt",
+      "132": "configured_common_prompt",
+      "133": "configured_common_prompt",
+      "134": "configured_common_prompt",
+      "135": "configured_common_prompt",
+      "136": "configured_common_prompt",
+      "137": "configured_common_prompt",
+      "138": "configured_common_prompt",
+      "139": "configured_common_prompt",
+      "140": "configured_common_prompt",
+      "141": "configured_common_prompt",
+      "142": "configured_common_prompt",
+      "143": "configured_common_prompt",
+      "144": "configured_common_prompt",
+      "145": "configured_common_prompt",
+      "146": "configured_common_prompt",
+      "147": "configured_common_prompt",
+      "148": "configured_common_prompt",
+      "149": "configured_common_prompt",
+      "150": "configured_common_prompt"
+    }
+  },
+  "opposite_a.docx": {
+    "document_id": "opposite_a.docx",
+    "kind": "docx",
+    "sha256": "3dc31921ab804c30c983b3ec50a80badc919a360b7fe94bf58904f59a9394a26",
+    "status": "ok",
+    "units": [
+      {
+        "text": "The city should introduce a congestion charge for private cars entering the centre. The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces. Drivers who cannot afford the charge should receive discounted transit passes.",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 0,
+        "end": 3
+      },
+      {
+        "value": "city",
+        "unit": 0,
+        "start": 4,
+        "end": 8
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 9,
+        "end": 15
+      },
+      {
+        "value": "introduce",
+        "unit": 0,
+        "start": 16,
+        "end": 25
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 26,
+        "end": 27
+      },
+      {
+        "value": "congestion",
+        "unit": 0,
+        "start": 28,
+        "end": 38
+      },
+      {
+        "value": "charge",
+        "unit": 0,
+        "start": 39,
+        "end": 45
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 46,
+        "end": 49
+      },
+      {
+        "value": "private",
+        "unit": 0,
+        "start": 50,
+        "end": 57
+      },
+      {
+        "value": "cars",
+        "unit": 0,
+        "start": 58,
+        "end": 62
+      },
+      {
+        "value": "entering",
+        "unit": 0,
+        "start": 63,
+        "end": 71
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 72,
+        "end": 75
+      },
+      {
+        "value": "centre",
+        "unit": 0,
+        "start": 76,
+        "end": 82
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 84,
+        "end": 87
+      },
+      {
+        "value": "charge",
+        "unit": 0,
+        "start": 88,
+        "end": 94
+      },
+      {
+        "value": "would",
+        "unit": 0,
+        "start": 95,
+        "end": 100
+      },
+      {
+        "value": "reduce",
+        "unit": 0,
+        "start": 101,
+        "end": 107
+      },
+      {
+        "value": "traffic",
+        "unit": 0,
+        "start": 108,
+        "end": 115
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 116,
+        "end": 119
+      },
+      {
+        "value": "improve",
+        "unit": 0,
+        "start": 120,
+        "end": 127
+      },
+      {
+        "value": "air",
+        "unit": 0,
+        "start": 128,
+        "end": 131
+      },
+      {
+        "value": "quality",
+        "unit": 0,
+        "start": 132,
+        "end": 139
+      },
+      {
+        "value": "revenue",
+        "unit": 0,
+        "start": 141,
+        "end": 148
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 149,
+        "end": 155
+      },
+      {
+        "value": "pay",
+        "unit": 0,
+        "start": 156,
+        "end": 159
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 160,
+        "end": 163
+      },
+      {
+        "value": "public",
+        "unit": 0,
+        "start": 164,
+        "end": 170
+      },
+      {
+        "value": "buses",
+        "unit": 0,
+        "start": 171,
+        "end": 176
+      },
+      {
+        "value": "rather",
+        "unit": 0,
+        "start": 177,
+        "end": 183
+      },
+      {
+        "value": "than",
+        "unit": 0,
+        "start": 184,
+        "end": 188
+      },
+      {
+        "value": "additional",
+        "unit": 0,
+        "start": 189,
+        "end": 199
+      },
+      {
+        "value": "parking",
+        "unit": 0,
+        "start": 200,
+        "end": 207
+      },
+      {
+        "value": "spaces",
+        "unit": 0,
+        "start": 208,
+        "end": 214
+      },
+      {
+        "value": "drivers",
+        "unit": 0,
+        "start": 216,
+        "end": 223
+      },
+      {
+        "value": "who",
+        "unit": 0,
+        "start": 224,
+        "end": 227
+      },
+      {
+        "value": "cannot",
+        "unit": 0,
+        "start": 228,
+        "end": 234
+      },
+      {
+        "value": "afford",
+        "unit": 0,
+        "start": 235,
+        "end": 241
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 242,
+        "end": 245
+      },
+      {
+        "value": "charge",
+        "unit": 0,
+        "start": 246,
+        "end": 252
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 253,
+        "end": 259
+      },
+      {
+        "value": "receive",
+        "unit": 0,
+        "start": 260,
+        "end": 267
+      },
+      {
+        "value": "discounted",
+        "unit": 0,
+        "start": 268,
+        "end": 278
+      },
+      {
+        "value": "transit",
+        "unit": 0,
+        "start": 279,
+        "end": 286
+      },
+      {
+        "value": "passes",
+        "unit": 0,
+        "start": 287,
+        "end": 293
+      }
+    ],
+    "excluded": {}
+  },
+  "opposite_b.docx": {
+    "document_id": "opposite_b.docx",
+    "kind": "docx",
+    "sha256": "26a97ab0528c10ce426059cb55c77b6f6efd477bc87c666317085b68e7756acf",
+    "status": "ok",
+    "units": [
+      {
+        "text": "The city should not introduce a congestion charge for private cars entering the centre. The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses. Drivers who cannot afford the charge should not receive discounted transit passes.",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 0,
+        "end": 3
+      },
+      {
+        "value": "city",
+        "unit": 0,
+        "start": 4,
+        "end": 8
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 9,
+        "end": 15
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 16,
+        "end": 19
+      },
+      {
+        "value": "introduce",
+        "unit": 0,
+        "start": 20,
+        "end": 29
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 30,
+        "end": 31
+      },
+      {
+        "value": "congestion",
+        "unit": 0,
+        "start": 32,
+        "end": 42
+      },
+      {
+        "value": "charge",
+        "unit": 0,
+        "start": 43,
+        "end": 49
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 50,
+        "end": 53
+      },
+      {
+        "value": "private",
+        "unit": 0,
+        "start": 54,
+        "end": 61
+      },
+      {
+        "value": "cars",
+        "unit": 0,
+        "start": 62,
+        "end": 66
+      },
+      {
+        "value": "entering",
+        "unit": 0,
+        "start": 67,
+        "end": 75
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 76,
+        "end": 79
+      },
+      {
+        "value": "centre",
+        "unit": 0,
+        "start": 80,
+        "end": 86
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 88,
+        "end": 91
+      },
+      {
+        "value": "charge",
+        "unit": 0,
+        "start": 92,
+        "end": 98
+      },
+      {
+        "value": "would",
+        "unit": 0,
+        "start": 99,
+        "end": 104
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 105,
+        "end": 108
+      },
+      {
+        "value": "reduce",
+        "unit": 0,
+        "start": 109,
+        "end": 115
+      },
+      {
+        "value": "traffic",
+        "unit": 0,
+        "start": 116,
+        "end": 123
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 124,
+        "end": 126
+      },
+      {
+        "value": "improve",
+        "unit": 0,
+        "start": 127,
+        "end": 134
+      },
+      {
+        "value": "air",
+        "unit": 0,
+        "start": 135,
+        "end": 138
+      },
+      {
+        "value": "quality",
+        "unit": 0,
+        "start": 139,
+        "end": 146
+      },
+      {
+        "value": "revenue",
+        "unit": 0,
+        "start": 148,
+        "end": 155
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 156,
+        "end": 162
+      },
+      {
+        "value": "pay",
+        "unit": 0,
+        "start": 163,
+        "end": 166
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 167,
+        "end": 170
+      },
+      {
+        "value": "additional",
+        "unit": 0,
+        "start": 171,
+        "end": 181
+      },
+      {
+        "value": "parking",
+        "unit": 0,
+        "start": 182,
+        "end": 189
+      },
+      {
+        "value": "spaces",
+        "unit": 0,
+        "start": 190,
+        "end": 196
+      },
+      {
+        "value": "rather",
+        "unit": 0,
+        "start": 197,
+        "end": 203
+      },
+      {
+        "value": "than",
+        "unit": 0,
+        "start": 204,
+        "end": 208
+      },
+      {
+        "value": "public",
+        "unit": 0,
+        "start": 209,
+        "end": 215
+      },
+      {
+        "value": "buses",
+        "unit": 0,
+        "start": 216,
+        "end": 221
+      },
+      {
+        "value": "drivers",
+        "unit": 0,
+        "start": 223,
+        "end": 230
+      },
+      {
+        "value": "who",
+        "unit": 0,
+        "start": 231,
+        "end": 234
+      },
+      {
+        "value": "cannot",
+        "unit": 0,
+        "start": 235,
+        "end": 241
+      },
+      {
+        "value": "afford",
+        "unit": 0,
+        "start": 242,
+        "end": 248
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 249,
+        "end": 252
+      },
+      {
+        "value": "charge",
+        "unit": 0,
+        "start": 253,
+        "end": 259
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 260,
+        "end": 266
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 267,
+        "end": 270
+      },
+      {
+        "value": "receive",
+        "unit": 0,
+        "start": 271,
+        "end": 278
+      },
+      {
+        "value": "discounted",
+        "unit": 0,
+        "start": 279,
+        "end": 289
+      },
+      {
+        "value": "transit",
+        "unit": 0,
+        "start": 290,
+        "end": 297
+      },
+      {
+        "value": "passes",
+        "unit": 0,
+        "start": 298,
+        "end": 304
+      }
+    ],
+    "excluded": {}
+  },
+  "partial.pdf": {
+    "document_id": "partial.pdf",
+    "kind": "pdf",
+    "sha256": "35810d7d169be5f5bb89a8a0bbe7d49ab5e492890b80fa4576c1956ee4b7d668",
+    "status": "partial",
+    "units": [
+      {
+        "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets\nseparate a visitor's place in line from the place where that visitor stands. This lets people sit, read,\nor wait in shade without losing their turn. The organiser should announce exceptions openly and\nkeep an accessible route to the service desk. A ticket system does not create more service\ncapacity; it only makes the existing waiting process easier to understand.",
+        "location": {
+          "page": 1
+        }
+      },
+      {
+        "text": "",
+        "location": {
+          "page": 2
+        }
+      }
+    ],
+    "warnings": [
+      "Pages [2] have no extractable text; OCR not implemented."
+    ],
+    "metadata": {
+      "page_count": 2,
+      "removed_margins": [
+        {
+          "page": 1,
+          "text": "Riverton synthetic case collection",
+          "reason": "repeated_margin"
+        },
+        {
+          "page": 1,
+          "text": "Case collection | Page 1",
+          "reason": "repeated_margin"
+        }
+      ],
+      "unextractable_pages": [
+        2
+      ]
+    },
+    "tokens": [
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 0,
+        "end": 1
+      },
+      {
+        "value": "queue",
+        "unit": 0,
+        "start": 2,
+        "end": 7
+      },
+      {
+        "value": "works",
+        "unit": 0,
+        "start": 8,
+        "end": 13
+      },
+      {
+        "value": "best",
+        "unit": 0,
+        "start": 14,
+        "end": 18
+      },
+      {
+        "value": "when",
+        "unit": 0,
+        "start": 19,
+        "end": 23
+      },
+      {
+        "value": "arrivals",
+        "unit": 0,
+        "start": 24,
+        "end": 32
+      },
+      {
+        "value": "can",
+        "unit": 0,
+        "start": 33,
+        "end": 36
+      },
+      {
+        "value": "see",
+        "unit": 0,
+        "start": 37,
+        "end": 40
+      },
+      {
+        "value": "how",
+        "unit": 0,
+        "start": 41,
+        "end": 44
+      },
+      {
+        "value": "service",
+        "unit": 0,
+        "start": 45,
+        "end": 52
+      },
+      {
+        "value": "order",
+        "unit": 0,
+        "start": 53,
+        "end": 58
+      },
+      {
+        "value": "is",
+        "unit": 0,
+        "start": 59,
+        "end": 61
+      },
+      {
+        "value": "decided",
+        "unit": 0,
+        "start": 62,
+        "end": 69
+      },
+      {
+        "value": "numbered",
+        "unit": 0,
+        "start": 71,
+        "end": 79
+      },
+      {
+        "value": "tickets",
+        "unit": 0,
+        "start": 80,
+        "end": 87
+      },
+      {
+        "value": "separate",
+        "unit": 0,
+        "start": 88,
+        "end": 96
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 97,
+        "end": 98
+      },
+      {
+        "value": "visitor's",
+        "unit": 0,
+        "start": 99,
+        "end": 108
+      },
+      {
+        "value": "place",
+        "unit": 0,
+        "start": 109,
+        "end": 114
+      },
+      {
+        "value": "in",
+        "unit": 0,
+        "start": 115,
+        "end": 117
+      },
+      {
+        "value": "line",
+        "unit": 0,
+        "start": 118,
+        "end": 122
+      },
+      {
+        "value": "from",
+        "unit": 0,
+        "start": 123,
+        "end": 127
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 128,
+        "end": 131
+      },
+      {
+        "value": "place",
+        "unit": 0,
+        "start": 132,
+        "end": 137
+      },
+      {
+        "value": "where",
+        "unit": 0,
+        "start": 138,
+        "end": 143
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 144,
+        "end": 148
+      },
+      {
+        "value": "visitor",
+        "unit": 0,
+        "start": 149,
+        "end": 156
+      },
+      {
+        "value": "stands",
+        "unit": 0,
+        "start": 157,
+        "end": 163
+      },
+      {
+        "value": "this",
+        "unit": 0,
+        "start": 165,
+        "end": 169
+      },
+      {
+        "value": "lets",
+        "unit": 0,
+        "start": 170,
+        "end": 174
+      },
+      {
+        "value": "people",
+        "unit": 0,
+        "start": 175,
+        "end": 181
+      },
+      {
+        "value": "sit",
+        "unit": 0,
+        "start": 182,
+        "end": 185
+      },
+      {
+        "value": "read",
+        "unit": 0,
+        "start": 187,
+        "end": 191
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 193,
+        "end": 195
+      },
+      {
+        "value": "wait",
+        "unit": 0,
+        "start": 196,
+        "end": 200
+      },
+      {
+        "value": "in",
+        "unit": 0,
+        "start": 201,
+        "end": 203
+      },
+      {
+        "value": "shade",
+        "unit": 0,
+        "start": 204,
+        "end": 209
+      },
+      {
+        "value": "without",
+        "unit": 0,
+        "start": 210,
+        "end": 217
+      },
+      {
+        "value": "losing",
+        "unit": 0,
+        "start": 218,
+        "end": 224
+      },
+      {
+        "value": "their",
+        "unit": 0,
+        "start": 225,
+        "end": 230
+      },
+      {
+        "value": "turn",
+        "unit": 0,
+        "start": 231,
+        "end": 235
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 237,
+        "end": 240
+      },
+      {
+        "value": "organiser",
+        "unit": 0,
+        "start": 241,
+        "end": 250
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 251,
+        "end": 257
+      },
+      {
+        "value": "announce",
+        "unit": 0,
+        "start": 258,
+        "end": 266
+      },
+      {
+        "value": "exceptions",
+        "unit": 0,
+        "start": 267,
+        "end": 277
+      },
+      {
+        "value": "openly",
+        "unit": 0,
+        "start": 278,
+        "end": 284
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 285,
+        "end": 288
+      },
+      {
+        "value": "keep",
+        "unit": 0,
+        "start": 289,
+        "end": 293
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 294,
+        "end": 296
+      },
+      {
+        "value": "accessible",
+        "unit": 0,
+        "start": 297,
+        "end": 307
+      },
+      {
+        "value": "route",
+        "unit": 0,
+        "start": 308,
+        "end": 313
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 314,
+        "end": 316
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 317,
+        "end": 320
+      },
+      {
+        "value": "service",
+        "unit": 0,
+        "start": 321,
+        "end": 328
+      },
+      {
+        "value": "desk",
+        "unit": 0,
+        "start": 329,
+        "end": 333
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 335,
+        "end": 336
+      },
+      {
+        "value": "ticket",
+        "unit": 0,
+        "start": 337,
+        "end": 343
+      },
+      {
+        "value": "system",
+        "unit": 0,
+        "start": 344,
+        "end": 350
+      },
+      {
+        "value": "does",
+        "unit": 0,
+        "start": 351,
+        "end": 355
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 356,
+        "end": 359
+      },
+      {
+        "value": "create",
+        "unit": 0,
+        "start": 360,
+        "end": 366
+      },
+      {
+        "value": "more",
+        "unit": 0,
+        "start": 367,
+        "end": 371
+      },
+      {
+        "value": "service",
+        "unit": 0,
+        "start": 372,
+        "end": 379
+      },
+      {
+        "value": "capacity",
+        "unit": 0,
+        "start": 380,
+        "end": 388
+      },
+      {
+        "value": "it",
+        "unit": 0,
+        "start": 390,
+        "end": 392
+      },
+      {
+        "value": "only",
+        "unit": 0,
+        "start": 393,
+        "end": 397
+      },
+      {
+        "value": "makes",
+        "unit": 0,
+        "start": 398,
+        "end": 403
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 404,
+        "end": 407
+      },
+      {
+        "value": "existing",
+        "unit": 0,
+        "start": 408,
+        "end": 416
+      },
+      {
+        "value": "waiting",
+        "unit": 0,
+        "start": 417,
+        "end": 424
+      },
+      {
+        "value": "process",
+        "unit": 0,
+        "start": 425,
+        "end": 432
+      },
+      {
+        "value": "easier",
+        "unit": 0,
+        "start": 433,
+        "end": 439
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 440,
+        "end": 442
+      },
+      {
+        "value": "understand",
+        "unit": 0,
+        "start": 443,
+        "end": 453
+      }
+    ],
+    "excluded": {}
+  },
+  "prompt_copy_a.docx": {
+    "document_id": "prompt_copy_a.docx",
+    "kind": "docx",
+    "sha256": "65e00f7251307ac30195e41793a32d56171b88c4d136cae83d4a2751609390da",
+    "status": "ok",
+    "units": [
+      {
+        "text": "Riverton University invites teams to design a practical improvement for a small community institution. The institution has limited money, uncertain demand, and a responsibility to serve residents fairly. Your proposal should identify one operational problem, explain why existing practices are inadequate, and recommend an intervention that can be tested within one academic term. State the assumptions behind your analysis and explain which observations would cause you to change your recommendation. Include a way to measure progress without collecting unnecessary personal information. Discuss an implementation risk, a possible unintended consequence, and a low cost method for gathering feedback. The evaluation panel values clear reasoning over ambitious technology. Teams may use simple schedules, physical tools, or public information where appropriate. Do not assume that additional staff, permanent subsidies, or expensive equipment will become available. Conclude by explaining how the institution could decide whether to continue, adapt, or stop the proposed pilot after review.",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      },
+      {
+        "text": "The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.\n\nWeather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near the counter. The proposed intervention is a production scheduling change that uses equipment already present in the shop.",
+        "location": {
+          "paragraph": 2,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "riverton",
+        "unit": 0,
+        "start": 0,
+        "end": 8
+      },
+      {
+        "value": "university",
+        "unit": 0,
+        "start": 9,
+        "end": 19
+      },
+      {
+        "value": "invites",
+        "unit": 0,
+        "start": 20,
+        "end": 27
+      },
+      {
+        "value": "teams",
+        "unit": 0,
+        "start": 28,
+        "end": 33
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 34,
+        "end": 36
+      },
+      {
+        "value": "design",
+        "unit": 0,
+        "start": 37,
+        "end": 43
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 44,
+        "end": 45
+      },
+      {
+        "value": "practical",
+        "unit": 0,
+        "start": 46,
+        "end": 55
+      },
+      {
+        "value": "improvement",
+        "unit": 0,
+        "start": 56,
+        "end": 67
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 68,
+        "end": 71
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 72,
+        "end": 73
+      },
+      {
+        "value": "small",
+        "unit": 0,
+        "start": 74,
+        "end": 79
+      },
+      {
+        "value": "community",
+        "unit": 0,
+        "start": 80,
+        "end": 89
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 90,
+        "end": 101
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 103,
+        "end": 106
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 107,
+        "end": 118
+      },
+      {
+        "value": "has",
+        "unit": 0,
+        "start": 119,
+        "end": 122
+      },
+      {
+        "value": "limited",
+        "unit": 0,
+        "start": 123,
+        "end": 130
+      },
+      {
+        "value": "money",
+        "unit": 0,
+        "start": 131,
+        "end": 136
+      },
+      {
+        "value": "uncertain",
+        "unit": 0,
+        "start": 138,
+        "end": 147
+      },
+      {
+        "value": "demand",
+        "unit": 0,
+        "start": 148,
+        "end": 154
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 156,
+        "end": 159
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 160,
+        "end": 161
+      },
+      {
+        "value": "responsibility",
+        "unit": 0,
+        "start": 162,
+        "end": 176
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 177,
+        "end": 179
+      },
+      {
+        "value": "serve",
+        "unit": 0,
+        "start": 180,
+        "end": 185
+      },
+      {
+        "value": "residents",
+        "unit": 0,
+        "start": 186,
+        "end": 195
+      },
+      {
+        "value": "fairly",
+        "unit": 0,
+        "start": 196,
+        "end": 202
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 204,
+        "end": 208
+      },
+      {
+        "value": "proposal",
+        "unit": 0,
+        "start": 209,
+        "end": 217
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 218,
+        "end": 224
+      },
+      {
+        "value": "identify",
+        "unit": 0,
+        "start": 225,
+        "end": 233
+      },
+      {
+        "value": "one",
+        "unit": 0,
+        "start": 234,
+        "end": 237
+      },
+      {
+        "value": "operational",
+        "unit": 0,
+        "start": 238,
+        "end": 249
+      },
+      {
+        "value": "problem",
+        "unit": 0,
+        "start": 250,
+        "end": 257
+      },
+      {
+        "value": "explain",
+        "unit": 0,
+        "start": 259,
+        "end": 266
+      },
+      {
+        "value": "why",
+        "unit": 0,
+        "start": 267,
+        "end": 270
+      },
+      {
+        "value": "existing",
+        "unit": 0,
+        "start": 271,
+        "end": 279
+      },
+      {
+        "value": "practices",
+        "unit": 0,
+        "start": 280,
+        "end": 289
+      },
+      {
+        "value": "are",
+        "unit": 0,
+        "start": 290,
+        "end": 293
+      },
+      {
+        "value": "inadequate",
+        "unit": 0,
+        "start": 294,
+        "end": 304
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 306,
+        "end": 309
+      },
+      {
+        "value": "recommend",
+        "unit": 0,
+        "start": 310,
+        "end": 319
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 320,
+        "end": 322
+      },
+      {
+        "value": "intervention",
+        "unit": 0,
+        "start": 323,
+        "end": 335
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 336,
+        "end": 340
+      },
+      {
+        "value": "can",
+        "unit": 0,
+        "start": 341,
+        "end": 344
+      },
+      {
+        "value": "be",
+        "unit": 0,
+        "start": 345,
+        "end": 347
+      },
+      {
+        "value": "tested",
+        "unit": 0,
+        "start": 348,
+        "end": 354
+      },
+      {
+        "value": "within",
+        "unit": 0,
+        "start": 355,
+        "end": 361
+      },
+      {
+        "value": "one",
+        "unit": 0,
+        "start": 362,
+        "end": 365
+      },
+      {
+        "value": "academic",
+        "unit": 0,
+        "start": 366,
+        "end": 374
+      },
+      {
+        "value": "term",
+        "unit": 0,
+        "start": 375,
+        "end": 379
+      },
+      {
+        "value": "state",
+        "unit": 0,
+        "start": 381,
+        "end": 386
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 387,
+        "end": 390
+      },
+      {
+        "value": "assumptions",
+        "unit": 0,
+        "start": 391,
+        "end": 402
+      },
+      {
+        "value": "behind",
+        "unit": 0,
+        "start": 403,
+        "end": 409
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 410,
+        "end": 414
+      },
+      {
+        "value": "analysis",
+        "unit": 0,
+        "start": 415,
+        "end": 423
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 424,
+        "end": 427
+      },
+      {
+        "value": "explain",
+        "unit": 0,
+        "start": 428,
+        "end": 435
+      },
+      {
+        "value": "which",
+        "unit": 0,
+        "start": 436,
+        "end": 441
+      },
+      {
+        "value": "observations",
+        "unit": 0,
+        "start": 442,
+        "end": 454
+      },
+      {
+        "value": "would",
+        "unit": 0,
+        "start": 455,
+        "end": 460
+      },
+      {
+        "value": "cause",
+        "unit": 0,
+        "start": 461,
+        "end": 466
+      },
+      {
+        "value": "you",
+        "unit": 0,
+        "start": 467,
+        "end": 470
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 471,
+        "end": 473
+      },
+      {
+        "value": "change",
+        "unit": 0,
+        "start": 474,
+        "end": 480
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 481,
+        "end": 485
+      },
+      {
+        "value": "recommendation",
+        "unit": 0,
+        "start": 486,
+        "end": 500
+      },
+      {
+        "value": "include",
+        "unit": 0,
+        "start": 502,
+        "end": 509
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 510,
+        "end": 511
+      },
+      {
+        "value": "way",
+        "unit": 0,
+        "start": 512,
+        "end": 515
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 516,
+        "end": 518
+      },
+      {
+        "value": "measure",
+        "unit": 0,
+        "start": 519,
+        "end": 526
+      },
+      {
+        "value": "progress",
+        "unit": 0,
+        "start": 527,
+        "end": 535
+      },
+      {
+        "value": "without",
+        "unit": 0,
+        "start": 536,
+        "end": 543
+      },
+      {
+        "value": "collecting",
+        "unit": 0,
+        "start": 544,
+        "end": 554
+      },
+      {
+        "value": "unnecessary",
+        "unit": 0,
+        "start": 555,
+        "end": 566
+      },
+      {
+        "value": "personal",
+        "unit": 0,
+        "start": 567,
+        "end": 575
+      },
+      {
+        "value": "information",
+        "unit": 0,
+        "start": 576,
+        "end": 587
+      },
+      {
+        "value": "discuss",
+        "unit": 0,
+        "start": 589,
+        "end": 596
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 597,
+        "end": 599
+      },
+      {
+        "value": "implementation",
+        "unit": 0,
+        "start": 600,
+        "end": 614
+      },
+      {
+        "value": "risk",
+        "unit": 0,
+        "start": 615,
+        "end": 619
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 621,
+        "end": 622
+      },
+      {
+        "value": "possible",
+        "unit": 0,
+        "start": 623,
+        "end": 631
+      },
+      {
+        "value": "unintended",
+        "unit": 0,
+        "start": 632,
+        "end": 642
+      },
+      {
+        "value": "consequence",
+        "unit": 0,
+        "start": 643,
+        "end": 654
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 656,
+        "end": 659
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 660,
+        "end": 661
+      },
+      {
+        "value": "low",
+        "unit": 0,
+        "start": 662,
+        "end": 665
+      },
+      {
+        "value": "cost",
+        "unit": 0,
+        "start": 666,
+        "end": 670
+      },
+      {
+        "value": "method",
+        "unit": 0,
+        "start": 671,
+        "end": 677
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 678,
+        "end": 681
+      },
+      {
+        "value": "gathering",
+        "unit": 0,
+        "start": 682,
+        "end": 691
+      },
+      {
+        "value": "feedback",
+        "unit": 0,
+        "start": 692,
+        "end": 700
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 702,
+        "end": 705
+      },
+      {
+        "value": "evaluation",
+        "unit": 0,
+        "start": 706,
+        "end": 716
+      },
+      {
+        "value": "panel",
+        "unit": 0,
+        "start": 717,
+        "end": 722
+      },
+      {
+        "value": "values",
+        "unit": 0,
+        "start": 723,
+        "end": 729
+      },
+      {
+        "value": "clear",
+        "unit": 0,
+        "start": 730,
+        "end": 735
+      },
+      {
+        "value": "reasoning",
+        "unit": 0,
+        "start": 736,
+        "end": 745
+      },
+      {
+        "value": "over",
+        "unit": 0,
+        "start": 746,
+        "end": 750
+      },
+      {
+        "value": "ambitious",
+        "unit": 0,
+        "start": 751,
+        "end": 760
+      },
+      {
+        "value": "technology",
+        "unit": 0,
+        "start": 761,
+        "end": 771
+      },
+      {
+        "value": "teams",
+        "unit": 0,
+        "start": 773,
+        "end": 778
+      },
+      {
+        "value": "may",
+        "unit": 0,
+        "start": 779,
+        "end": 782
+      },
+      {
+        "value": "use",
+        "unit": 0,
+        "start": 783,
+        "end": 786
+      },
+      {
+        "value": "simple",
+        "unit": 0,
+        "start": 787,
+        "end": 793
+      },
+      {
+        "value": "schedules",
+        "unit": 0,
+        "start": 794,
+        "end": 803
+      },
+      {
+        "value": "physical",
+        "unit": 0,
+        "start": 805,
+        "end": 813
+      },
+      {
+        "value": "tools",
+        "unit": 0,
+        "start": 814,
+        "end": 819
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 821,
+        "end": 823
+      },
+      {
+        "value": "public",
+        "unit": 0,
+        "start": 824,
+        "end": 830
+      },
+      {
+        "value": "information",
+        "unit": 0,
+        "start": 831,
+        "end": 842
+      },
+      {
+        "value": "where",
+        "unit": 0,
+        "start": 843,
+        "end": 848
+      },
+      {
+        "value": "appropriate",
+        "unit": 0,
+        "start": 849,
+        "end": 860
+      },
+      {
+        "value": "do",
+        "unit": 0,
+        "start": 862,
+        "end": 864
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 865,
+        "end": 868
+      },
+      {
+        "value": "assume",
+        "unit": 0,
+        "start": 869,
+        "end": 875
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 876,
+        "end": 880
+      },
+      {
+        "value": "additional",
+        "unit": 0,
+        "start": 881,
+        "end": 891
+      },
+      {
+        "value": "staff",
+        "unit": 0,
+        "start": 892,
+        "end": 897
+      },
+      {
+        "value": "permanent",
+        "unit": 0,
+        "start": 899,
+        "end": 908
+      },
+      {
+        "value": "subsidies",
+        "unit": 0,
+        "start": 909,
+        "end": 918
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 920,
+        "end": 922
+      },
+      {
+        "value": "expensive",
+        "unit": 0,
+        "start": 923,
+        "end": 932
+      },
+      {
+        "value": "equipment",
+        "unit": 0,
+        "start": 933,
+        "end": 942
+      },
+      {
+        "value": "will",
+        "unit": 0,
+        "start": 943,
+        "end": 947
+      },
+      {
+        "value": "become",
+        "unit": 0,
+        "start": 948,
+        "end": 954
+      },
+      {
+        "value": "available",
+        "unit": 0,
+        "start": 955,
+        "end": 964
+      },
+      {
+        "value": "conclude",
+        "unit": 0,
+        "start": 966,
+        "end": 974
+      },
+      {
+        "value": "by",
+        "unit": 0,
+        "start": 975,
+        "end": 977
+      },
+      {
+        "value": "explaining",
+        "unit": 0,
+        "start": 978,
+        "end": 988
+      },
+      {
+        "value": "how",
+        "unit": 0,
+        "start": 989,
+        "end": 992
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 993,
+        "end": 996
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 997,
+        "end": 1008
+      },
+      {
+        "value": "could",
+        "unit": 0,
+        "start": 1009,
+        "end": 1014
+      },
+      {
+        "value": "decide",
+        "unit": 0,
+        "start": 1015,
+        "end": 1021
+      },
+      {
+        "value": "whether",
+        "unit": 0,
+        "start": 1022,
+        "end": 1029
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 1030,
+        "end": 1032
+      },
+      {
+        "value": "continue",
+        "unit": 0,
+        "start": 1033,
+        "end": 1041
+      },
+      {
+        "value": "adapt",
+        "unit": 0,
+        "start": 1043,
+        "end": 1048
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 1050,
+        "end": 1052
+      },
+      {
+        "value": "stop",
+        "unit": 0,
+        "start": 1053,
+        "end": 1057
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 1058,
+        "end": 1061
+      },
+      {
+        "value": "proposed",
+        "unit": 0,
+        "start": 1062,
+        "end": 1070
+      },
+      {
+        "value": "pilot",
+        "unit": 0,
+        "start": 1071,
+        "end": 1076
+      },
+      {
+        "value": "after",
+        "unit": 0,
+        "start": 1077,
+        "end": 1082
+      },
+      {
+        "value": "review",
+        "unit": 0,
+        "start": 1083,
+        "end": 1089
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 0,
+        "end": 3
+      },
+      {
+        "value": "community",
+        "unit": 1,
+        "start": 4,
+        "end": 13
+      },
+      {
+        "value": "bakery",
+        "unit": 1,
+        "start": 14,
+        "end": 20
+      },
+      {
+        "value": "discards",
+        "unit": 1,
+        "start": 21,
+        "end": 29
+      },
+      {
+        "value": "unsold",
+        "unit": 1,
+        "start": 30,
+        "end": 36
+      },
+      {
+        "value": "bread",
+        "unit": 1,
+        "start": 37,
+        "end": 42
+      },
+      {
+        "value": "at",
+        "unit": 1,
+        "start": 43,
+        "end": 45
+      },
+      {
+        "value": "closing",
+        "unit": 1,
+        "start": 46,
+        "end": 53
+      },
+      {
+        "value": "but",
+        "unit": 1,
+        "start": 55,
+        "end": 58
+      },
+      {
+        "value": "baking",
+        "unit": 1,
+        "start": 59,
+        "end": 65
+      },
+      {
+        "value": "less",
+        "unit": 1,
+        "start": 66,
+        "end": 70
+      },
+      {
+        "value": "every",
+        "unit": 1,
+        "start": 71,
+        "end": 76
+      },
+      {
+        "value": "day",
+        "unit": 1,
+        "start": 77,
+        "end": 80
+      },
+      {
+        "value": "could",
+        "unit": 1,
+        "start": 81,
+        "end": 86
+      },
+      {
+        "value": "leave",
+        "unit": 1,
+        "start": 87,
+        "end": 92
+      },
+      {
+        "value": "weekend",
+        "unit": 1,
+        "start": 93,
+        "end": 100
+      },
+      {
+        "value": "customers",
+        "unit": 1,
+        "start": 101,
+        "end": 110
+      },
+      {
+        "value": "empty",
+        "unit": 1,
+        "start": 111,
+        "end": 116
+      },
+      {
+        "value": "handed",
+        "unit": 1,
+        "start": 117,
+        "end": 123
+      },
+      {
+        "value": "i",
+        "unit": 1,
+        "start": 125,
+        "end": 126
+      },
+      {
+        "value": "propose",
+        "unit": 1,
+        "start": 127,
+        "end": 134
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 135,
+        "end": 136
+      },
+      {
+        "value": "two",
+        "unit": 1,
+        "start": 137,
+        "end": 140
+      },
+      {
+        "value": "colour",
+        "unit": 1,
+        "start": 141,
+        "end": 147
+      },
+      {
+        "value": "chalkboard",
+        "unit": 1,
+        "start": 148,
+        "end": 158
+      },
+      {
+        "value": "tally",
+        "unit": 1,
+        "start": 159,
+        "end": 164
+      },
+      {
+        "value": "of",
+        "unit": 1,
+        "start": 165,
+        "end": 167
+      },
+      {
+        "value": "early",
+        "unit": 1,
+        "start": 168,
+        "end": 173
+      },
+      {
+        "value": "and",
+        "unit": 1,
+        "start": 174,
+        "end": 177
+      },
+      {
+        "value": "late",
+        "unit": 1,
+        "start": 178,
+        "end": 182
+      },
+      {
+        "value": "sales",
+        "unit": 1,
+        "start": 183,
+        "end": 188
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 190,
+        "end": 193
+      },
+      {
+        "value": "baker",
+        "unit": 1,
+        "start": 194,
+        "end": 199
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 200,
+        "end": 203
+      },
+      {
+        "value": "record",
+        "unit": 1,
+        "start": 204,
+        "end": 210
+      },
+      {
+        "value": "loaves",
+        "unit": 1,
+        "start": 211,
+        "end": 217
+      },
+      {
+        "value": "by",
+        "unit": 1,
+        "start": 218,
+        "end": 220
+      },
+      {
+        "value": "product",
+        "unit": 1,
+        "start": 221,
+        "end": 228
+      },
+      {
+        "value": "without",
+        "unit": 1,
+        "start": 229,
+        "end": 236
+      },
+      {
+        "value": "linking",
+        "unit": 1,
+        "start": 237,
+        "end": 244
+      },
+      {
+        "value": "purchases",
+        "unit": 1,
+        "start": 245,
+        "end": 254
+      },
+      {
+        "value": "to",
+        "unit": 1,
+        "start": 255,
+        "end": 257
+      },
+      {
+        "value": "individual",
+        "unit": 1,
+        "start": 258,
+        "end": 268
+      },
+      {
+        "value": "customers",
+        "unit": 1,
+        "start": 269,
+        "end": 278
+      },
+      {
+        "value": "after",
+        "unit": 1,
+        "start": 280,
+        "end": 285
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 286,
+        "end": 287
+      },
+      {
+        "value": "fortnight",
+        "unit": 1,
+        "start": 288,
+        "end": 297
+      },
+      {
+        "value": "dough",
+        "unit": 1,
+        "start": 299,
+        "end": 304
+      },
+      {
+        "value": "batches",
+        "unit": 1,
+        "start": 305,
+        "end": 312
+      },
+      {
+        "value": "for",
+        "unit": 1,
+        "start": 313,
+        "end": 316
+      },
+      {
+        "value": "slow",
+        "unit": 1,
+        "start": 317,
+        "end": 321
+      },
+      {
+        "value": "weekday",
+        "unit": 1,
+        "start": 322,
+        "end": 329
+      },
+      {
+        "value": "afternoons",
+        "unit": 1,
+        "start": 330,
+        "end": 340
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 341,
+        "end": 344
+      },
+      {
+        "value": "be",
+        "unit": 1,
+        "start": 345,
+        "end": 347
+      },
+      {
+        "value": "reduced",
+        "unit": 1,
+        "start": 348,
+        "end": 355
+      },
+      {
+        "value": "while",
+        "unit": 1,
+        "start": 356,
+        "end": 361
+      },
+      {
+        "value": "weekend",
+        "unit": 1,
+        "start": 362,
+        "end": 369
+      },
+      {
+        "value": "production",
+        "unit": 1,
+        "start": 370,
+        "end": 380
+      },
+      {
+        "value": "remains",
+        "unit": 1,
+        "start": 381,
+        "end": 388
+      },
+      {
+        "value": "unchanged",
+        "unit": 1,
+        "start": 389,
+        "end": 398
+      },
+      {
+        "value": "weather",
+        "unit": 1,
+        "start": 401,
+        "end": 408
+      },
+      {
+        "value": "and",
+        "unit": 1,
+        "start": 409,
+        "end": 412
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 413,
+        "end": 414
+      },
+      {
+        "value": "neighbouring",
+        "unit": 1,
+        "start": 415,
+        "end": 427
+      },
+      {
+        "value": "school",
+        "unit": 1,
+        "start": 428,
+        "end": 434
+      },
+      {
+        "value": "holiday",
+        "unit": 1,
+        "start": 435,
+        "end": 442
+      },
+      {
+        "value": "could",
+        "unit": 1,
+        "start": 443,
+        "end": 448
+      },
+      {
+        "value": "distort",
+        "unit": 1,
+        "start": 449,
+        "end": 456
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 457,
+        "end": 460
+      },
+      {
+        "value": "short",
+        "unit": 1,
+        "start": 461,
+        "end": 466
+      },
+      {
+        "value": "trial",
+        "unit": 1,
+        "start": 467,
+        "end": 472
+      },
+      {
+        "value": "so",
+        "unit": 1,
+        "start": 474,
+        "end": 476
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 477,
+        "end": 480
+      },
+      {
+        "value": "tally",
+        "unit": 1,
+        "start": 481,
+        "end": 486
+      },
+      {
+        "value": "should",
+        "unit": 1,
+        "start": 487,
+        "end": 493
+      },
+      {
+        "value": "include",
+        "unit": 1,
+        "start": 494,
+        "end": 501
+      },
+      {
+        "value": "those",
+        "unit": 1,
+        "start": 502,
+        "end": 507
+      },
+      {
+        "value": "circumstances",
+        "unit": 1,
+        "start": 508,
+        "end": 521
+      },
+      {
+        "value": "in",
+        "unit": 1,
+        "start": 522,
+        "end": 524
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 525,
+        "end": 526
+      },
+      {
+        "value": "margin",
+        "unit": 1,
+        "start": 527,
+        "end": 533
+      },
+      {
+        "value": "note",
+        "unit": 1,
+        "start": 534,
+        "end": 538
+      },
+      {
+        "value": "donating",
+        "unit": 1,
+        "start": 540,
+        "end": 548
+      },
+      {
+        "value": "edible",
+        "unit": 1,
+        "start": 549,
+        "end": 555
+      },
+      {
+        "value": "leftovers",
+        "unit": 1,
+        "start": 556,
+        "end": 565
+      },
+      {
+        "value": "must",
+        "unit": 1,
+        "start": 566,
+        "end": 570
+      },
+      {
+        "value": "remain",
+        "unit": 1,
+        "start": 571,
+        "end": 577
+      },
+      {
+        "value": "an",
+        "unit": 1,
+        "start": 578,
+        "end": 580
+      },
+      {
+        "value": "option",
+        "unit": 1,
+        "start": 581,
+        "end": 587
+      },
+      {
+        "value": "while",
+        "unit": 1,
+        "start": 588,
+        "end": 593
+      },
+      {
+        "value": "production",
+        "unit": 1,
+        "start": 594,
+        "end": 604
+      },
+      {
+        "value": "is",
+        "unit": 1,
+        "start": 605,
+        "end": 607
+      },
+      {
+        "value": "adjusted",
+        "unit": 1,
+        "start": 608,
+        "end": 616
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 618,
+        "end": 619
+      },
+      {
+        "value": "reduction",
+        "unit": 1,
+        "start": 620,
+        "end": 629
+      },
+      {
+        "value": "in",
+        "unit": 1,
+        "start": 630,
+        "end": 632
+      },
+      {
+        "value": "waste",
+        "unit": 1,
+        "start": 633,
+        "end": 638
+      },
+      {
+        "value": "accompanied",
+        "unit": 1,
+        "start": 639,
+        "end": 650
+      },
+      {
+        "value": "by",
+        "unit": 1,
+        "start": 651,
+        "end": 653
+      },
+      {
+        "value": "repeated",
+        "unit": 1,
+        "start": 654,
+        "end": 662
+      },
+      {
+        "value": "stockouts",
+        "unit": 1,
+        "start": 663,
+        "end": 672
+      },
+      {
+        "value": "would",
+        "unit": 1,
+        "start": 673,
+        "end": 678
+      },
+      {
+        "value": "count",
+        "unit": 1,
+        "start": 679,
+        "end": 684
+      },
+      {
+        "value": "as",
+        "unit": 1,
+        "start": 685,
+        "end": 687
+      },
+      {
+        "value": "failure",
+        "unit": 1,
+        "start": 688,
+        "end": 695
+      },
+      {
+        "value": "because",
+        "unit": 1,
+        "start": 697,
+        "end": 704
+      },
+      {
+        "value": "discarded",
+        "unit": 1,
+        "start": 705,
+        "end": 714
+      },
+      {
+        "value": "weight",
+        "unit": 1,
+        "start": 715,
+        "end": 721
+      },
+      {
+        "value": "alone",
+        "unit": 1,
+        "start": 722,
+        "end": 727
+      },
+      {
+        "value": "rewards",
+        "unit": 1,
+        "start": 728,
+        "end": 735
+      },
+      {
+        "value": "underproduction",
+        "unit": 1,
+        "start": 736,
+        "end": 751
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 753,
+        "end": 756
+      },
+      {
+        "value": "baker",
+        "unit": 1,
+        "start": 757,
+        "end": 762
+      },
+      {
+        "value": "should",
+        "unit": 1,
+        "start": 763,
+        "end": 769
+      },
+      {
+        "value": "compare",
+        "unit": 1,
+        "start": 770,
+        "end": 777
+      },
+      {
+        "value": "both",
+        "unit": 1,
+        "start": 778,
+        "end": 782
+      },
+      {
+        "value": "leftovers",
+        "unit": 1,
+        "start": 783,
+        "end": 792
+      },
+      {
+        "value": "and",
+        "unit": 1,
+        "start": 793,
+        "end": 796
+      },
+      {
+        "value": "unfilled",
+        "unit": 1,
+        "start": 797,
+        "end": 805
+      },
+      {
+        "value": "requests",
+        "unit": 1,
+        "start": 806,
+        "end": 814
+      },
+      {
+        "value": "before",
+        "unit": 1,
+        "start": 815,
+        "end": 821
+      },
+      {
+        "value": "continuing",
+        "unit": 1,
+        "start": 822,
+        "end": 832
+      },
+      {
+        "value": "feedback",
+        "unit": 1,
+        "start": 834,
+        "end": 842
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 843,
+        "end": 846
+      },
+      {
+        "value": "come",
+        "unit": 1,
+        "start": 847,
+        "end": 851
+      },
+      {
+        "value": "from",
+        "unit": 1,
+        "start": 852,
+        "end": 856
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 857,
+        "end": 858
+      },
+      {
+        "value": "small",
+        "unit": 1,
+        "start": 859,
+        "end": 864
+      },
+      {
+        "value": "basket",
+        "unit": 1,
+        "start": 865,
+        "end": 871
+      },
+      {
+        "value": "of",
+        "unit": 1,
+        "start": 872,
+        "end": 874
+      },
+      {
+        "value": "paper",
+        "unit": 1,
+        "start": 875,
+        "end": 880
+      },
+      {
+        "value": "comments",
+        "unit": 1,
+        "start": 881,
+        "end": 889
+      },
+      {
+        "value": "near",
+        "unit": 1,
+        "start": 890,
+        "end": 894
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 895,
+        "end": 898
+      },
+      {
+        "value": "counter",
+        "unit": 1,
+        "start": 899,
+        "end": 906
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 908,
+        "end": 911
+      },
+      {
+        "value": "proposed",
+        "unit": 1,
+        "start": 912,
+        "end": 920
+      },
+      {
+        "value": "intervention",
+        "unit": 1,
+        "start": 921,
+        "end": 933
+      },
+      {
+        "value": "is",
+        "unit": 1,
+        "start": 934,
+        "end": 936
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 937,
+        "end": 938
+      },
+      {
+        "value": "production",
+        "unit": 1,
+        "start": 939,
+        "end": 949
+      },
+      {
+        "value": "scheduling",
+        "unit": 1,
+        "start": 950,
+        "end": 960
+      },
+      {
+        "value": "change",
+        "unit": 1,
+        "start": 961,
+        "end": 967
+      },
+      {
+        "value": "that",
+        "unit": 1,
+        "start": 968,
+        "end": 972
+      },
+      {
+        "value": "uses",
+        "unit": 1,
+        "start": 973,
+        "end": 977
+      },
+      {
+        "value": "equipment",
+        "unit": 1,
+        "start": 978,
+        "end": 987
+      },
+      {
+        "value": "already",
+        "unit": 1,
+        "start": 988,
+        "end": 995
+      },
+      {
+        "value": "present",
+        "unit": 1,
+        "start": 996,
+        "end": 1003
+      },
+      {
+        "value": "in",
+        "unit": 1,
+        "start": 1004,
+        "end": 1006
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 1007,
+        "end": 1010
+      },
+      {
+        "value": "shop",
+        "unit": 1,
+        "start": 1011,
+        "end": 1015
+      }
+    ],
+    "excluded": {
+      "0": "configured_common_prompt",
+      "1": "configured_common_prompt",
+      "2": "configured_common_prompt",
+      "3": "configured_common_prompt",
+      "4": "configured_common_prompt",
+      "5": "configured_common_prompt",
+      "6": "configured_common_prompt",
+      "7": "configured_common_prompt",
+      "8": "configured_common_prompt",
+      "9": "configured_common_prompt",
+      "10": "configured_common_prompt",
+      "11": "configured_common_prompt",
+      "12": "configured_common_prompt",
+      "13": "configured_common_prompt",
+      "14": "configured_common_prompt",
+      "15": "configured_common_prompt",
+      "16": "configured_common_prompt",
+      "17": "configured_common_prompt",
+      "18": "configured_common_prompt",
+      "19": "configured_common_prompt",
+      "20": "configured_common_prompt",
+      "21": "configured_common_prompt",
+      "22": "configured_common_prompt",
+      "23": "configured_common_prompt",
+      "24": "configured_common_prompt",
+      "25": "configured_common_prompt",
+      "26": "configured_common_prompt",
+      "27": "configured_common_prompt",
+      "28": "configured_common_prompt",
+      "29": "configured_common_prompt",
+      "30": "configured_common_prompt",
+      "31": "configured_common_prompt",
+      "32": "configured_common_prompt",
+      "33": "configured_common_prompt",
+      "34": "configured_common_prompt",
+      "35": "configured_common_prompt",
+      "36": "configured_common_prompt",
+      "37": "configured_common_prompt",
+      "38": "configured_common_prompt",
+      "39": "configured_common_prompt",
+      "40": "configured_common_prompt",
+      "41": "configured_common_prompt",
+      "42": "configured_common_prompt",
+      "43": "configured_common_prompt",
+      "44": "configured_common_prompt",
+      "45": "configured_common_prompt",
+      "46": "configured_common_prompt",
+      "47": "configured_common_prompt",
+      "48": "configured_common_prompt",
+      "49": "configured_common_prompt",
+      "50": "configured_common_prompt",
+      "51": "configured_common_prompt",
+      "52": "configured_common_prompt",
+      "53": "configured_common_prompt",
+      "54": "configured_common_prompt",
+      "55": "configured_common_prompt",
+      "56": "configured_common_prompt",
+      "57": "configured_common_prompt",
+      "58": "configured_common_prompt",
+      "59": "configured_common_prompt",
+      "60": "configured_common_prompt",
+      "61": "configured_common_prompt",
+      "62": "configured_common_prompt",
+      "63": "configured_common_prompt",
+      "64": "configured_common_prompt",
+      "65": "configured_common_prompt",
+      "66": "configured_common_prompt",
+      "67": "configured_common_prompt",
+      "68": "configured_common_prompt",
+      "69": "configured_common_prompt",
+      "70": "configured_common_prompt",
+      "71": "configured_common_prompt",
+      "72": "configured_common_prompt",
+      "73": "configured_common_prompt",
+      "74": "configured_common_prompt",
+      "75": "configured_common_prompt",
+      "76": "configured_common_prompt",
+      "77": "configured_common_prompt",
+      "78": "configured_common_prompt",
+      "79": "configured_common_prompt",
+      "80": "configured_common_prompt",
+      "81": "configured_common_prompt",
+      "82": "configured_common_prompt",
+      "83": "configured_common_prompt",
+      "84": "configured_common_prompt",
+      "85": "configured_common_prompt",
+      "86": "configured_common_prompt",
+      "87": "configured_common_prompt",
+      "88": "configured_common_prompt",
+      "89": "configured_common_prompt",
+      "90": "configured_common_prompt",
+      "91": "configured_common_prompt",
+      "92": "configured_common_prompt",
+      "93": "configured_common_prompt",
+      "94": "configured_common_prompt",
+      "95": "configured_common_prompt",
+      "96": "configured_common_prompt",
+      "97": "configured_common_prompt",
+      "98": "configured_common_prompt",
+      "99": "configured_common_prompt",
+      "100": "configured_common_prompt",
+      "101": "configured_common_prompt",
+      "102": "configured_common_prompt",
+      "103": "configured_common_prompt",
+      "104": "configured_common_prompt",
+      "105": "configured_common_prompt",
+      "106": "configured_common_prompt",
+      "107": "configured_common_prompt",
+      "108": "configured_common_prompt",
+      "109": "configured_common_prompt",
+      "110": "configured_common_prompt",
+      "111": "configured_common_prompt",
+      "112": "configured_common_prompt",
+      "113": "configured_common_prompt",
+      "114": "configured_common_prompt",
+      "115": "configured_common_prompt",
+      "116": "configured_common_prompt",
+      "117": "configured_common_prompt",
+      "118": "configured_common_prompt",
+      "119": "configured_common_prompt",
+      "120": "configured_common_prompt",
+      "121": "configured_common_prompt",
+      "122": "configured_common_prompt",
+      "123": "configured_common_prompt",
+      "124": "configured_common_prompt",
+      "125": "configured_common_prompt",
+      "126": "configured_common_prompt",
+      "127": "configured_common_prompt",
+      "128": "configured_common_prompt",
+      "129": "configured_common_prompt",
+      "130": "configured_common_prompt",
+      "131": "configured_common_prompt",
+      "132": "configured_common_prompt",
+      "133": "configured_common_prompt",
+      "134": "configured_common_prompt",
+      "135": "configured_common_prompt",
+      "136": "configured_common_prompt",
+      "137": "configured_common_prompt",
+      "138": "configured_common_prompt",
+      "139": "configured_common_prompt",
+      "140": "configured_common_prompt",
+      "141": "configured_common_prompt",
+      "142": "configured_common_prompt",
+      "143": "configured_common_prompt",
+      "144": "configured_common_prompt",
+      "145": "configured_common_prompt",
+      "146": "configured_common_prompt",
+      "147": "configured_common_prompt",
+      "148": "configured_common_prompt",
+      "149": "configured_common_prompt",
+      "150": "configured_common_prompt"
+    }
+  },
+  "prompt_copy_b.docx": {
+    "document_id": "prompt_copy_b.docx",
+    "kind": "docx",
+    "sha256": "65e00f7251307ac30195e41793a32d56171b88c4d136cae83d4a2751609390da",
+    "status": "ok",
+    "units": [
+      {
+        "text": "Riverton University invites teams to design a practical improvement for a small community institution. The institution has limited money, uncertain demand, and a responsibility to serve residents fairly. Your proposal should identify one operational problem, explain why existing practices are inadequate, and recommend an intervention that can be tested within one academic term. State the assumptions behind your analysis and explain which observations would cause you to change your recommendation. Include a way to measure progress without collecting unnecessary personal information. Discuss an implementation risk, a possible unintended consequence, and a low cost method for gathering feedback. The evaluation panel values clear reasoning over ambitious technology. Teams may use simple schedules, physical tools, or public information where appropriate. Do not assume that additional staff, permanent subsidies, or expensive equipment will become available. Conclude by explaining how the institution could decide whether to continue, adapt, or stop the proposed pilot after review.",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      },
+      {
+        "text": "The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.\n\nWeather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near the counter. The proposed intervention is a production scheduling change that uses equipment already present in the shop.",
+        "location": {
+          "paragraph": 2,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "riverton",
+        "unit": 0,
+        "start": 0,
+        "end": 8
+      },
+      {
+        "value": "university",
+        "unit": 0,
+        "start": 9,
+        "end": 19
+      },
+      {
+        "value": "invites",
+        "unit": 0,
+        "start": 20,
+        "end": 27
+      },
+      {
+        "value": "teams",
+        "unit": 0,
+        "start": 28,
+        "end": 33
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 34,
+        "end": 36
+      },
+      {
+        "value": "design",
+        "unit": 0,
+        "start": 37,
+        "end": 43
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 44,
+        "end": 45
+      },
+      {
+        "value": "practical",
+        "unit": 0,
+        "start": 46,
+        "end": 55
+      },
+      {
+        "value": "improvement",
+        "unit": 0,
+        "start": 56,
+        "end": 67
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 68,
+        "end": 71
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 72,
+        "end": 73
+      },
+      {
+        "value": "small",
+        "unit": 0,
+        "start": 74,
+        "end": 79
+      },
+      {
+        "value": "community",
+        "unit": 0,
+        "start": 80,
+        "end": 89
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 90,
+        "end": 101
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 103,
+        "end": 106
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 107,
+        "end": 118
+      },
+      {
+        "value": "has",
+        "unit": 0,
+        "start": 119,
+        "end": 122
+      },
+      {
+        "value": "limited",
+        "unit": 0,
+        "start": 123,
+        "end": 130
+      },
+      {
+        "value": "money",
+        "unit": 0,
+        "start": 131,
+        "end": 136
+      },
+      {
+        "value": "uncertain",
+        "unit": 0,
+        "start": 138,
+        "end": 147
+      },
+      {
+        "value": "demand",
+        "unit": 0,
+        "start": 148,
+        "end": 154
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 156,
+        "end": 159
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 160,
+        "end": 161
+      },
+      {
+        "value": "responsibility",
+        "unit": 0,
+        "start": 162,
+        "end": 176
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 177,
+        "end": 179
+      },
+      {
+        "value": "serve",
+        "unit": 0,
+        "start": 180,
+        "end": 185
+      },
+      {
+        "value": "residents",
+        "unit": 0,
+        "start": 186,
+        "end": 195
+      },
+      {
+        "value": "fairly",
+        "unit": 0,
+        "start": 196,
+        "end": 202
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 204,
+        "end": 208
+      },
+      {
+        "value": "proposal",
+        "unit": 0,
+        "start": 209,
+        "end": 217
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 218,
+        "end": 224
+      },
+      {
+        "value": "identify",
+        "unit": 0,
+        "start": 225,
+        "end": 233
+      },
+      {
+        "value": "one",
+        "unit": 0,
+        "start": 234,
+        "end": 237
+      },
+      {
+        "value": "operational",
+        "unit": 0,
+        "start": 238,
+        "end": 249
+      },
+      {
+        "value": "problem",
+        "unit": 0,
+        "start": 250,
+        "end": 257
+      },
+      {
+        "value": "explain",
+        "unit": 0,
+        "start": 259,
+        "end": 266
+      },
+      {
+        "value": "why",
+        "unit": 0,
+        "start": 267,
+        "end": 270
+      },
+      {
+        "value": "existing",
+        "unit": 0,
+        "start": 271,
+        "end": 279
+      },
+      {
+        "value": "practices",
+        "unit": 0,
+        "start": 280,
+        "end": 289
+      },
+      {
+        "value": "are",
+        "unit": 0,
+        "start": 290,
+        "end": 293
+      },
+      {
+        "value": "inadequate",
+        "unit": 0,
+        "start": 294,
+        "end": 304
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 306,
+        "end": 309
+      },
+      {
+        "value": "recommend",
+        "unit": 0,
+        "start": 310,
+        "end": 319
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 320,
+        "end": 322
+      },
+      {
+        "value": "intervention",
+        "unit": 0,
+        "start": 323,
+        "end": 335
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 336,
+        "end": 340
+      },
+      {
+        "value": "can",
+        "unit": 0,
+        "start": 341,
+        "end": 344
+      },
+      {
+        "value": "be",
+        "unit": 0,
+        "start": 345,
+        "end": 347
+      },
+      {
+        "value": "tested",
+        "unit": 0,
+        "start": 348,
+        "end": 354
+      },
+      {
+        "value": "within",
+        "unit": 0,
+        "start": 355,
+        "end": 361
+      },
+      {
+        "value": "one",
+        "unit": 0,
+        "start": 362,
+        "end": 365
+      },
+      {
+        "value": "academic",
+        "unit": 0,
+        "start": 366,
+        "end": 374
+      },
+      {
+        "value": "term",
+        "unit": 0,
+        "start": 375,
+        "end": 379
+      },
+      {
+        "value": "state",
+        "unit": 0,
+        "start": 381,
+        "end": 386
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 387,
+        "end": 390
+      },
+      {
+        "value": "assumptions",
+        "unit": 0,
+        "start": 391,
+        "end": 402
+      },
+      {
+        "value": "behind",
+        "unit": 0,
+        "start": 403,
+        "end": 409
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 410,
+        "end": 414
+      },
+      {
+        "value": "analysis",
+        "unit": 0,
+        "start": 415,
+        "end": 423
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 424,
+        "end": 427
+      },
+      {
+        "value": "explain",
+        "unit": 0,
+        "start": 428,
+        "end": 435
+      },
+      {
+        "value": "which",
+        "unit": 0,
+        "start": 436,
+        "end": 441
+      },
+      {
+        "value": "observations",
+        "unit": 0,
+        "start": 442,
+        "end": 454
+      },
+      {
+        "value": "would",
+        "unit": 0,
+        "start": 455,
+        "end": 460
+      },
+      {
+        "value": "cause",
+        "unit": 0,
+        "start": 461,
+        "end": 466
+      },
+      {
+        "value": "you",
+        "unit": 0,
+        "start": 467,
+        "end": 470
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 471,
+        "end": 473
+      },
+      {
+        "value": "change",
+        "unit": 0,
+        "start": 474,
+        "end": 480
+      },
+      {
+        "value": "your",
+        "unit": 0,
+        "start": 481,
+        "end": 485
+      },
+      {
+        "value": "recommendation",
+        "unit": 0,
+        "start": 486,
+        "end": 500
+      },
+      {
+        "value": "include",
+        "unit": 0,
+        "start": 502,
+        "end": 509
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 510,
+        "end": 511
+      },
+      {
+        "value": "way",
+        "unit": 0,
+        "start": 512,
+        "end": 515
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 516,
+        "end": 518
+      },
+      {
+        "value": "measure",
+        "unit": 0,
+        "start": 519,
+        "end": 526
+      },
+      {
+        "value": "progress",
+        "unit": 0,
+        "start": 527,
+        "end": 535
+      },
+      {
+        "value": "without",
+        "unit": 0,
+        "start": 536,
+        "end": 543
+      },
+      {
+        "value": "collecting",
+        "unit": 0,
+        "start": 544,
+        "end": 554
+      },
+      {
+        "value": "unnecessary",
+        "unit": 0,
+        "start": 555,
+        "end": 566
+      },
+      {
+        "value": "personal",
+        "unit": 0,
+        "start": 567,
+        "end": 575
+      },
+      {
+        "value": "information",
+        "unit": 0,
+        "start": 576,
+        "end": 587
+      },
+      {
+        "value": "discuss",
+        "unit": 0,
+        "start": 589,
+        "end": 596
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 597,
+        "end": 599
+      },
+      {
+        "value": "implementation",
+        "unit": 0,
+        "start": 600,
+        "end": 614
+      },
+      {
+        "value": "risk",
+        "unit": 0,
+        "start": 615,
+        "end": 619
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 621,
+        "end": 622
+      },
+      {
+        "value": "possible",
+        "unit": 0,
+        "start": 623,
+        "end": 631
+      },
+      {
+        "value": "unintended",
+        "unit": 0,
+        "start": 632,
+        "end": 642
+      },
+      {
+        "value": "consequence",
+        "unit": 0,
+        "start": 643,
+        "end": 654
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 656,
+        "end": 659
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 660,
+        "end": 661
+      },
+      {
+        "value": "low",
+        "unit": 0,
+        "start": 662,
+        "end": 665
+      },
+      {
+        "value": "cost",
+        "unit": 0,
+        "start": 666,
+        "end": 670
+      },
+      {
+        "value": "method",
+        "unit": 0,
+        "start": 671,
+        "end": 677
+      },
+      {
+        "value": "for",
+        "unit": 0,
+        "start": 678,
+        "end": 681
+      },
+      {
+        "value": "gathering",
+        "unit": 0,
+        "start": 682,
+        "end": 691
+      },
+      {
+        "value": "feedback",
+        "unit": 0,
+        "start": 692,
+        "end": 700
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 702,
+        "end": 705
+      },
+      {
+        "value": "evaluation",
+        "unit": 0,
+        "start": 706,
+        "end": 716
+      },
+      {
+        "value": "panel",
+        "unit": 0,
+        "start": 717,
+        "end": 722
+      },
+      {
+        "value": "values",
+        "unit": 0,
+        "start": 723,
+        "end": 729
+      },
+      {
+        "value": "clear",
+        "unit": 0,
+        "start": 730,
+        "end": 735
+      },
+      {
+        "value": "reasoning",
+        "unit": 0,
+        "start": 736,
+        "end": 745
+      },
+      {
+        "value": "over",
+        "unit": 0,
+        "start": 746,
+        "end": 750
+      },
+      {
+        "value": "ambitious",
+        "unit": 0,
+        "start": 751,
+        "end": 760
+      },
+      {
+        "value": "technology",
+        "unit": 0,
+        "start": 761,
+        "end": 771
+      },
+      {
+        "value": "teams",
+        "unit": 0,
+        "start": 773,
+        "end": 778
+      },
+      {
+        "value": "may",
+        "unit": 0,
+        "start": 779,
+        "end": 782
+      },
+      {
+        "value": "use",
+        "unit": 0,
+        "start": 783,
+        "end": 786
+      },
+      {
+        "value": "simple",
+        "unit": 0,
+        "start": 787,
+        "end": 793
+      },
+      {
+        "value": "schedules",
+        "unit": 0,
+        "start": 794,
+        "end": 803
+      },
+      {
+        "value": "physical",
+        "unit": 0,
+        "start": 805,
+        "end": 813
+      },
+      {
+        "value": "tools",
+        "unit": 0,
+        "start": 814,
+        "end": 819
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 821,
+        "end": 823
+      },
+      {
+        "value": "public",
+        "unit": 0,
+        "start": 824,
+        "end": 830
+      },
+      {
+        "value": "information",
+        "unit": 0,
+        "start": 831,
+        "end": 842
+      },
+      {
+        "value": "where",
+        "unit": 0,
+        "start": 843,
+        "end": 848
+      },
+      {
+        "value": "appropriate",
+        "unit": 0,
+        "start": 849,
+        "end": 860
+      },
+      {
+        "value": "do",
+        "unit": 0,
+        "start": 862,
+        "end": 864
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 865,
+        "end": 868
+      },
+      {
+        "value": "assume",
+        "unit": 0,
+        "start": 869,
+        "end": 875
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 876,
+        "end": 880
+      },
+      {
+        "value": "additional",
+        "unit": 0,
+        "start": 881,
+        "end": 891
+      },
+      {
+        "value": "staff",
+        "unit": 0,
+        "start": 892,
+        "end": 897
+      },
+      {
+        "value": "permanent",
+        "unit": 0,
+        "start": 899,
+        "end": 908
+      },
+      {
+        "value": "subsidies",
+        "unit": 0,
+        "start": 909,
+        "end": 918
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 920,
+        "end": 922
+      },
+      {
+        "value": "expensive",
+        "unit": 0,
+        "start": 923,
+        "end": 932
+      },
+      {
+        "value": "equipment",
+        "unit": 0,
+        "start": 933,
+        "end": 942
+      },
+      {
+        "value": "will",
+        "unit": 0,
+        "start": 943,
+        "end": 947
+      },
+      {
+        "value": "become",
+        "unit": 0,
+        "start": 948,
+        "end": 954
+      },
+      {
+        "value": "available",
+        "unit": 0,
+        "start": 955,
+        "end": 964
+      },
+      {
+        "value": "conclude",
+        "unit": 0,
+        "start": 966,
+        "end": 974
+      },
+      {
+        "value": "by",
+        "unit": 0,
+        "start": 975,
+        "end": 977
+      },
+      {
+        "value": "explaining",
+        "unit": 0,
+        "start": 978,
+        "end": 988
+      },
+      {
+        "value": "how",
+        "unit": 0,
+        "start": 989,
+        "end": 992
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 993,
+        "end": 996
+      },
+      {
+        "value": "institution",
+        "unit": 0,
+        "start": 997,
+        "end": 1008
+      },
+      {
+        "value": "could",
+        "unit": 0,
+        "start": 1009,
+        "end": 1014
+      },
+      {
+        "value": "decide",
+        "unit": 0,
+        "start": 1015,
+        "end": 1021
+      },
+      {
+        "value": "whether",
+        "unit": 0,
+        "start": 1022,
+        "end": 1029
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 1030,
+        "end": 1032
+      },
+      {
+        "value": "continue",
+        "unit": 0,
+        "start": 1033,
+        "end": 1041
+      },
+      {
+        "value": "adapt",
+        "unit": 0,
+        "start": 1043,
+        "end": 1048
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 1050,
+        "end": 1052
+      },
+      {
+        "value": "stop",
+        "unit": 0,
+        "start": 1053,
+        "end": 1057
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 1058,
+        "end": 1061
+      },
+      {
+        "value": "proposed",
+        "unit": 0,
+        "start": 1062,
+        "end": 1070
+      },
+      {
+        "value": "pilot",
+        "unit": 0,
+        "start": 1071,
+        "end": 1076
+      },
+      {
+        "value": "after",
+        "unit": 0,
+        "start": 1077,
+        "end": 1082
+      },
+      {
+        "value": "review",
+        "unit": 0,
+        "start": 1083,
+        "end": 1089
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 0,
+        "end": 3
+      },
+      {
+        "value": "community",
+        "unit": 1,
+        "start": 4,
+        "end": 13
+      },
+      {
+        "value": "bakery",
+        "unit": 1,
+        "start": 14,
+        "end": 20
+      },
+      {
+        "value": "discards",
+        "unit": 1,
+        "start": 21,
+        "end": 29
+      },
+      {
+        "value": "unsold",
+        "unit": 1,
+        "start": 30,
+        "end": 36
+      },
+      {
+        "value": "bread",
+        "unit": 1,
+        "start": 37,
+        "end": 42
+      },
+      {
+        "value": "at",
+        "unit": 1,
+        "start": 43,
+        "end": 45
+      },
+      {
+        "value": "closing",
+        "unit": 1,
+        "start": 46,
+        "end": 53
+      },
+      {
+        "value": "but",
+        "unit": 1,
+        "start": 55,
+        "end": 58
+      },
+      {
+        "value": "baking",
+        "unit": 1,
+        "start": 59,
+        "end": 65
+      },
+      {
+        "value": "less",
+        "unit": 1,
+        "start": 66,
+        "end": 70
+      },
+      {
+        "value": "every",
+        "unit": 1,
+        "start": 71,
+        "end": 76
+      },
+      {
+        "value": "day",
+        "unit": 1,
+        "start": 77,
+        "end": 80
+      },
+      {
+        "value": "could",
+        "unit": 1,
+        "start": 81,
+        "end": 86
+      },
+      {
+        "value": "leave",
+        "unit": 1,
+        "start": 87,
+        "end": 92
+      },
+      {
+        "value": "weekend",
+        "unit": 1,
+        "start": 93,
+        "end": 100
+      },
+      {
+        "value": "customers",
+        "unit": 1,
+        "start": 101,
+        "end": 110
+      },
+      {
+        "value": "empty",
+        "unit": 1,
+        "start": 111,
+        "end": 116
+      },
+      {
+        "value": "handed",
+        "unit": 1,
+        "start": 117,
+        "end": 123
+      },
+      {
+        "value": "i",
+        "unit": 1,
+        "start": 125,
+        "end": 126
+      },
+      {
+        "value": "propose",
+        "unit": 1,
+        "start": 127,
+        "end": 134
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 135,
+        "end": 136
+      },
+      {
+        "value": "two",
+        "unit": 1,
+        "start": 137,
+        "end": 140
+      },
+      {
+        "value": "colour",
+        "unit": 1,
+        "start": 141,
+        "end": 147
+      },
+      {
+        "value": "chalkboard",
+        "unit": 1,
+        "start": 148,
+        "end": 158
+      },
+      {
+        "value": "tally",
+        "unit": 1,
+        "start": 159,
+        "end": 164
+      },
+      {
+        "value": "of",
+        "unit": 1,
+        "start": 165,
+        "end": 167
+      },
+      {
+        "value": "early",
+        "unit": 1,
+        "start": 168,
+        "end": 173
+      },
+      {
+        "value": "and",
+        "unit": 1,
+        "start": 174,
+        "end": 177
+      },
+      {
+        "value": "late",
+        "unit": 1,
+        "start": 178,
+        "end": 182
+      },
+      {
+        "value": "sales",
+        "unit": 1,
+        "start": 183,
+        "end": 188
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 190,
+        "end": 193
+      },
+      {
+        "value": "baker",
+        "unit": 1,
+        "start": 194,
+        "end": 199
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 200,
+        "end": 203
+      },
+      {
+        "value": "record",
+        "unit": 1,
+        "start": 204,
+        "end": 210
+      },
+      {
+        "value": "loaves",
+        "unit": 1,
+        "start": 211,
+        "end": 217
+      },
+      {
+        "value": "by",
+        "unit": 1,
+        "start": 218,
+        "end": 220
+      },
+      {
+        "value": "product",
+        "unit": 1,
+        "start": 221,
+        "end": 228
+      },
+      {
+        "value": "without",
+        "unit": 1,
+        "start": 229,
+        "end": 236
+      },
+      {
+        "value": "linking",
+        "unit": 1,
+        "start": 237,
+        "end": 244
+      },
+      {
+        "value": "purchases",
+        "unit": 1,
+        "start": 245,
+        "end": 254
+      },
+      {
+        "value": "to",
+        "unit": 1,
+        "start": 255,
+        "end": 257
+      },
+      {
+        "value": "individual",
+        "unit": 1,
+        "start": 258,
+        "end": 268
+      },
+      {
+        "value": "customers",
+        "unit": 1,
+        "start": 269,
+        "end": 278
+      },
+      {
+        "value": "after",
+        "unit": 1,
+        "start": 280,
+        "end": 285
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 286,
+        "end": 287
+      },
+      {
+        "value": "fortnight",
+        "unit": 1,
+        "start": 288,
+        "end": 297
+      },
+      {
+        "value": "dough",
+        "unit": 1,
+        "start": 299,
+        "end": 304
+      },
+      {
+        "value": "batches",
+        "unit": 1,
+        "start": 305,
+        "end": 312
+      },
+      {
+        "value": "for",
+        "unit": 1,
+        "start": 313,
+        "end": 316
+      },
+      {
+        "value": "slow",
+        "unit": 1,
+        "start": 317,
+        "end": 321
+      },
+      {
+        "value": "weekday",
+        "unit": 1,
+        "start": 322,
+        "end": 329
+      },
+      {
+        "value": "afternoons",
+        "unit": 1,
+        "start": 330,
+        "end": 340
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 341,
+        "end": 344
+      },
+      {
+        "value": "be",
+        "unit": 1,
+        "start": 345,
+        "end": 347
+      },
+      {
+        "value": "reduced",
+        "unit": 1,
+        "start": 348,
+        "end": 355
+      },
+      {
+        "value": "while",
+        "unit": 1,
+        "start": 356,
+        "end": 361
+      },
+      {
+        "value": "weekend",
+        "unit": 1,
+        "start": 362,
+        "end": 369
+      },
+      {
+        "value": "production",
+        "unit": 1,
+        "start": 370,
+        "end": 380
+      },
+      {
+        "value": "remains",
+        "unit": 1,
+        "start": 381,
+        "end": 388
+      },
+      {
+        "value": "unchanged",
+        "unit": 1,
+        "start": 389,
+        "end": 398
+      },
+      {
+        "value": "weather",
+        "unit": 1,
+        "start": 401,
+        "end": 408
+      },
+      {
+        "value": "and",
+        "unit": 1,
+        "start": 409,
+        "end": 412
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 413,
+        "end": 414
+      },
+      {
+        "value": "neighbouring",
+        "unit": 1,
+        "start": 415,
+        "end": 427
+      },
+      {
+        "value": "school",
+        "unit": 1,
+        "start": 428,
+        "end": 434
+      },
+      {
+        "value": "holiday",
+        "unit": 1,
+        "start": 435,
+        "end": 442
+      },
+      {
+        "value": "could",
+        "unit": 1,
+        "start": 443,
+        "end": 448
+      },
+      {
+        "value": "distort",
+        "unit": 1,
+        "start": 449,
+        "end": 456
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 457,
+        "end": 460
+      },
+      {
+        "value": "short",
+        "unit": 1,
+        "start": 461,
+        "end": 466
+      },
+      {
+        "value": "trial",
+        "unit": 1,
+        "start": 467,
+        "end": 472
+      },
+      {
+        "value": "so",
+        "unit": 1,
+        "start": 474,
+        "end": 476
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 477,
+        "end": 480
+      },
+      {
+        "value": "tally",
+        "unit": 1,
+        "start": 481,
+        "end": 486
+      },
+      {
+        "value": "should",
+        "unit": 1,
+        "start": 487,
+        "end": 493
+      },
+      {
+        "value": "include",
+        "unit": 1,
+        "start": 494,
+        "end": 501
+      },
+      {
+        "value": "those",
+        "unit": 1,
+        "start": 502,
+        "end": 507
+      },
+      {
+        "value": "circumstances",
+        "unit": 1,
+        "start": 508,
+        "end": 521
+      },
+      {
+        "value": "in",
+        "unit": 1,
+        "start": 522,
+        "end": 524
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 525,
+        "end": 526
+      },
+      {
+        "value": "margin",
+        "unit": 1,
+        "start": 527,
+        "end": 533
+      },
+      {
+        "value": "note",
+        "unit": 1,
+        "start": 534,
+        "end": 538
+      },
+      {
+        "value": "donating",
+        "unit": 1,
+        "start": 540,
+        "end": 548
+      },
+      {
+        "value": "edible",
+        "unit": 1,
+        "start": 549,
+        "end": 555
+      },
+      {
+        "value": "leftovers",
+        "unit": 1,
+        "start": 556,
+        "end": 565
+      },
+      {
+        "value": "must",
+        "unit": 1,
+        "start": 566,
+        "end": 570
+      },
+      {
+        "value": "remain",
+        "unit": 1,
+        "start": 571,
+        "end": 577
+      },
+      {
+        "value": "an",
+        "unit": 1,
+        "start": 578,
+        "end": 580
+      },
+      {
+        "value": "option",
+        "unit": 1,
+        "start": 581,
+        "end": 587
+      },
+      {
+        "value": "while",
+        "unit": 1,
+        "start": 588,
+        "end": 593
+      },
+      {
+        "value": "production",
+        "unit": 1,
+        "start": 594,
+        "end": 604
+      },
+      {
+        "value": "is",
+        "unit": 1,
+        "start": 605,
+        "end": 607
+      },
+      {
+        "value": "adjusted",
+        "unit": 1,
+        "start": 608,
+        "end": 616
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 618,
+        "end": 619
+      },
+      {
+        "value": "reduction",
+        "unit": 1,
+        "start": 620,
+        "end": 629
+      },
+      {
+        "value": "in",
+        "unit": 1,
+        "start": 630,
+        "end": 632
+      },
+      {
+        "value": "waste",
+        "unit": 1,
+        "start": 633,
+        "end": 638
+      },
+      {
+        "value": "accompanied",
+        "unit": 1,
+        "start": 639,
+        "end": 650
+      },
+      {
+        "value": "by",
+        "unit": 1,
+        "start": 651,
+        "end": 653
+      },
+      {
+        "value": "repeated",
+        "unit": 1,
+        "start": 654,
+        "end": 662
+      },
+      {
+        "value": "stockouts",
+        "unit": 1,
+        "start": 663,
+        "end": 672
+      },
+      {
+        "value": "would",
+        "unit": 1,
+        "start": 673,
+        "end": 678
+      },
+      {
+        "value": "count",
+        "unit": 1,
+        "start": 679,
+        "end": 684
+      },
+      {
+        "value": "as",
+        "unit": 1,
+        "start": 685,
+        "end": 687
+      },
+      {
+        "value": "failure",
+        "unit": 1,
+        "start": 688,
+        "end": 695
+      },
+      {
+        "value": "because",
+        "unit": 1,
+        "start": 697,
+        "end": 704
+      },
+      {
+        "value": "discarded",
+        "unit": 1,
+        "start": 705,
+        "end": 714
+      },
+      {
+        "value": "weight",
+        "unit": 1,
+        "start": 715,
+        "end": 721
+      },
+      {
+        "value": "alone",
+        "unit": 1,
+        "start": 722,
+        "end": 727
+      },
+      {
+        "value": "rewards",
+        "unit": 1,
+        "start": 728,
+        "end": 735
+      },
+      {
+        "value": "underproduction",
+        "unit": 1,
+        "start": 736,
+        "end": 751
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 753,
+        "end": 756
+      },
+      {
+        "value": "baker",
+        "unit": 1,
+        "start": 757,
+        "end": 762
+      },
+      {
+        "value": "should",
+        "unit": 1,
+        "start": 763,
+        "end": 769
+      },
+      {
+        "value": "compare",
+        "unit": 1,
+        "start": 770,
+        "end": 777
+      },
+      {
+        "value": "both",
+        "unit": 1,
+        "start": 778,
+        "end": 782
+      },
+      {
+        "value": "leftovers",
+        "unit": 1,
+        "start": 783,
+        "end": 792
+      },
+      {
+        "value": "and",
+        "unit": 1,
+        "start": 793,
+        "end": 796
+      },
+      {
+        "value": "unfilled",
+        "unit": 1,
+        "start": 797,
+        "end": 805
+      },
+      {
+        "value": "requests",
+        "unit": 1,
+        "start": 806,
+        "end": 814
+      },
+      {
+        "value": "before",
+        "unit": 1,
+        "start": 815,
+        "end": 821
+      },
+      {
+        "value": "continuing",
+        "unit": 1,
+        "start": 822,
+        "end": 832
+      },
+      {
+        "value": "feedback",
+        "unit": 1,
+        "start": 834,
+        "end": 842
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 843,
+        "end": 846
+      },
+      {
+        "value": "come",
+        "unit": 1,
+        "start": 847,
+        "end": 851
+      },
+      {
+        "value": "from",
+        "unit": 1,
+        "start": 852,
+        "end": 856
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 857,
+        "end": 858
+      },
+      {
+        "value": "small",
+        "unit": 1,
+        "start": 859,
+        "end": 864
+      },
+      {
+        "value": "basket",
+        "unit": 1,
+        "start": 865,
+        "end": 871
+      },
+      {
+        "value": "of",
+        "unit": 1,
+        "start": 872,
+        "end": 874
+      },
+      {
+        "value": "paper",
+        "unit": 1,
+        "start": 875,
+        "end": 880
+      },
+      {
+        "value": "comments",
+        "unit": 1,
+        "start": 881,
+        "end": 889
+      },
+      {
+        "value": "near",
+        "unit": 1,
+        "start": 890,
+        "end": 894
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 895,
+        "end": 898
+      },
+      {
+        "value": "counter",
+        "unit": 1,
+        "start": 899,
+        "end": 906
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 908,
+        "end": 911
+      },
+      {
+        "value": "proposed",
+        "unit": 1,
+        "start": 912,
+        "end": 920
+      },
+      {
+        "value": "intervention",
+        "unit": 1,
+        "start": 921,
+        "end": 933
+      },
+      {
+        "value": "is",
+        "unit": 1,
+        "start": 934,
+        "end": 936
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 937,
+        "end": 938
+      },
+      {
+        "value": "production",
+        "unit": 1,
+        "start": 939,
+        "end": 949
+      },
+      {
+        "value": "scheduling",
+        "unit": 1,
+        "start": 950,
+        "end": 960
+      },
+      {
+        "value": "change",
+        "unit": 1,
+        "start": 961,
+        "end": 967
+      },
+      {
+        "value": "that",
+        "unit": 1,
+        "start": 968,
+        "end": 972
+      },
+      {
+        "value": "uses",
+        "unit": 1,
+        "start": 973,
+        "end": 977
+      },
+      {
+        "value": "equipment",
+        "unit": 1,
+        "start": 978,
+        "end": 987
+      },
+      {
+        "value": "already",
+        "unit": 1,
+        "start": 988,
+        "end": 995
+      },
+      {
+        "value": "present",
+        "unit": 1,
+        "start": 996,
+        "end": 1003
+      },
+      {
+        "value": "in",
+        "unit": 1,
+        "start": 1004,
+        "end": 1006
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 1007,
+        "end": 1010
+      },
+      {
+        "value": "shop",
+        "unit": 1,
+        "start": 1011,
+        "end": 1015
+      }
+    ],
+    "excluded": {
+      "0": "configured_common_prompt",
+      "1": "configured_common_prompt",
+      "2": "configured_common_prompt",
+      "3": "configured_common_prompt",
+      "4": "configured_common_prompt",
+      "5": "configured_common_prompt",
+      "6": "configured_common_prompt",
+      "7": "configured_common_prompt",
+      "8": "configured_common_prompt",
+      "9": "configured_common_prompt",
+      "10": "configured_common_prompt",
+      "11": "configured_common_prompt",
+      "12": "configured_common_prompt",
+      "13": "configured_common_prompt",
+      "14": "configured_common_prompt",
+      "15": "configured_common_prompt",
+      "16": "configured_common_prompt",
+      "17": "configured_common_prompt",
+      "18": "configured_common_prompt",
+      "19": "configured_common_prompt",
+      "20": "configured_common_prompt",
+      "21": "configured_common_prompt",
+      "22": "configured_common_prompt",
+      "23": "configured_common_prompt",
+      "24": "configured_common_prompt",
+      "25": "configured_common_prompt",
+      "26": "configured_common_prompt",
+      "27": "configured_common_prompt",
+      "28": "configured_common_prompt",
+      "29": "configured_common_prompt",
+      "30": "configured_common_prompt",
+      "31": "configured_common_prompt",
+      "32": "configured_common_prompt",
+      "33": "configured_common_prompt",
+      "34": "configured_common_prompt",
+      "35": "configured_common_prompt",
+      "36": "configured_common_prompt",
+      "37": "configured_common_prompt",
+      "38": "configured_common_prompt",
+      "39": "configured_common_prompt",
+      "40": "configured_common_prompt",
+      "41": "configured_common_prompt",
+      "42": "configured_common_prompt",
+      "43": "configured_common_prompt",
+      "44": "configured_common_prompt",
+      "45": "configured_common_prompt",
+      "46": "configured_common_prompt",
+      "47": "configured_common_prompt",
+      "48": "configured_common_prompt",
+      "49": "configured_common_prompt",
+      "50": "configured_common_prompt",
+      "51": "configured_common_prompt",
+      "52": "configured_common_prompt",
+      "53": "configured_common_prompt",
+      "54": "configured_common_prompt",
+      "55": "configured_common_prompt",
+      "56": "configured_common_prompt",
+      "57": "configured_common_prompt",
+      "58": "configured_common_prompt",
+      "59": "configured_common_prompt",
+      "60": "configured_common_prompt",
+      "61": "configured_common_prompt",
+      "62": "configured_common_prompt",
+      "63": "configured_common_prompt",
+      "64": "configured_common_prompt",
+      "65": "configured_common_prompt",
+      "66": "configured_common_prompt",
+      "67": "configured_common_prompt",
+      "68": "configured_common_prompt",
+      "69": "configured_common_prompt",
+      "70": "configured_common_prompt",
+      "71": "configured_common_prompt",
+      "72": "configured_common_prompt",
+      "73": "configured_common_prompt",
+      "74": "configured_common_prompt",
+      "75": "configured_common_prompt",
+      "76": "configured_common_prompt",
+      "77": "configured_common_prompt",
+      "78": "configured_common_prompt",
+      "79": "configured_common_prompt",
+      "80": "configured_common_prompt",
+      "81": "configured_common_prompt",
+      "82": "configured_common_prompt",
+      "83": "configured_common_prompt",
+      "84": "configured_common_prompt",
+      "85": "configured_common_prompt",
+      "86": "configured_common_prompt",
+      "87": "configured_common_prompt",
+      "88": "configured_common_prompt",
+      "89": "configured_common_prompt",
+      "90": "configured_common_prompt",
+      "91": "configured_common_prompt",
+      "92": "configured_common_prompt",
+      "93": "configured_common_prompt",
+      "94": "configured_common_prompt",
+      "95": "configured_common_prompt",
+      "96": "configured_common_prompt",
+      "97": "configured_common_prompt",
+      "98": "configured_common_prompt",
+      "99": "configured_common_prompt",
+      "100": "configured_common_prompt",
+      "101": "configured_common_prompt",
+      "102": "configured_common_prompt",
+      "103": "configured_common_prompt",
+      "104": "configured_common_prompt",
+      "105": "configured_common_prompt",
+      "106": "configured_common_prompt",
+      "107": "configured_common_prompt",
+      "108": "configured_common_prompt",
+      "109": "configured_common_prompt",
+      "110": "configured_common_prompt",
+      "111": "configured_common_prompt",
+      "112": "configured_common_prompt",
+      "113": "configured_common_prompt",
+      "114": "configured_common_prompt",
+      "115": "configured_common_prompt",
+      "116": "configured_common_prompt",
+      "117": "configured_common_prompt",
+      "118": "configured_common_prompt",
+      "119": "configured_common_prompt",
+      "120": "configured_common_prompt",
+      "121": "configured_common_prompt",
+      "122": "configured_common_prompt",
+      "123": "configured_common_prompt",
+      "124": "configured_common_prompt",
+      "125": "configured_common_prompt",
+      "126": "configured_common_prompt",
+      "127": "configured_common_prompt",
+      "128": "configured_common_prompt",
+      "129": "configured_common_prompt",
+      "130": "configured_common_prompt",
+      "131": "configured_common_prompt",
+      "132": "configured_common_prompt",
+      "133": "configured_common_prompt",
+      "134": "configured_common_prompt",
+      "135": "configured_common_prompt",
+      "136": "configured_common_prompt",
+      "137": "configured_common_prompt",
+      "138": "configured_common_prompt",
+      "139": "configured_common_prompt",
+      "140": "configured_common_prompt",
+      "141": "configured_common_prompt",
+      "142": "configured_common_prompt",
+      "143": "configured_common_prompt",
+      "144": "configured_common_prompt",
+      "145": "configured_common_prompt",
+      "146": "configured_common_prompt",
+      "147": "configured_common_prompt",
+      "148": "configured_common_prompt",
+      "149": "configured_common_prompt",
+      "150": "configured_common_prompt"
+    }
+  },
+  "scanned.pdf": {
+    "document_id": "scanned.pdf",
+    "kind": "pdf",
+    "sha256": "d29d9bd3168292e7a59deaab71a41054f615b3880d999982cbeb4efe2b45d09b",
+    "status": "unextractable",
+    "units": [
+      {
+        "text": "",
+        "location": {
+          "page": 1
+        }
+      }
+    ],
+    "warnings": [
+      "Pages [1] have no extractable text; OCR not implemented.",
+      "No extractable text. Scanned PDFs need OCR (not implemented)."
+    ],
+    "metadata": {
+      "page_count": 1,
+      "removed_margins": [],
+      "unextractable_pages": [
+        1
+      ]
+    },
+    "tokens": [],
+    "excluded": {}
+  },
+  "short_copy_a.docx": {
+    "document_id": "short_copy_a.docx",
+    "kind": "docx",
+    "sha256": "bc231a108bc4333bd9d8385f1fca92c1d086ae299e0fc5a21030594c2e1e32bc",
+    "status": "ok",
+    "units": [
+      {
+        "text": "Copper lanterns guide midnight ferries across the frozen estuary.",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      },
+      {
+        "text": "A robotics workshop can teach children to sort coloured blocks by writing simple rules on paper. The session uses cardboard pieces instead of expensive motors. Volunteers can count how many rule cards lead to the intended arrangement. No account registration is needed, and each child can take home the instructions after the exercise. The organiser will compare different teaching sequences during the following school term.",
+        "location": {
+          "paragraph": 2,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "copper",
+        "unit": 0,
+        "start": 0,
+        "end": 6
+      },
+      {
+        "value": "lanterns",
+        "unit": 0,
+        "start": 7,
+        "end": 15
+      },
+      {
+        "value": "guide",
+        "unit": 0,
+        "start": 16,
+        "end": 21
+      },
+      {
+        "value": "midnight",
+        "unit": 0,
+        "start": 22,
+        "end": 30
+      },
+      {
+        "value": "ferries",
+        "unit": 0,
+        "start": 31,
+        "end": 38
+      },
+      {
+        "value": "across",
+        "unit": 0,
+        "start": 39,
+        "end": 45
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 46,
+        "end": 49
+      },
+      {
+        "value": "frozen",
+        "unit": 0,
+        "start": 50,
+        "end": 56
+      },
+      {
+        "value": "estuary",
+        "unit": 0,
+        "start": 57,
+        "end": 64
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 0,
+        "end": 1
+      },
+      {
+        "value": "robotics",
+        "unit": 1,
+        "start": 2,
+        "end": 10
+      },
+      {
+        "value": "workshop",
+        "unit": 1,
+        "start": 11,
+        "end": 19
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 20,
+        "end": 23
+      },
+      {
+        "value": "teach",
+        "unit": 1,
+        "start": 24,
+        "end": 29
+      },
+      {
+        "value": "children",
+        "unit": 1,
+        "start": 30,
+        "end": 38
+      },
+      {
+        "value": "to",
+        "unit": 1,
+        "start": 39,
+        "end": 41
+      },
+      {
+        "value": "sort",
+        "unit": 1,
+        "start": 42,
+        "end": 46
+      },
+      {
+        "value": "coloured",
+        "unit": 1,
+        "start": 47,
+        "end": 55
+      },
+      {
+        "value": "blocks",
+        "unit": 1,
+        "start": 56,
+        "end": 62
+      },
+      {
+        "value": "by",
+        "unit": 1,
+        "start": 63,
+        "end": 65
+      },
+      {
+        "value": "writing",
+        "unit": 1,
+        "start": 66,
+        "end": 73
+      },
+      {
+        "value": "simple",
+        "unit": 1,
+        "start": 74,
+        "end": 80
+      },
+      {
+        "value": "rules",
+        "unit": 1,
+        "start": 81,
+        "end": 86
+      },
+      {
+        "value": "on",
+        "unit": 1,
+        "start": 87,
+        "end": 89
+      },
+      {
+        "value": "paper",
+        "unit": 1,
+        "start": 90,
+        "end": 95
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 97,
+        "end": 100
+      },
+      {
+        "value": "session",
+        "unit": 1,
+        "start": 101,
+        "end": 108
+      },
+      {
+        "value": "uses",
+        "unit": 1,
+        "start": 109,
+        "end": 113
+      },
+      {
+        "value": "cardboard",
+        "unit": 1,
+        "start": 114,
+        "end": 123
+      },
+      {
+        "value": "pieces",
+        "unit": 1,
+        "start": 124,
+        "end": 130
+      },
+      {
+        "value": "instead",
+        "unit": 1,
+        "start": 131,
+        "end": 138
+      },
+      {
+        "value": "of",
+        "unit": 1,
+        "start": 139,
+        "end": 141
+      },
+      {
+        "value": "expensive",
+        "unit": 1,
+        "start": 142,
+        "end": 151
+      },
+      {
+        "value": "motors",
+        "unit": 1,
+        "start": 152,
+        "end": 158
+      },
+      {
+        "value": "volunteers",
+        "unit": 1,
+        "start": 160,
+        "end": 170
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 171,
+        "end": 174
+      },
+      {
+        "value": "count",
+        "unit": 1,
+        "start": 175,
+        "end": 180
+      },
+      {
+        "value": "how",
+        "unit": 1,
+        "start": 181,
+        "end": 184
+      },
+      {
+        "value": "many",
+        "unit": 1,
+        "start": 185,
+        "end": 189
+      },
+      {
+        "value": "rule",
+        "unit": 1,
+        "start": 190,
+        "end": 194
+      },
+      {
+        "value": "cards",
+        "unit": 1,
+        "start": 195,
+        "end": 200
+      },
+      {
+        "value": "lead",
+        "unit": 1,
+        "start": 201,
+        "end": 205
+      },
+      {
+        "value": "to",
+        "unit": 1,
+        "start": 206,
+        "end": 208
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 209,
+        "end": 212
+      },
+      {
+        "value": "intended",
+        "unit": 1,
+        "start": 213,
+        "end": 221
+      },
+      {
+        "value": "arrangement",
+        "unit": 1,
+        "start": 222,
+        "end": 233
+      },
+      {
+        "value": "no",
+        "unit": 1,
+        "start": 235,
+        "end": 237
+      },
+      {
+        "value": "account",
+        "unit": 1,
+        "start": 238,
+        "end": 245
+      },
+      {
+        "value": "registration",
+        "unit": 1,
+        "start": 246,
+        "end": 258
+      },
+      {
+        "value": "is",
+        "unit": 1,
+        "start": 259,
+        "end": 261
+      },
+      {
+        "value": "needed",
+        "unit": 1,
+        "start": 262,
+        "end": 268
+      },
+      {
+        "value": "and",
+        "unit": 1,
+        "start": 270,
+        "end": 273
+      },
+      {
+        "value": "each",
+        "unit": 1,
+        "start": 274,
+        "end": 278
+      },
+      {
+        "value": "child",
+        "unit": 1,
+        "start": 279,
+        "end": 284
+      },
+      {
+        "value": "can",
+        "unit": 1,
+        "start": 285,
+        "end": 288
+      },
+      {
+        "value": "take",
+        "unit": 1,
+        "start": 289,
+        "end": 293
+      },
+      {
+        "value": "home",
+        "unit": 1,
+        "start": 294,
+        "end": 298
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 299,
+        "end": 302
+      },
+      {
+        "value": "instructions",
+        "unit": 1,
+        "start": 303,
+        "end": 315
+      },
+      {
+        "value": "after",
+        "unit": 1,
+        "start": 316,
+        "end": 321
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 322,
+        "end": 325
+      },
+      {
+        "value": "exercise",
+        "unit": 1,
+        "start": 326,
+        "end": 334
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 336,
+        "end": 339
+      },
+      {
+        "value": "organiser",
+        "unit": 1,
+        "start": 340,
+        "end": 349
+      },
+      {
+        "value": "will",
+        "unit": 1,
+        "start": 350,
+        "end": 354
+      },
+      {
+        "value": "compare",
+        "unit": 1,
+        "start": 355,
+        "end": 362
+      },
+      {
+        "value": "different",
+        "unit": 1,
+        "start": 363,
+        "end": 372
+      },
+      {
+        "value": "teaching",
+        "unit": 1,
+        "start": 373,
+        "end": 381
+      },
+      {
+        "value": "sequences",
+        "unit": 1,
+        "start": 382,
+        "end": 391
+      },
+      {
+        "value": "during",
+        "unit": 1,
+        "start": 392,
+        "end": 398
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 399,
+        "end": 402
+      },
+      {
+        "value": "following",
+        "unit": 1,
+        "start": 403,
+        "end": 412
+      },
+      {
+        "value": "school",
+        "unit": 1,
+        "start": 413,
+        "end": 419
+      },
+      {
+        "value": "term",
+        "unit": 1,
+        "start": 420,
+        "end": 424
+      }
+    ],
+    "excluded": {}
+  },
+  "short_copy_b.docx": {
+    "document_id": "short_copy_b.docx",
+    "kind": "docx",
+    "sha256": "472e72c7f9fe4793b21ed843ddd46b71c6e364bb267f77e37aff15c48a244601",
+    "status": "ok",
+    "units": [
+      {
+        "text": "Copper lanterns guide midnight ferries across the frozen estuary.",
+        "location": {
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      },
+      {
+        "text": "A municipal choir wants to choose a rehearsal venue with a comfortable acoustic response. Singers will perform the same melody in three borrowed rooms while listeners record which words remain understandable. Heavy curtains may reduce troublesome echoes. The committee should compare the notes before renting a permanent hall, because low rent alone cannot compensate for severe reverberation. The final decision will include travel time from nearby bus stops.",
+        "location": {
+          "paragraph": 2,
+          "section": "Document body"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    },
+    "tokens": [
+      {
+        "value": "copper",
+        "unit": 0,
+        "start": 0,
+        "end": 6
+      },
+      {
+        "value": "lanterns",
+        "unit": 0,
+        "start": 7,
+        "end": 15
+      },
+      {
+        "value": "guide",
+        "unit": 0,
+        "start": 16,
+        "end": 21
+      },
+      {
+        "value": "midnight",
+        "unit": 0,
+        "start": 22,
+        "end": 30
+      },
+      {
+        "value": "ferries",
+        "unit": 0,
+        "start": 31,
+        "end": 38
+      },
+      {
+        "value": "across",
+        "unit": 0,
+        "start": 39,
+        "end": 45
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 46,
+        "end": 49
+      },
+      {
+        "value": "frozen",
+        "unit": 0,
+        "start": 50,
+        "end": 56
+      },
+      {
+        "value": "estuary",
+        "unit": 0,
+        "start": 57,
+        "end": 64
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 0,
+        "end": 1
+      },
+      {
+        "value": "municipal",
+        "unit": 1,
+        "start": 2,
+        "end": 11
+      },
+      {
+        "value": "choir",
+        "unit": 1,
+        "start": 12,
+        "end": 17
+      },
+      {
+        "value": "wants",
+        "unit": 1,
+        "start": 18,
+        "end": 23
+      },
+      {
+        "value": "to",
+        "unit": 1,
+        "start": 24,
+        "end": 26
+      },
+      {
+        "value": "choose",
+        "unit": 1,
+        "start": 27,
+        "end": 33
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 34,
+        "end": 35
+      },
+      {
+        "value": "rehearsal",
+        "unit": 1,
+        "start": 36,
+        "end": 45
+      },
+      {
+        "value": "venue",
+        "unit": 1,
+        "start": 46,
+        "end": 51
+      },
+      {
+        "value": "with",
+        "unit": 1,
+        "start": 52,
+        "end": 56
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 57,
+        "end": 58
+      },
+      {
+        "value": "comfortable",
+        "unit": 1,
+        "start": 59,
+        "end": 70
+      },
+      {
+        "value": "acoustic",
+        "unit": 1,
+        "start": 71,
+        "end": 79
+      },
+      {
+        "value": "response",
+        "unit": 1,
+        "start": 80,
+        "end": 88
+      },
+      {
+        "value": "singers",
+        "unit": 1,
+        "start": 90,
+        "end": 97
+      },
+      {
+        "value": "will",
+        "unit": 1,
+        "start": 98,
+        "end": 102
+      },
+      {
+        "value": "perform",
+        "unit": 1,
+        "start": 103,
+        "end": 110
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 111,
+        "end": 114
+      },
+      {
+        "value": "same",
+        "unit": 1,
+        "start": 115,
+        "end": 119
+      },
+      {
+        "value": "melody",
+        "unit": 1,
+        "start": 120,
+        "end": 126
+      },
+      {
+        "value": "in",
+        "unit": 1,
+        "start": 127,
+        "end": 129
+      },
+      {
+        "value": "three",
+        "unit": 1,
+        "start": 130,
+        "end": 135
+      },
+      {
+        "value": "borrowed",
+        "unit": 1,
+        "start": 136,
+        "end": 144
+      },
+      {
+        "value": "rooms",
+        "unit": 1,
+        "start": 145,
+        "end": 150
+      },
+      {
+        "value": "while",
+        "unit": 1,
+        "start": 151,
+        "end": 156
+      },
+      {
+        "value": "listeners",
+        "unit": 1,
+        "start": 157,
+        "end": 166
+      },
+      {
+        "value": "record",
+        "unit": 1,
+        "start": 167,
+        "end": 173
+      },
+      {
+        "value": "which",
+        "unit": 1,
+        "start": 174,
+        "end": 179
+      },
+      {
+        "value": "words",
+        "unit": 1,
+        "start": 180,
+        "end": 185
+      },
+      {
+        "value": "remain",
+        "unit": 1,
+        "start": 186,
+        "end": 192
+      },
+      {
+        "value": "understandable",
+        "unit": 1,
+        "start": 193,
+        "end": 207
+      },
+      {
+        "value": "heavy",
+        "unit": 1,
+        "start": 209,
+        "end": 214
+      },
+      {
+        "value": "curtains",
+        "unit": 1,
+        "start": 215,
+        "end": 223
+      },
+      {
+        "value": "may",
+        "unit": 1,
+        "start": 224,
+        "end": 227
+      },
+      {
+        "value": "reduce",
+        "unit": 1,
+        "start": 228,
+        "end": 234
+      },
+      {
+        "value": "troublesome",
+        "unit": 1,
+        "start": 235,
+        "end": 246
+      },
+      {
+        "value": "echoes",
+        "unit": 1,
+        "start": 247,
+        "end": 253
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 255,
+        "end": 258
+      },
+      {
+        "value": "committee",
+        "unit": 1,
+        "start": 259,
+        "end": 268
+      },
+      {
+        "value": "should",
+        "unit": 1,
+        "start": 269,
+        "end": 275
+      },
+      {
+        "value": "compare",
+        "unit": 1,
+        "start": 276,
+        "end": 283
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 284,
+        "end": 287
+      },
+      {
+        "value": "notes",
+        "unit": 1,
+        "start": 288,
+        "end": 293
+      },
+      {
+        "value": "before",
+        "unit": 1,
+        "start": 294,
+        "end": 300
+      },
+      {
+        "value": "renting",
+        "unit": 1,
+        "start": 301,
+        "end": 308
+      },
+      {
+        "value": "a",
+        "unit": 1,
+        "start": 309,
+        "end": 310
+      },
+      {
+        "value": "permanent",
+        "unit": 1,
+        "start": 311,
+        "end": 320
+      },
+      {
+        "value": "hall",
+        "unit": 1,
+        "start": 321,
+        "end": 325
+      },
+      {
+        "value": "because",
+        "unit": 1,
+        "start": 327,
+        "end": 334
+      },
+      {
+        "value": "low",
+        "unit": 1,
+        "start": 335,
+        "end": 338
+      },
+      {
+        "value": "rent",
+        "unit": 1,
+        "start": 339,
+        "end": 343
+      },
+      {
+        "value": "alone",
+        "unit": 1,
+        "start": 344,
+        "end": 349
+      },
+      {
+        "value": "cannot",
+        "unit": 1,
+        "start": 350,
+        "end": 356
+      },
+      {
+        "value": "compensate",
+        "unit": 1,
+        "start": 357,
+        "end": 367
+      },
+      {
+        "value": "for",
+        "unit": 1,
+        "start": 368,
+        "end": 371
+      },
+      {
+        "value": "severe",
+        "unit": 1,
+        "start": 372,
+        "end": 378
+      },
+      {
+        "value": "reverberation",
+        "unit": 1,
+        "start": 379,
+        "end": 392
+      },
+      {
+        "value": "the",
+        "unit": 1,
+        "start": 394,
+        "end": 397
+      },
+      {
+        "value": "final",
+        "unit": 1,
+        "start": 398,
+        "end": 403
+      },
+      {
+        "value": "decision",
+        "unit": 1,
+        "start": 404,
+        "end": 412
+      },
+      {
+        "value": "will",
+        "unit": 1,
+        "start": 413,
+        "end": 417
+      },
+      {
+        "value": "include",
+        "unit": 1,
+        "start": 418,
+        "end": 425
+      },
+      {
+        "value": "travel",
+        "unit": 1,
+        "start": 426,
+        "end": 432
+      },
+      {
+        "value": "time",
+        "unit": 1,
+        "start": 433,
+        "end": 437
+      },
+      {
+        "value": "from",
+        "unit": 1,
+        "start": 438,
+        "end": 442
+      },
+      {
+        "value": "nearby",
+        "unit": 1,
+        "start": 443,
+        "end": 449
+      },
+      {
+        "value": "bus",
+        "unit": 1,
+        "start": 450,
+        "end": 453
+      },
+      {
+        "value": "stops",
+        "unit": 1,
+        "start": 454,
+        "end": 459
+      }
+    ],
+    "excluded": {}
+  },
+  "unsupported.xyz": {
+    "document_id": "unsupported.xyz",
+    "kind": "xyz",
+    "sha256": "a1e25ac108f1823dd5b248b2a40aef218b2f224fa55956f758c4e88d970baa9e",
+    "status": "unsupported",
+    "units": [],
+    "warnings": [
+      "Unsupported format .xyz: unable to assess."
+    ],
+    "metadata": {},
+    "tokens": [],
+    "excluded": {}
+  },
+  "reference:queue_design": {
+    "document_id": "reference:queue_design",
+    "kind": "reference",
+    "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1",
+    "status": "ok",
+    "units": [
+      {
+        "text": "A queue works best when arrivals can see how service order is decided. Numbered tickets separate a visitor's place in line from the place where that visitor stands. This lets people sit, read, or wait in shade without losing their turn. The organiser should announce exceptions openly and keep an accessible route to the service desk. A ticket system does not create more service capacity; it only makes the existing waiting process easier to understand.",
+        "location": {
+          "paragraph": 1,
+          "section": "Transparent queue design"
+        }
+      }
+    ],
+    "warnings": [],
+    "metadata": {
+      "title": "Transparent queue design",
+      "source_url": "https://github.com/Aryangupta-05/multimodal-submission-integrity/blob/main/reference_corpus/queue_design.json",
+      "provenance_type": "synthetic_local_reference",
+      "author": "Codex-assisted synthetic corpus",
+      "license": "CC0-1.0",
+      "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+      "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
+    },
+    "tokens": [
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 0,
+        "end": 1
+      },
+      {
+        "value": "queue",
+        "unit": 0,
+        "start": 2,
+        "end": 7
+      },
+      {
+        "value": "works",
+        "unit": 0,
+        "start": 8,
+        "end": 13
+      },
+      {
+        "value": "best",
+        "unit": 0,
+        "start": 14,
+        "end": 18
+      },
+      {
+        "value": "when",
+        "unit": 0,
+        "start": 19,
+        "end": 23
+      },
+      {
+        "value": "arrivals",
+        "unit": 0,
+        "start": 24,
+        "end": 32
+      },
+      {
+        "value": "can",
+        "unit": 0,
+        "start": 33,
+        "end": 36
+      },
+      {
+        "value": "see",
+        "unit": 0,
+        "start": 37,
+        "end": 40
+      },
+      {
+        "value": "how",
+        "unit": 0,
+        "start": 41,
+        "end": 44
+      },
+      {
+        "value": "service",
+        "unit": 0,
+        "start": 45,
+        "end": 52
+      },
+      {
+        "value": "order",
+        "unit": 0,
+        "start": 53,
+        "end": 58
+      },
+      {
+        "value": "is",
+        "unit": 0,
+        "start": 59,
+        "end": 61
+      },
+      {
+        "value": "decided",
+        "unit": 0,
+        "start": 62,
+        "end": 69
+      },
+      {
+        "value": "numbered",
+        "unit": 0,
+        "start": 71,
+        "end": 79
+      },
+      {
+        "value": "tickets",
+        "unit": 0,
+        "start": 80,
+        "end": 87
+      },
+      {
+        "value": "separate",
+        "unit": 0,
+        "start": 88,
+        "end": 96
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 97,
+        "end": 98
+      },
+      {
+        "value": "visitor's",
+        "unit": 0,
+        "start": 99,
+        "end": 108
+      },
+      {
+        "value": "place",
+        "unit": 0,
+        "start": 109,
+        "end": 114
+      },
+      {
+        "value": "in",
+        "unit": 0,
+        "start": 115,
+        "end": 117
+      },
+      {
+        "value": "line",
+        "unit": 0,
+        "start": 118,
+        "end": 122
+      },
+      {
+        "value": "from",
+        "unit": 0,
+        "start": 123,
+        "end": 127
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 128,
+        "end": 131
+      },
+      {
+        "value": "place",
+        "unit": 0,
+        "start": 132,
+        "end": 137
+      },
+      {
+        "value": "where",
+        "unit": 0,
+        "start": 138,
+        "end": 143
+      },
+      {
+        "value": "that",
+        "unit": 0,
+        "start": 144,
+        "end": 148
+      },
+      {
+        "value": "visitor",
+        "unit": 0,
+        "start": 149,
+        "end": 156
+      },
+      {
+        "value": "stands",
+        "unit": 0,
+        "start": 157,
+        "end": 163
+      },
+      {
+        "value": "this",
+        "unit": 0,
+        "start": 165,
+        "end": 169
+      },
+      {
+        "value": "lets",
+        "unit": 0,
+        "start": 170,
+        "end": 174
+      },
+      {
+        "value": "people",
+        "unit": 0,
+        "start": 175,
+        "end": 181
+      },
+      {
+        "value": "sit",
+        "unit": 0,
+        "start": 182,
+        "end": 185
+      },
+      {
+        "value": "read",
+        "unit": 0,
+        "start": 187,
+        "end": 191
+      },
+      {
+        "value": "or",
+        "unit": 0,
+        "start": 193,
+        "end": 195
+      },
+      {
+        "value": "wait",
+        "unit": 0,
+        "start": 196,
+        "end": 200
+      },
+      {
+        "value": "in",
+        "unit": 0,
+        "start": 201,
+        "end": 203
+      },
+      {
+        "value": "shade",
+        "unit": 0,
+        "start": 204,
+        "end": 209
+      },
+      {
+        "value": "without",
+        "unit": 0,
+        "start": 210,
+        "end": 217
+      },
+      {
+        "value": "losing",
+        "unit": 0,
+        "start": 218,
+        "end": 224
+      },
+      {
+        "value": "their",
+        "unit": 0,
+        "start": 225,
+        "end": 230
+      },
+      {
+        "value": "turn",
+        "unit": 0,
+        "start": 231,
+        "end": 235
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 237,
+        "end": 240
+      },
+      {
+        "value": "organiser",
+        "unit": 0,
+        "start": 241,
+        "end": 250
+      },
+      {
+        "value": "should",
+        "unit": 0,
+        "start": 251,
+        "end": 257
+      },
+      {
+        "value": "announce",
+        "unit": 0,
+        "start": 258,
+        "end": 266
+      },
+      {
+        "value": "exceptions",
+        "unit": 0,
+        "start": 267,
+        "end": 277
+      },
+      {
+        "value": "openly",
+        "unit": 0,
+        "start": 278,
+        "end": 284
+      },
+      {
+        "value": "and",
+        "unit": 0,
+        "start": 285,
+        "end": 288
+      },
+      {
+        "value": "keep",
+        "unit": 0,
+        "start": 289,
+        "end": 293
+      },
+      {
+        "value": "an",
+        "unit": 0,
+        "start": 294,
+        "end": 296
+      },
+      {
+        "value": "accessible",
+        "unit": 0,
+        "start": 297,
+        "end": 307
+      },
+      {
+        "value": "route",
+        "unit": 0,
+        "start": 308,
+        "end": 313
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 314,
+        "end": 316
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 317,
+        "end": 320
+      },
+      {
+        "value": "service",
+        "unit": 0,
+        "start": 321,
+        "end": 328
+      },
+      {
+        "value": "desk",
+        "unit": 0,
+        "start": 329,
+        "end": 333
+      },
+      {
+        "value": "a",
+        "unit": 0,
+        "start": 335,
+        "end": 336
+      },
+      {
+        "value": "ticket",
+        "unit": 0,
+        "start": 337,
+        "end": 343
+      },
+      {
+        "value": "system",
+        "unit": 0,
+        "start": 344,
+        "end": 350
+      },
+      {
+        "value": "does",
+        "unit": 0,
+        "start": 351,
+        "end": 355
+      },
+      {
+        "value": "not",
+        "unit": 0,
+        "start": 356,
+        "end": 359
+      },
+      {
+        "value": "create",
+        "unit": 0,
+        "start": 360,
+        "end": 366
+      },
+      {
+        "value": "more",
+        "unit": 0,
+        "start": 367,
+        "end": 371
+      },
+      {
+        "value": "service",
+        "unit": 0,
+        "start": 372,
+        "end": 379
+      },
+      {
+        "value": "capacity",
+        "unit": 0,
+        "start": 380,
+        "end": 388
+      },
+      {
+        "value": "it",
+        "unit": 0,
+        "start": 390,
+        "end": 392
+      },
+      {
+        "value": "only",
+        "unit": 0,
+        "start": 393,
+        "end": 397
+      },
+      {
+        "value": "makes",
+        "unit": 0,
+        "start": 398,
+        "end": 403
+      },
+      {
+        "value": "the",
+        "unit": 0,
+        "start": 404,
+        "end": 407
+      },
+      {
+        "value": "existing",
+        "unit": 0,
+        "start": 408,
+        "end": 416
+      },
+      {
+        "value": "waiting",
+        "unit": 0,
+        "start": 417,
+        "end": 424
+      },
+      {
+        "value": "process",
+        "unit": 0,
+        "start": 425,
+        "end": 432
+      },
+      {
+        "value": "easier",
+        "unit": 0,
+        "start": 433,
+        "end": 439
+      },
+      {
+        "value": "to",
+        "unit": 0,
+        "start": 440,
+        "end": 442
+      },
+      {
+        "value": "understand",
+        "unit": 0,
+        "start": 443,
+        "end": 453
+      }
+    ],
+    "excluded": {}
+  }
+}

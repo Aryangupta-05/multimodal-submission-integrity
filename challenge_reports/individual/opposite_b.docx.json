@@ -1,0 +1,762 @@
+{
+  "schema_version": "1.0",
+  "document_id": "opposite_b.docx",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [
+    {
+      "matched_file": "opposite_a.docx",
+      "similarity_score": 0.990573,
+      "query_passage": "Revenue should pay for additional parking spaces rather than public buses. Drivers who cannot afford the charge should not receive discounted transit passes",
+      "matched_passage": "Revenue should pay for public buses rather than additional parking spaces. Drivers who cannot afford the charge should receive discounted transit passes",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 148,
+            "char_end": 304,
+            "text": "Revenue should pay for additional parking spaces rather than public buses. Drivers who cannot afford the charge should not receive discounted transit passes",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "query_paragraphs": [
+          1
+        ],
+        "query_sections": [
+          "Document body"
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 141,
+            "char_end": 293,
+            "text": "Revenue should pay for public buses rather than additional parking spaces. Drivers who cannot afford the charge should receive discounted transit passes",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Document body"
+        ]
+      },
+      "query_token_ids": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "matched_token_ids": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9545,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "opposite_a.docx",
+      "similarity_score": 0.981974,
+      "query_passage": "The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses",
+      "matched_passage": "The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 88,
+            "char_end": 221,
+            "text": "The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "query_paragraphs": [
+          1
+        ],
+        "query_sections": [
+          "Document body"
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 84,
+            "char_end": 214,
+            "text": "The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Document body"
+        ]
+      },
+      "query_token_ids": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8636,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "opposite_a.docx",
+      "similarity_score": 0.97545,
+      "query_passage": "The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses. Drivers who cannot afford the charge should not receive discounted transit passes",
+      "matched_passage": "The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces. Drivers who cannot afford the charge should receive discounted transit passes",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 88,
+            "char_end": 304,
+            "text": "The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses. Drivers who cannot afford the charge should not receive discounted transit passes",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "query_paragraphs": [
+          1
+        ],
+        "query_sections": [
+          "Document body"
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 84,
+            "char_end": 293,
+            "text": "The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces. Drivers who cannot afford the charge should receive discounted transit passes",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Document body"
+        ]
+      },
+      "query_token_ids": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "matched_token_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "opposite_a.docx",
+      "similarity_score": 0.956588,
+      "query_passage": "The city should not introduce a congestion charge for private cars entering the centre. The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses",
+      "matched_passage": "The city should introduce a congestion charge for private cars entering the centre. The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 221,
+            "text": "The city should not introduce a congestion charge for private cars entering the centre. The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "query_paragraphs": [
+          1
+        ],
+        "query_sections": [
+          "Document body"
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 214,
+            "text": "The city should introduce a congestion charge for private cars entering the centre. The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Document body"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "opposite_a.docx",
+      "similarity_score": 0.945238,
+      "query_passage": "The city should not introduce a congestion charge for private cars entering the centre. The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses. Drivers who cannot afford the charge should not receive discounted transit passes",
+      "matched_passage": "The city should introduce a congestion charge for private cars entering the centre. The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces. Drivers who cannot afford the charge should receive discounted transit passes",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 304,
+            "text": "The city should not introduce a congestion charge for private cars entering the centre. The charge would not reduce traffic or improve air quality. Revenue should pay for additional parking spaces rather than public buses. Drivers who cannot afford the charge should not receive discounted transit passes",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "query_paragraphs": [
+          1
+        ],
+        "query_sections": [
+          "Document body"
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 293,
+            "text": "The city should introduce a congestion charge for private cars entering the centre. The charge would reduce traffic and improve air quality. Revenue should pay for public buses rather than additional parking spaces. Drivers who cannot afford the charge should receive discounted transit passes",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Document body"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "query_window_role": "chunk",
+      "matched_window_role": "evidence",
+      "lexical_jaccard": 0.9211,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "opposite_a.docx",
+      "similarity_score": 0.90949,
+      "query_passage": "The city should not introduce a congestion charge for private cars entering the centre. The charge would not reduce traffic or improve air quality",
+      "matched_passage": "The city should introduce a congestion charge for private cars entering the centre. The charge would reduce traffic and improve air quality",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 146,
+            "text": "The city should not introduce a congestion charge for private cars entering the centre. The charge would not reduce traffic or improve air quality",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "query_paragraphs": [
+          1
+        ],
+        "query_sections": [
+          "Document body"
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 139,
+            "text": "The city should introduce a congestion charge for private cars entering the centre. The charge would reduce traffic and improve air quality",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Document body"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.8571,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    },
+    {
+      "matched_file": "opposite_a.docx",
+      "similarity_score": 0.895756,
+      "query_passage": "The city should not introduce a congestion charge for private cars entering the centre",
+      "matched_passage": "The city should introduce a congestion charge for private cars entering the centre",
+      "location": {
+        "query_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 86,
+            "text": "The city should not introduce a congestion charge for private cars entering the centre",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "query_paragraphs": [
+          1
+        ],
+        "query_sections": [
+          "Document body"
+        ],
+        "matched_spans": [
+          {
+            "unit_index": 0,
+            "char_start": 0,
+            "char_end": 82,
+            "text": "The city should introduce a congestion charge for private cars entering the centre",
+            "paragraph": 1,
+            "section": "Document body"
+          }
+        ],
+        "matched_paragraphs": [
+          1
+        ],
+        "matched_sections": [
+          "Document body"
+        ]
+      },
+      "query_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "matched_token_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "query_window_role": "sentence_evidence",
+      "matched_window_role": "sentence_evidence",
+      "lexical_jaccard": 0.9231,
+      "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
+    }
+  ],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "extraction": {
+    "status": "ok",
+    "kind": "docx",
+    "assessable": true,
+    "sha256": "26a97ab0528c10ce426059cb55c77b6f6efd477bc87c666317085b68e7756acf",
+    "raw_word_count": 47,
+    "eligible_word_count": 47,
+    "excluded_word_count": 0,
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    }
+  },
+  "exclusions": [],
+  "warnings": [],
+  "ai_indicator": {
+    "score": null,
+    "status": "insufficient_text",
+    "calibrated": false,
+    "explanation": "Need at least 50 words and 3 sentences; no reliable inference for short clips."
+  },
+  "scoring": {
+    "semantic_threshold": 0.8,
+    "coverage_unit": "unique eligible normalized word positions",
+    "percentage_formula": "100 * union of query word positions in accepted windows / eligible query words",
+    "coverage_caveat": "Coverage of candidate semantic windows; can include unmatched context. Not percentage proven plagiarized. Peer and external percentages are separate, not additive.",
+    "risk_rule": "HIGH coverage >=50%; MEDIUM >=15%; else LOW. AI indicator never raises risk alone.",
+    "unknown_rule": "Unassessable and fully excluded documents have null scores; partial PDFs cover extracted text only."
+  },
+  "explanations": "7 peer and 0 external evidence windows above cosine 0.8. Review exact source spans before any conclusion. AI style index is uncalibrated."
+}

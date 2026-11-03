@@ -1,0 +1,203 @@
+{
+  "documents": 15,
+  "assessable": 13,
+  "statuses": {
+    "01_harbor.pdf": "ok",
+    "02_harbor_copy.pdf": "ok",
+    "03_clinic.docx": "ok",
+    "04_clinic_paraphrase.docx": "ok",
+    "05_prompt_water.pdf": "ok",
+    "06_prompt_library.pdf": "ok",
+    "07_prompt_bakery.docx": "ok",
+    "08_prompt_museum.docx": "ok",
+    "09_prompt_garden_llm.docx": "ok",
+    "10_external.pdf": "ok",
+    "11_harbor_pitch.mp4": "ok",
+    "12_external_pitch.mp4": "ok",
+    "13_independent_pitch.mp4": "ok",
+    "14_silent.mp4": "no_audio",
+    "15_empty.pdf": "empty"
+  },
+  "chunks": 16,
+  "indexed_windows": 478,
+  "runtime_seconds": 25.3875,
+  "embedding_and_index_seconds": 20.0743,
+  "extraction_seconds": {
+    "01_harbor.pdf": 0.0109,
+    "02_harbor_copy.pdf": 0.007,
+    "03_clinic.docx": 0.0186,
+    "04_clinic_paraphrase.docx": 0.0191,
+    "05_prompt_water.pdf": 0.0056,
+    "06_prompt_library.pdf": 0.0059,
+    "07_prompt_bakery.docx": 0.0143,
+    "08_prompt_museum.docx": 0.0188,
+    "09_prompt_garden_llm.docx": 0.0156,
+    "10_external.pdf": 0.0122,
+    "11_harbor_pitch.mp4": 2.7548,
+    "12_external_pitch.mp4": 0.9776,
+    "13_independent_pitch.mp4": 1.1304,
+    "14_silent.mp4": 0.0419,
+    "15_empty.pdf": 0.0003
+  },
+  "cpu_seconds": 57.5938,
+  "rss_end_mb": 617.27,
+  "peak_working_set_mb": 747.03,
+  "hardware": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "logical_cpus": 12,
+    "ram_gb": 7.31
+  },
+  "models": {
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+    "asr": "Systran/faster-whisper-tiny.en",
+    "asr_revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba"
+  },
+  "config": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+    "asr_model": "Systran/faster-whisper-tiny.en",
+    "asr_revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+    "ignored_margin_patterns": [
+      "^Riverton synthetic case collection$",
+      "^Case collection \\| Page \\d+$"
+    ],
+    "semantic_threshold": 0.8,
+    "minimum_evidence_words": 12,
+    "chunk_tokens": 220,
+    "chunk_overlap": 35,
+    "evidence_tokens": 95,
+    "evidence_overlap": 25,
+    "cpu_threads": 4,
+    "embedding_batch_size": 32,
+    "silence_rms": 0.0001,
+    "max_file_mb": 100,
+    "max_pdf_pages": 500,
+    "max_video_seconds": 120,
+    "decode_timeout_seconds": 180
+  },
+  "warning": "Measured on synthetic English/TTS data. Pairwise coverage is directional. Null diagonal/self or unavailable. AI scores never prove misconduct.",
+  "reports": [
+    {
+      "document_id": "01_harbor.pdf",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 45.33
+    },
+    {
+      "document_id": "02_harbor_copy.pdf",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 45.33
+    },
+    {
+      "document_id": "03_clinic.docx",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 46.73
+    },
+    {
+      "document_id": "04_clinic_paraphrase.docx",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 45.2
+    },
+    {
+      "document_id": "05_prompt_water.pdf",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 51.8
+    },
+    {
+      "document_id": "06_prompt_library.pdf",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 47.22
+    },
+    {
+      "document_id": "07_prompt_bakery.docx",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 34.31
+    },
+    {
+      "document_id": "08_prompt_museum.docx",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 43.57
+    },
+    {
+      "document_id": "09_prompt_garden_llm.docx",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 59.08
+    },
+    {
+      "document_id": "10_external.pdf",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 82.67,
+      "external_similarity_percentage": 100.0,
+      "ai_generated_probability": 50.97
+    },
+    {
+      "document_id": "11_harbor_pitch.mp4",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "12_external_pitch.mp4",
+      "status": "ok",
+      "risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 100.0,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "13_independent_pitch.mp4",
+      "status": "ok",
+      "risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "14_silent.mp4",
+      "status": "no_audio",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    {
+      "document_id": "15_empty.pdf",
+      "status": "empty",
+      "risk": "UNABLE_TO_ASSESS",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    }
+  ]
+}

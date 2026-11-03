@@ -1,0 +1,671 @@
+{
+  "unit": "unordered assessable document pair",
+  "pair_rule": "Either direction has >=15% candidate coverage with cosine >=0.80 and >=12-word evidence windows.",
+  "peer": {
+    "n": 78,
+    "tp": 4,
+    "fp": 0,
+    "fn": 1,
+    "tn": 73,
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889
+  },
+  "pairs": [
+    {
+      "a": "01_harbor.pdf",
+      "b": "02_harbor_copy.pdf",
+      "expected": true,
+      "predicted": true,
+      "max_directional_coverage": 100.0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "03_clinic.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "04_clinic_paraphrase.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "05_prompt_water.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "06_prompt_library.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "07_prompt_bakery.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "11_harbor_pitch.mp4",
+      "expected": true,
+      "predicted": true,
+      "max_directional_coverage": 100.0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "01_harbor.pdf",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "03_clinic.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "04_clinic_paraphrase.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "05_prompt_water.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "06_prompt_library.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "07_prompt_bakery.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "11_harbor_pitch.mp4",
+      "expected": true,
+      "predicted": true,
+      "max_directional_coverage": 100.0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "02_harbor_copy.pdf",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "04_clinic_paraphrase.docx",
+      "expected": true,
+      "predicted": true,
+      "max_directional_coverage": 100.0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "05_prompt_water.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "06_prompt_library.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "07_prompt_bakery.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "03_clinic.docx",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "05_prompt_water.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "06_prompt_library.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "07_prompt_bakery.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "04_clinic_paraphrase.docx",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "06_prompt_library.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "07_prompt_bakery.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "05_prompt_water.pdf",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "06_prompt_library.pdf",
+      "b": "07_prompt_bakery.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "06_prompt_library.pdf",
+      "b": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "06_prompt_library.pdf",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "06_prompt_library.pdf",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "06_prompt_library.pdf",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "06_prompt_library.pdf",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "06_prompt_library.pdf",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "07_prompt_bakery.docx",
+      "b": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "07_prompt_bakery.docx",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "07_prompt_bakery.docx",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "07_prompt_bakery.docx",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "07_prompt_bakery.docx",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "07_prompt_bakery.docx",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "08_prompt_museum.docx",
+      "b": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "08_prompt_museum.docx",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "08_prompt_museum.docx",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "08_prompt_museum.docx",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "08_prompt_museum.docx",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "09_prompt_garden_llm.docx",
+      "b": "10_external.pdf",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "09_prompt_garden_llm.docx",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "09_prompt_garden_llm.docx",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "09_prompt_garden_llm.docx",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "10_external.pdf",
+      "b": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "10_external.pdf",
+      "b": "12_external_pitch.mp4",
+      "expected": true,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "10_external.pdf",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "11_harbor_pitch.mp4",
+      "b": "12_external_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "11_harbor_pitch.mp4",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    },
+    {
+      "a": "12_external_pitch.mp4",
+      "b": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "max_directional_coverage": 0
+    }
+  ],
+  "external": {
+    "n": 13,
+    "tp": 0,
+    "fp": 0,
+    "fn": 2,
+    "tn": 11,
+    "precision": 0,
+    "recall": 0.0,
+    "f1": 0
+  },
+  "external_cases": [
+    {
+      "file": "01_harbor.pdf",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "02_harbor_copy.pdf",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "03_clinic.docx",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "04_clinic_paraphrase.docx",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "05_prompt_water.pdf",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "06_prompt_library.pdf",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "07_prompt_bakery.docx",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "08_prompt_museum.docx",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "09_prompt_garden_llm.docx",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "10_external.pdf",
+      "expected": true,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "11_harbor_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "12_external_pitch.mp4",
+      "expected": true,
+      "predicted": false,
+      "coverage": 0.0
+    },
+    {
+      "file": "13_independent_pitch.mp4",
+      "expected": false,
+      "predicted": false,
+      "coverage": 0.0
+    }
+  ],
+  "asr": {},
+  "boilerplate": {
+    "05_prompt_water.pdf": 0.0,
+    "06_prompt_library.pdf": 0.0,
+    "07_prompt_bakery.docx": 0.0,
+    "08_prompt_museum.docx": 0.0,
+    "09_prompt_garden_llm.docx": 0.0
+  },
+  "measured_resources": {
+    "runtime_seconds": 33.561,
+    "cpu_seconds": 43.1406,
+    "peak_working_set_mb": 745.75,
+    "hardware": {
+      "platform": "Windows-10-10.0.26200-SP0",
+      "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+      "logical_cpus": 12,
+      "ram_gb": 7.31
+    }
+  }
+}

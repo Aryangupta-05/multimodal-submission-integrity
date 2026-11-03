@@ -1,0 +1,31 @@
+{
+  "ambiguities": [
+    {
+      "files": [
+        "opposite_a.docx",
+        "opposite_b.docx"
+      ],
+      "question": "Does high semantic similarity distinguish opposite policy conclusions?",
+      "expected": "similarity may be high; recommendation polarity differs"
+    },
+    {
+      "files": [
+        "short_copy_a.docx",
+        "short_copy_b.docx"
+      ],
+      "question": "Can a ten-word literal excerpt survive the twelve-word evidence floor?",
+      "expected": "short overlap can be missed"
+    }
+  ],
+  "statuses": {
+    "corrupt.pdf": "error",
+    "broken.mp4": "error",
+    "invalid.docx": "error",
+    "unsupported.xyz": "unsupported",
+    "blank.pdf": "unextractable",
+    "scanned.pdf": "unextractable",
+    "muted.mp4": "silent",
+    "partial.pdf": "partial"
+  },
+  "provenance": "All synthetic Codex-assisted CC0; diagnostic inputs, not an independent validation set."
+}

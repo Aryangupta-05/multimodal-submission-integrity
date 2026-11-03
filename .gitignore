@@ -1,0 +1,11 @@
+.venv/
+.models/
+.cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+work/
+*.tmp
+!sample_submissions/15_empty.pdf

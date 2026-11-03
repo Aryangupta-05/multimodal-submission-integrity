@@ -1,0 +1,109 @@
+{
+  "11_harbor_pitch.mp4": {
+    "duration_seconds": 20.991,
+    "segments": [
+      {
+        "start_seconds": 0.0,
+        "end_seconds": 4.64,
+        "segment": 1,
+        "text": "The harbor cooperative should repair its cold storage before buying another delivery truck.",
+        "avg_logprob": -0.12445045160312279,
+        "no_speech_prob": 0.006078062113374472
+      },
+      {
+        "start_seconds": 5.6,
+        "end_seconds": 11.44,
+        "segment": 2,
+        "text": "Fish currently spoil while drivers wait for ice. A shared maintenance schedule and insulated",
+        "avg_logprob": -0.12445045160312279,
+        "no_speech_prob": 0.006078062113374472
+      },
+      {
+        "start_seconds": 11.44,
+        "end_seconds": 16.48,
+        "segment": 3,
+        "text": "crates would protect the catch. We would measure discarded kilograms each morning and",
+        "avg_logprob": -0.12445045160312279,
+        "no_speech_prob": 0.006078062113374472
+      },
+      {
+        "start_seconds": 16.48,
+        "end_seconds": 23.48,
+        "segment": 4,
+        "text": "and pause expansion until spoilage falls for four consecutive weeks.",
+        "avg_logprob": -0.3905433734258016,
+        "no_speech_prob": 0.028487900272011757
+      }
+    ]
+  },
+  "12_external_pitch.mp4": {
+    "duration_seconds": 16.347,
+    "segments": [
+      {
+        "start_seconds": 0.0,
+        "end_seconds": 4.64,
+        "segment": 1,
+        "text": "Numbered tickets separate a visitor's place in line from the place where that visitor stands.",
+        "avg_logprob": -0.2465186830152545,
+        "no_speech_prob": 0.011393110267817974
+      },
+      {
+        "start_seconds": 5.6,
+        "end_seconds": 9.52,
+        "segment": 2,
+        "text": "This lets people sit, read, or wait and shade without losing their turn.",
+        "avg_logprob": -0.2465186830152545,
+        "no_speech_prob": 0.011393110267817974
+      },
+      {
+        "start_seconds": 10.4,
+        "end_seconds": 15.92,
+        "segment": 3,
+        "text": "The organizer should announce exceptions openly and keep an accessible route to the service desk.",
+        "avg_logprob": -0.2465186830152545,
+        "no_speech_prob": 0.011393110267817974
+      }
+    ]
+  },
+  "13_independent_pitch.mp4": {
+    "duration_seconds": 19.644,
+    "segments": [
+      {
+        "start_seconds": 0.0,
+        "end_seconds": 4.96,
+        "segment": 1,
+        "text": "Our astronomy club will map the moon with hand-drawn sketches rather than by a larger telescope.",
+        "avg_logprob": -0.14734728834522304,
+        "no_speech_prob": 0.0068292198702692986
+      },
+      {
+        "start_seconds": 5.84,
+        "end_seconds": 10.8,
+        "segment": 2,
+        "text": "Members will observe the same crater at different phases, marking shadows with pencils.",
+        "avg_logprob": -0.14734728834522304,
+        "no_speech_prob": 0.0068292198702692986
+      },
+      {
+        "start_seconds": 11.76,
+        "end_seconds": 15.52,
+        "segment": 3,
+        "text": "Comparing those sketches will teach how sunlight changes the visible relief.",
+        "avg_logprob": -0.14734728834522304,
+        "no_speech_prob": 0.0068292198702692986
+      },
+      {
+        "start_seconds": 16.48,
+        "end_seconds": 22.72,
+        "segment": 4,
+        "text": "We will keep the drawings in a shared notebook.",
+        "avg_logprob": -0.14734728834522304,
+        "no_speech_prob": 0.0068292198702692986
+      }
+    ]
+  },
+  "14_silent.mp4": {
+    "duration_seconds": null,
+    "segments": null
+  }
+}

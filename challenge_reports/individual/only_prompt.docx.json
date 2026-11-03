@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "document_id": "only_prompt.docx",
+  "total_integrity_risk": "UNABLE_TO_ASSESS",
+  "scores": {
+    "peer_similarity_percentage": null,
+    "external_similarity_percentage": null,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "extraction": {
+    "status": "ok",
+    "kind": "docx",
+    "assessable": false,
+    "sha256": "4e2b4f70bb8b6e3beb7238685e88b3e6fe0f9c65ef0ba8afdef6391ccb7b8cbd",
+    "raw_word_count": 151,
+    "eligible_word_count": 0,
+    "excluded_word_count": 151,
+    "metadata": {
+      "pagination": "Unavailable in DOCX XML; references are body paragraph ordinals.",
+      "headers_footers": "Separate DOCX header/footer parts excluded from scoring."
+    }
+  },
+  "exclusions": [
+    {
+      "reason": "configured_common_prompt",
+      "word_count": 151,
+      "passage": "Riverton University invites teams to design a practical improvement for a small community institution. The institution has limited money, uncertain demand, and a responsibility to serve residents fairly. Your proposal should identify one operational problem, explain why existing practices are inadequate, and recommend an intervention that can be tested within one academic term. State the assumptions behind your analysis and explain which observations would cause you to change your recommendation. Include a way to measure progress without collecting unnecessary personal information. Discuss an implementation risk, a possible unintended consequence, and a low cost method for gathering feedback. The evaluation panel values clear reasoning over ambitious technology. Teams may use simple schedules, physical tools, or public information where appropriate. Do not assume that additional staff, permanent subsidies, or expensive equipment will become available. Conclude by explaining how the institution could decide whether to continue, adapt, or stop the proposed pilot after review",
+      "spans": [
+        {
+          "unit_index": 0,
+          "char_start": 0,
+          "char_end": 1089,
+          "text": "Riverton University invites teams to design a practical improvement for a small community institution. The institution has limited money, uncertain demand, and a responsibility to serve residents fairly. Your proposal should identify one operational problem, explain why existing practices are inadequate, and recommend an intervention that can be tested within one academic term. State the assumptions behind your analysis and explain which observations would cause you to change your recommendation. Include a way to measure progress without collecting unnecessary personal information. Discuss an implementation risk, a possible unintended consequence, and a low cost method for gathering feedback. The evaluation panel values clear reasoning over ambitious technology. Teams may use simple schedules, physical tools, or public information where appropriate. Do not assume that additional staff, permanent subsidies, or expensive equipment will become available. Conclude by explaining how the institution could decide whether to continue, adapt, or stop the proposed pilot after review",
+          "paragraph": 1,
+          "section": "Document body"
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "ai_indicator": {
+    "score": null,
+    "status": "unable_to_assess",
+    "calibrated": false
+  },
+  "scoring": {
+    "semantic_threshold": 0.8,
+    "coverage_unit": "unique eligible normalized word positions",
+    "percentage_formula": "100 * union of query word positions in accepted windows / eligible query words",
+    "coverage_caveat": "Coverage of candidate semantic windows; can include unmatched context. Not percentage proven plagiarized. Peer and external percentages are separate, not additive.",
+    "risk_rule": "HIGH coverage >=50%; MEDIUM >=15%; else LOW. AI indicator never raises risk alone.",
+    "unknown_rule": "Unassessable and fully excluded documents have null scores; partial PDFs cover extracted text only."
+  },
+  "explanations": "0 peer and 0 external evidence windows above cosine 0.8. Review exact source spans before any conclusion. AI style index is uncalibrated."
+}
