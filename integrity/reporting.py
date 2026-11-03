@@ -178,7 +178,7 @@ def markdown(report):
         json.dumps(report["ai_indicator"], ensure_ascii=False, indent=2),
         "",
     ]
-    return "\n".join(rows)
+    return "\n".join(line.rstrip() for line in "\n".join(rows).splitlines()) + "\n"
 
 
 def write_report(report, output_dir):

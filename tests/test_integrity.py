@@ -12,7 +12,7 @@ from integrity.extractors import Extractor
 from integrity.index import Embedder
 from integrity.matching import coverage
 from integrity.pipeline import ROOT, load_config
-from integrity.text import normalize, make_windows, passage
+from integrity.text import normalize, make_windows, passage, exclude_repeated_prefixes
 from integrity.types import Document, Unit
 
 
@@ -272,3 +272,22 @@ def test_runtime_has_no_ground_truth_dependency():
         assert "positive_peer_pairs" not in text
         assert "intended_transcripts" not in text
         assert "explicit_llm_example" not in text
+
+
+def test_unknown_shared_opening_is_discovered_without_hiding_answers():
+    prefix = " ".join(f"common{i}" for i in range(50))
+    docs = [
+        normalize(
+            Document(
+                f"case{i}.docx",
+                "docx",
+                units=[Unit(prefix + f" answer{i} a distinct continuation", {"paragraph": 1})],
+            )
+        )
+        for i in range(5)
+    ]
+    exclude_repeated_prefixes(docs)
+    for doc in docs:
+        assert len(doc.excluded) == 50
+        assert 50 not in doc.excluded
+        assert set(doc.excluded.values()) == {"discovered_common_opening_prefix"}

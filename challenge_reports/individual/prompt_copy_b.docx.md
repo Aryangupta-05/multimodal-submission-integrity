@@ -30,13 +30,13 @@ Strongest evidence per source (up to three); all accepted windows follow below.
 Query:
 
 > The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near the counter. The proposed intervention is a production scheduling change that uses equipment already present in the shop
 
 Source:
 
 > The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near the counter. The proposed intervention is a production scheduling change that uses equipment already present in the shop
 
 
@@ -53,13 +53,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near the counter. The proposed intervention is a production scheduling change that uses equipment already present in the shop
 
 Source passage:
 
 > The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near the counter. The proposed intervention is a production scheduling change that uses equipment already present in the shop
 
 ### 2. prompt_copy_a.docx | cosine 1.0000
@@ -69,13 +69,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances
 
 Source passage:
 
 > The community bakery discards unsold bread at closing, but baking less every day could leave weekend customers empty handed. I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances
 
 ### 3. prompt_copy_a.docx | cosine 1.0000
@@ -85,13 +85,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near
 
 Source passage:
 
 > while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction. The baker should compare both leftovers and unfilled requests before continuing. Feedback can come from a small basket of paper comments near
 
 ### 4. prompt_copy_a.docx | cosine 1.0000
@@ -197,13 +197,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note
 
 Source passage:
 
 > I propose a two colour chalkboard tally of early and late sales. The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note
 
 ### 13. prompt_copy_a.docx | cosine 1.0000
@@ -237,13 +237,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note
 
 Source passage:
 
 > The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note
 
 ### 16. prompt_copy_a.docx | cosine 1.0000
@@ -253,13 +253,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted
 
 Source passage:
 
 > The baker can record loaves by product without linking purchases to individual customers. After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted
 
 ### 17. prompt_copy_a.docx | cosine 1.0000
@@ -281,13 +281,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note
 
 Source passage:
 
 > After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note
 
 ### 19. prompt_copy_a.docx | cosine 1.0000
@@ -297,13 +297,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted
 
 Source passage:
 
 > After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted
 
 ### 20. prompt_copy_a.docx | cosine 1.0000
@@ -313,13 +313,13 @@ Location: `{"query_paragraphs": [2], "query_sections": ["Document body"], "match
 Query passage:
 
 > After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction
 
 Source passage:
 
 > After a fortnight, dough batches for slow weekday afternoons can be reduced while weekend production remains unchanged.
-> 
+>
 > Weather and a neighbouring school holiday could distort the short trial, so the tally should include those circumstances in a margin note. Donating edible leftovers must remain an option while production is adjusted. A reduction in waste accompanied by repeated stockouts would count as failure, because discarded weight alone rewards underproduction
 
 ### 21. prompt_copy_a.docx | cosine 1.0000
