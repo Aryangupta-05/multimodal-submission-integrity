@@ -93,7 +93,14 @@ class Extractor:
                         re.fullmatch(r"(?:page\s+)?\d+(?:\s+(?:of|/)\s+\d+)?", txt.strip(), re.I)
                     )
                     if margin and (key in repeated or configured or page_label):
-                        removed.append({"page": i, "text": txt, "reason": "repeated_margin"})
+                        reason = (
+                            "configured_margin"
+                            if configured
+                            else "page_number_label"
+                            if page_label
+                            else "repeated_margin"
+                        )
+                        removed.append({"page": i, "text": txt, "reason": reason})
                     else:
                         kept.append(txt)
                 text = "\n".join(kept)

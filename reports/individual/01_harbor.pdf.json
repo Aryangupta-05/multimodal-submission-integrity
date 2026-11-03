@@ -16226,22 +16226,22 @@
         {
           "page": 1,
           "text": "Riverton synthetic case collection",
-          "reason": "repeated_margin"
+          "reason": "configured_margin"
         },
         {
           "page": 1,
           "text": "Case collection | Page 1",
-          "reason": "repeated_margin"
+          "reason": "configured_margin"
         },
         {
           "page": 2,
           "text": "Riverton synthetic case collection",
-          "reason": "repeated_margin"
+          "reason": "configured_margin"
         },
         {
           "page": 2,
           "text": "Case collection | Page 2",
-          "reason": "repeated_margin"
+          "reason": "configured_margin"
         }
       ]
     }

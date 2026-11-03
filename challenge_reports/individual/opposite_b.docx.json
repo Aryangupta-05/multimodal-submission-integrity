@@ -553,7 +553,7 @@
         43
       ],
       "query_window_role": "chunk",
-      "matched_window_role": "evidence",
+      "matched_window_role": "chunk",
       "lexical_jaccard": 0.9211,
       "interpretation": "Candidate semantic overlap requiring human review; not a misconduct finding."
     },

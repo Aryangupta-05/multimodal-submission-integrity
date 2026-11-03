@@ -92,12 +92,14 @@ def eligible_runs(doc):
 def passage(doc, token_ids):
     """Return exact slices from raw units; no reconstructed normalized prose."""
     grouped = []
+    previous_tid = None
     for tid in token_ids:
         token = doc.tokens[tid]
-        if grouped and grouped[-1][0] == token.unit:
+        if grouped and grouped[-1][0] == token.unit and previous_tid == tid - 1:
             grouped[-1][2] = token.end
         else:
             grouped.append([token.unit, token.start, token.end])
+        previous_tid = tid
     spans = [
         {
             "unit_index": ui,

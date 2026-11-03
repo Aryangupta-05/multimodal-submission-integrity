@@ -197,7 +197,7 @@
     "status": "error",
     "units": [],
     "warnings": [
-      "ValueError: Audio decode failed: [mov,mp4,m4a,3gp,3g2,mj2 @ 000001f33c335100] moov atom not found\n[in#0 @ 000001f33c334d00] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\aryan\\Documents\\Codex\\2026-11-04\\complete-the-attached-ai-engineer-assignment\\outputs\\integrity-check\\challenge_submissions\\broken.mp4.\nError opening input files: Invalid data found when processing input. Unable to assess this file."
+      "ValueError: Audio decode failed: [mov,mp4,m4a,3gp,3g2,mj2 @ 0000025e5d775100] moov atom not found\n[in#0 @ 0000025e5d774d00] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\aryan\\Documents\\Codex\\2026-11-04\\complete-the-attached-ai-engineer-assignment\\outputs\\integrity-check\\challenge_submissions\\broken.mp4.\nError opening input files: Invalid data found when processing input. Unable to assess this file."
     ],
     "metadata": {},
     "tokens": [],
@@ -1946,12 +1946,12 @@
         {
           "page": 1,
           "text": "Riverton synthetic case collection",
-          "reason": "repeated_margin"
+          "reason": "configured_margin"
         },
         {
           "page": 1,
           "text": "Case collection | Page 1",
-          "reason": "repeated_margin"
+          "reason": "configured_margin"
         }
       ],
       "unextractable_pages": [

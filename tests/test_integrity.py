@@ -291,3 +291,17 @@ def test_unknown_shared_opening_is_discovered_without_hiding_answers():
         assert len(doc.excluded) == 50
         assert 50 not in doc.excluded
         assert set(doc.excluded.values()) == {"discovered_common_opening_prefix"}
+
+
+def test_noncontiguous_raw_spans_do_not_reinsert_excluded_words():
+    d = normalize(
+        Document(
+            "holes.docx",
+            "docx",
+            units=[Unit("Original answer quoted material original continuation", {"paragraph": 1})],
+        )
+    )
+    text, spans = passage(d, [0, 1, 4, 5])
+    assert text == "Original answer\noriginal continuation"
+    assert len(spans) == 2
+    assert all("quoted material" not in span["text"] for span in spans)
