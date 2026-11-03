@@ -31,12 +31,12 @@ Source: AI Engineer Assignment.pdf, 10 pages, read in full. User adds stricter r
 | R25 | 10k architecture: queue, CPU/GPU, HNSW/Flat, cost/throughput/latency (3,7) | README queue/bounded workers, CPU/GPU, HNSW/Flat, object store, caches, retries/idempotency, explicit estimates | PASS |
 | R26 | Single-command setup, root run, clean environment (7,9) | python setup.py; fresh checkout and venv; actual model run identical; 25 tests + lint + pip check; regeneration verified | PASS |
 | R27 | Accurate AI disclosure and explainability walkthrough (9) | AI_USE.md + README accurate largely AI-built disclosure; WALKTHROUGH.md | PASS |
-| R28 | Private GitHub, full code/data/docs, commit hash (9) | Private repo created and privacy verified; full final push pending | PREPARING |
+| R28 | Private GitHub, full code/data/docs, commit hash (9) | Complete solution pushed to Aryangupta-05/multimodal-submission-integrity; privacy and remote commit verified; current hash via git rev-parse HEAD | PASS |
 | R29 | Verified evaluator access (9) | invitation has no handle; pending identity | EXTERNAL BLOCKER |
 | R30 | Portal submission URL/hash (9) | explicitly skipped by user; NEVER submit | USER HANDOFF |
 | R31 | 72h receipt deadline, no invented date (9) | received 2026-11-03 17:16:47 IST => Nov 6 17:16:47 IST | VERIFIED |
 | R32 | Coverage %, no cosine-as-plagiarism, overlap union, boilerplate/quotes/refs | Unique eligible-word union, channel separation, semantic context caveat; prompt/quote/reference exclusions; tests | PASS |
 | R33 | Manifest labels not used at runtime, real ASR not transcript injection | Runtime never reads relationship labels/intended transcripts; real ASR/embeddings in all runs | PASS |
 | R34 | Reproducible generation, sample videos playable, secret/model/env-free repo | All 15 hashes survive Git checkout; full generation rerun; PyAV audio/video decode; tracked package audit excludes secrets, weights and environments | PASS |
-| R35 | Hourly scheduler, persistent checkpoints, concurrent-run guard | heartbeat created; work/PROGRESS.md | ACTIVE |
+| R35 | Hourly scheduler, persistent checkpoints, concurrent-run guard | Hourly heartbeat configured with run-lock/thread-activity check, then PAUSED after independent preparation completed; persistent checkpoint retained | COMPLETE |
 | R36 | AI rules: boilerplate/debugging allowed, broader use needs clarification | accurate disclosure; no authorship misrepresentation | HANDOFF |
