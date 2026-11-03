@@ -1,6 +1,6 @@
 # Requirements traceability
 
-Source: AI Engineer Assignment.pdf, 10 pages, read in full. User adds stricter reproducibility and edge-case requirements. Status starts TODO and will be audited against actual evidence.
+Source: AI Engineer Assignment.pdf, 10 pages, read in full. User adds stricter reproducibility and edge-case requirements. Final audit below maps every requirement to actual implementation and verification; external/user-only handoff items are explicit.
 
 | ID | Requirement and PDF pages | Implementation / evidence | Status |
 |---|---|---|---|
