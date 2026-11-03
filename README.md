@@ -31,6 +31,7 @@ If activation is restricted, invoke `.venv\Scripts\python.exe` (Windows) or `.ve
 ```sh
 python -m pytest -q
 python scripts/evaluate.py
+python scripts/write_evaluation.py
 # Optional regeneration (committed samples suffice to run/evaluate):
 python scripts/generate_dataset.py
 python scripts/generate_challenges.py

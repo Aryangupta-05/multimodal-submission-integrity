@@ -1,0 +1,15 @@
+{
+  "sample_hashes_match": 15,
+  "individual_reports_compared": 15,
+  "scores_statuses_risks_equal": true,
+  "passages_locations_and_accepted_matches_equal": true,
+  "max_cosine_difference": 0,
+  "clean_run": {
+    "runtime_seconds": 38.4452,
+    "cpu_seconds": 60.9688,
+    "peak_working_set_mb": 748.62,
+    "chunks": 16,
+    "indexed_windows": 478
+  },
+  "source_commit": "048bfb3b88602439a6eb565c24219b6c67b81126"
+}
