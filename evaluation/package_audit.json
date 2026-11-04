@@ -1,6 +1,6 @@
 {
-  "tracked_files": 163,
-  "total_bytes": 6559653,
+  "tracked_files": 167,
+  "total_bytes": 6575651,
   "issues": [],
   "scope": "Known credential-pattern/path scan and binary-byte verification, not a guarantee of detecting every possible secret."
 }

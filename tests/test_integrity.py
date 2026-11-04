@@ -17,23 +17,23 @@ from integrity.types import Document, Unit
 
 
 @pytest.fixture(scope="session")
-def reports():
+def reports(report_dir):
     return {
         p.name.removesuffix(".json"): json.loads(p.read_text(encoding="utf-8"))
-        for p in (ROOT / "reports/individual").glob("*.json")
+        for p in (report_dir / "individual").glob("*.json")
     }
 
 
 @pytest.fixture(scope="session")
-def raw():
-    return json.loads((ROOT / "reports/extracted_documents.json").read_text(encoding="utf-8"))
+def raw(report_dir):
+    return json.loads((report_dir / "extracted_documents.json").read_text(encoding="utf-8"))
 
 
 @pytest.fixture(scope="session")
-def challenge():
+def challenge(challenge_report_dir):
     return {
         p.name.removesuffix(".json"): json.loads(p.read_text(encoding="utf-8"))
-        for p in (ROOT / "challenge_reports/individual").glob("*.json")
+        for p in (challenge_report_dir / "individual").glob("*.json")
     }
 
 
@@ -65,12 +65,12 @@ def test_playable_spoken_videos(name):
         assert frames and any(np.max(np.abs(f.to_ndarray())) > 0.01 for f in frames)
 
 
-def test_reports_and_schema(reports):
+def test_reports_and_schema(reports, report_dir):
     assert len(reports) == 15
     schema = json.loads((ROOT / "report_schema.json").read_text())
     for name, r in reports.items():
         jsonschema.validate(r, schema)
-        assert (ROOT / "reports/individual" / (name + ".md")).stat().st_size > 0
+        assert (report_dir / "individual" / (name + ".md")).stat().st_size > 0
 
 
 def test_every_passage_is_exact_and_location_valid(reports, raw):
@@ -258,8 +258,8 @@ def test_repeated_pdf_margins_removed(raw):
     assert all("Riverton synthetic case collection" not in u["text"] for u in d["units"])
 
 
-def test_matrix_unknown_and_self_entries():
-    m = json.loads((ROOT / "reports/similarity_matrix.json").read_text())
+def test_matrix_unknown_and_self_entries(report_dir):
+    m = json.loads((report_dir / "similarity_matrix.json").read_text())
     for name, row in m.items():
         assert row[name] is None
         assert row["14_silent.mp4"] is None
@@ -291,6 +291,31 @@ def test_unknown_shared_opening_is_discovered_without_hiding_answers():
         assert len(doc.excluded) == 50
         assert 50 not in doc.excluded
         assert set(doc.excluded.values()) == {"discovered_common_opening_prefix"}
+
+
+def test_reported_cosines_agree_with_actual_index_vectors(reports, report_dir):
+    windows = json.loads((report_dir / "index_windows.json").read_text(encoding="utf-8"))
+    with np.load(report_dir / "vectors.npz", allow_pickle=False) as archive:
+        vectors = archive["embeddings"]
+    lookup = {
+        (window["document_id"], tuple(window["token_ids"]), window["role"]): index
+        for index, window in enumerate(windows)
+    }
+    checked = 0
+    for document_id, report in reports.items():
+        for match in report["peer_matches"] + report["external_matches"]:
+            qi = lookup[(document_id, tuple(match["query_token_ids"]), match["query_window_role"])]
+            si = lookup[
+                (
+                    match["matched_file"],
+                    tuple(match["matched_token_ids"]),
+                    match["matched_window_role"],
+                )
+            ]
+            actual = float(np.clip(vectors[qi] @ vectors[si], -1, 1))
+            assert actual == pytest.approx(match["similarity_score"], abs=3e-6)
+            checked += 1
+    assert checked > 20
 
 
 def test_noncontiguous_raw_spans_do_not_reinsert_excluded_words():

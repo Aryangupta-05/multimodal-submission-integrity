@@ -1,7 +1,7 @@
 # Batch summary
 
 Processed 16 files; 7 assessable.
-Measured wall time: 14.8414 seconds; peak working set: 420.39 MiB.
+Measured wall time: 89.651 seconds; peak working set: 393.1 MiB.
 
 | Document | Status | Peer % | External % | AI style % |
 |---|---|---:|---:|---:|

@@ -23,8 +23,8 @@ Coverage of candidate semantic windows; can include unmatched context. Not perce
 
 Strongest evidence per source (up to three); all accepted windows follow below.
 
-- Warning: ValueError: Audio decode failed: [mov,mp4,m4a,3gp,3g2,mj2 @ 0000025e5d775100] moov atom not found
-[in#0 @ 0000025e5d774d00] Error opening input: Invalid data found when processing input
+- Warning: ValueError: Audio decode failed: [mov,mp4,m4a,3gp,3g2,mj2 @ 000002961f845100] moov atom not found
+[in#0 @ 000002961f844d00] Error opening input: Invalid data found when processing input
 Error opening input file C:\Users\aryan\Documents\Codex\2026-11-04\complete-the-attached-ai-engineer-assignment\outputs\integrity-check\challenge_submissions\broken.mp4.
 Error opening input files: Invalid data found when processing input. Unable to assess this file.
 

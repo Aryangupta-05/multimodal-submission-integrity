@@ -16,7 +16,7 @@ asr = "\n".join(
 )
 text = f"""# Evaluation
 
-Measured locally on 4 November 2026 using the committed synthetic corpus, real PDF/DOCX extraction, FFmpeg decoding, Whisper tiny.en CPU int8 transcription and MiniLM embeddings. No mocks establish the ingestion/model/reporting results.
+Measured locally using the committed synthetic corpus, real PDF/DOCX extraction, FFmpeg decoding, Whisper tiny.en CPU int8 transcription and MiniLM embeddings. Dated verification records are retained in evaluation/. No mocks establish the ingestion/model/reporting results.
 
 ## Dataset and evaluation policy
 

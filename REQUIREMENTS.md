@@ -1,6 +1,6 @@
 # Requirements traceability
 
-Source: AI Engineer Assignment.pdf, 10 pages, read in full. User adds stricter reproducibility and edge-case requirements. Final audit below maps every requirement to actual implementation and verification; external/user-only handoff items are explicit.
+Source: AI Engineer Assignment (2).pdf, 10 pages, read in full; updated submission instructions supersede the original PDF. Re-audited on 5 November 2026. User adds stricter reproducibility and edge-case requirements. The audit maps every requirement to actual implementation and verification; external/user-only handoff items are explicit.
 
 | ID | Requirement and PDF pages | Implementation / evidence | Status |
 |---|---|---|---|
@@ -29,14 +29,18 @@ Source: AI Engineer Assignment.pdf, 10 pages, read in full. User adds stricter r
 | R23 | >=2 actual failures/ambiguities investigated (7) | Actual baseline retrieval miss and invalid timestamps fixed; opposite-conclusion ambiguity and short-copy miss remain documented | PASS |
 | R24 | Model/index tradeoffs and resource/runtime measurements (7) | Measured runtime/CPU/peak working set in batch JSON and EVALUATION; model/index tradeoffs | PASS |
 | R25 | 10k architecture: queue, CPU/GPU, HNSW/Flat, cost/throughput/latency (3,7) | README queue/bounded workers, CPU/GPU, HNSW/Flat, object store, caches, retries/idempotency, explicit estimates | PASS |
-| R26 | Single-command setup, root run, clean environment (7,9) | python setup.py; fresh checkout and venv; actual model run identical; 25 tests + lint + pip check; regeneration verified | PASS |
+| R26 | Single-command setup, root run, clean environment (7,9) | python setup.py; clean environment and public checkout verified; fresh inference and newly generated reports validated; lint and pip check | PASS |
 | R27 | Accurate AI disclosure and explainability walkthrough (9) | AI_USE.md + README accurate largely AI-built disclosure; WALKTHROUGH.md | PASS |
-| R28 | Private GitHub, full code/data/docs, commit hash (9) | Complete solution pushed to Aryangupta-05/multimodal-submission-integrity; privacy and remote commit verified; current hash via git rev-parse HEAD | PASS |
-| R29 | Verified evaluator access (9) | invitation has no handle; pending identity | EXTERNAL BLOCKER |
-| R30 | Portal submission URL/hash (9) | explicitly skipped by user; NEVER submit | USER HANDOFF |
+| R28 | Public GitHub repository with full code/data/docs (updated p9) | Aryangupta-05/multimodal-submission-integrity changed to PUBLIC at explicit user request; visibility and public clone verified | PASS |
+| R29 | Reviewer invitation from original version | Removed from updated specification; public repository provides access without a separate invitation | SUPERSEDED |
+| R30 | Submit repository URL by email reply OR portal (updated p9) | Email reply is an available route; no portal link is supplied or required to use email. Agent must not submit. Commit hash is optional in revised bullet | USER HANDOFF |
 | R31 | 72h receipt deadline, no invented date (9) | received 2026-11-03 17:16:47 IST => Nov 6 17:16:47 IST | VERIFIED |
 | R32 | Coverage %, no cosine-as-plagiarism, overlap union, boilerplate/quotes/refs | Unique eligible-word union, channel separation, semantic context caveat; prompt/quote/reference exclusions; tests | PASS |
 | R33 | Manifest labels not used at runtime, real ASR not transcript injection | Runtime never reads relationship labels/intended transcripts; real ASR/embeddings in all runs | PASS |
 | R34 | Reproducible generation, sample videos playable, secret/model/env-free repo | All 15 hashes survive Git checkout; full generation rerun; PyAV audio/video decode; tracked package audit excludes secrets, weights and environments | PASS |
 | R35 | Hourly scheduler, persistent checkpoints, concurrent-run guard | Hourly heartbeat configured with run-lock/thread-activity check, then PAUSED after independent preparation completed; persistent checkpoint retained | COMPLETE |
 | R36 | AI rules: boilerplate/debugging allowed, broader use needs clarification | accurate disclosure; no authorship misrepresentation | HANDOFF |
+| R37 | Do not change code, instructions or Markdown after submission (updated p9) | README and PROJECT_STATE require a freeze after the candidate submits; all preparation must precede submission | USER RESPONSIBILITY |
+| R38 | Updated submission contact (updated p9) | careers@unstop.com replaces placeholder contact; documented email route; no email sent by agent | PASS |
+
+The updated brief changes submission logistics only. The 10,000-submission item is a scaling brief, not a requirement to demonstrate production throughput. Imperfect hidden-case accuracy is documented in EVALUATION.md rather than represented as guaranteed performance. Accurate AI disclosure is implemented; evaluator approval of broader AI use cannot be established by code or fabricated authorship statements.

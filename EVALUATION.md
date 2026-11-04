@@ -1,6 +1,6 @@
 # Evaluation
 
-Measured locally on 4 November 2026 using the committed synthetic corpus, real PDF/DOCX extraction, FFmpeg decoding, Whisper tiny.en CPU int8 transcription and MiniLM embeddings. No mocks establish the ingestion/model/reporting results.
+Measured locally using the committed synthetic corpus, real PDF/DOCX extraction, FFmpeg decoding, Whisper tiny.en CPU int8 transcription and MiniLM embeddings. Dated verification records are retained in evaluation/. No mocks establish the ingestion/model/reporting results.
 
 ## Dataset and evaluation policy
 
@@ -79,7 +79,7 @@ All five DOCX sample pages and all distinct valid PDF pages were rendered and vi
 
 ## Runtime and resources
 
-Final development run: **41.1722 seconds wall time**, **34.2344 main-process CPU seconds**, **525.66 MiB peak Python working set**. There were 16 main chunks and 478 total indexed windows (including sentence evidence and local references). Hardware: 12 logical CPUs, 7.31 GiB physical RAM; AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD. Configuration bounds PyTorch/ASR CPU work to four threads. Both models were local; embeddings could use the content-addressed cache. Every run still extracts documents and performs real ASR; there is no transcript cache. Python CPU/memory figures do not sum FFmpeg subprocess resources and are not a whole-machine peak.
+Final development run: **110.3963 seconds wall time**, **59.0938 main-process CPU seconds**, **462.07 MiB peak Python working set**. There were 16 main chunks and 478 total indexed windows (including sentence evidence and local references). Hardware: 12 logical CPUs, 7.31 GiB physical RAM; AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD. Configuration bounds PyTorch/ASR CPU work to four threads. Both models were local; embeddings could use the content-addressed cache. Every run still extracts documents and performs real ASR; there is no transcript cache. Python CPU/memory figures do not sum FFmpeg subprocess resources and are not a whole-machine peak.
 
 The initial run took 33.561 s at 745.75 MiB peak with model startup and uncached embeddings. Later runs differ in extraction settings/window counts and cache state, so the difference is not a controlled speed comparison. Setup/download time and installed dependency footprint are separate from runtime. The clean verification records another real run. All 10,000-document rates/costs in README are explicitly planning assumptions; no production throughput was measured.
 

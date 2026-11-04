@@ -222,7 +222,7 @@ def main():
             "provenance_type": "synthetic_local_reference",
             "author": "Codex-assisted synthetic corpus",
             "license": "CC0-1.0",
-            "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+            "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in this repository.",
             "sha256": hashlib.sha256(EXTERNAL.encode()).hexdigest(),
         }
         (references / "queue_design.json").write_text(json.dumps(data, indent=2), encoding="utf-8")

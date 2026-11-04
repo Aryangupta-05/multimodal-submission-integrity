@@ -94,7 +94,7 @@ Known prompts come from `config/common_prompt.txt`, independent of relationship 
 
 Only clearly attributed quotations in the form `"quotation" (Source: attribution)` or `(Cited: attribution)` and paragraphs starting `References:`/`Bibliography:` are discounted. This is narrow syntax, not a comprehensive citation parser. A full PDF page beginning with a reference heading can exclude more than a DOCX paragraph. Quotes and references remain in raw extraction/exclusion audit data, and attribution does not prove a source is legitimate. Do not use these rules to grant misconduct exemptions automatically.
 
-The external corpus is **locally authored synthetic reference material, not a web search**. Its URL points to the exact committed private GitHub source; an evaluator needs repository access. Provenance explicitly states CC0 authorship and that it was not scraped. A local reference corpus is permitted by the brief. External coverage is limited to this corpus and cannot certify absence of internet copying.
+The external corpus is **locally authored synthetic reference material, not a web search**. Its URL points to the committed source in this public GitHub repository. Provenance explicitly states CC0 authorship and that it was not scraped. A local reference corpus is permitted by the brief. External coverage is limited to this corpus and cannot certify absence of internet copying.
 
 The `ai_generated_probability` example key is retained as a compatibility field. Its value is an **uncalibrated style index**, computed as 100 times `0.55 * sentence-length regularity + 0.30 * lexical repetition + 0.15 * capped transition frequency`. Exact features and formula are in `integrity/signals.py`. At least 50 words and three sentences are required. No training, perplexity estimate, classifier or probability calibration is claimed. Human writing can score high and AI writing low; all sample prose was AI-assisted, so this dataset cannot validate human-vs-AI classification.
 
@@ -106,7 +106,19 @@ The `ai_generated_probability` example key is retained as a compatibility field.
 - PDF page numbers are actual 1-based container pages; DOCX paragraph ordinals count body paragraphs and table-cell paragraphs, including empty ones. DOCX section references are the latest heading text, not rendered pagination.
 - Inputs are bounded to 100 MiB, 500 PDF pages and 120 audio seconds. This assessment's clips are about 16-21 seconds. Extraction failures are isolated; shared model/configuration failures stop with setup guidance.
 - No plagiarism or AI signal is an automatic misconduct decision. No evidence establishes which peer is the original author.
-- Reviewer identity and portal were absent from the invitation; no handle is guessed, the repository stays private, and portal preparation/submission is left to the user.
+- The revised brief requires a public repository and permits submission by replying to the assessment email or through the candidate portal. No evaluator invitation is required for public access. Final submission is performed by the candidate.
+
+## Submission requirements
+
+The revised assessment requires the source code, sample dataset, reports and documentation in a **public GitHub repository**. Submit its URL by replying to the company's assessment email or through the candidate portal. The revised PDF does not supply a portal URL and no longer explicitly requests a commit hash; recording the final commit remains useful for identifying the submitted version. The listed contact is `careers@unstop.com`.
+
+After submission, **do not modify the code, instructions or Markdown files**. Complete review and testing before submitting. The 72-hour rule remains in the brief; a replacement PDF alone does not establish a deadline extension.
+
+To validate newly generated outputs instead of the committed examples, integration checks accept report directories:
+
+```sh
+python -m pytest -q tests --reports-dir=reports --challenge-reports-dir=challenge_reports
+```
 
 ## Scaling to 10,000 submissions
 

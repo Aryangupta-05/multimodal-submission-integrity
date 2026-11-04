@@ -674,9 +674,9 @@
     "09_prompt_garden_llm.docx": 0.0
   },
   "measured_resources": {
-    "runtime_seconds": 41.1722,
-    "cpu_seconds": 34.2344,
-    "peak_working_set_mb": 525.66,
+    "runtime_seconds": 110.3963,
+    "cpu_seconds": 59.0938,
+    "peak_working_set_mb": 462.07,
     "hardware": {
       "platform": "Windows-10-10.0.26200-SP0",
       "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",

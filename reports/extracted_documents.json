@@ -18411,7 +18411,7 @@
       "provenance_type": "synthetic_local_reference",
       "author": "Codex-assisted synthetic corpus",
       "license": "CC0-1.0",
-      "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in the private repository.",
+      "retrieval_note": "Authored locally, not scraped. Source URL is the committed source location in this repository.",
       "sha256": "f4435473a78b2e39352bb5a6d6480bd4faf3d87f6a6a9d8e805bf877491261a1"
     },
     "tokens": [
