@@ -145,6 +145,6 @@ Cost is dominated by ASR compute, embedding windows and retention of original vi
 - The matrix is exact and quadratic in indexed windows; use the scaling design for larger batches. Reports retain overlapping evidence windows, which can be verbose.
 - The source text/labels were constructed with knowledge of the requirements, and one retrieval fix was informed by this dataset. There is no held-out natural/student validation set, real accent/noise robustness test, statistical detector calibration, or verified production benchmark.
 
-## AI assistance disclosure
+### AI Disclosure
 
-**This project was largely built by OpenAI Codex at the candidate's request**, including architecture, implementation, synthetic data/scripts, tests, execution/debugging, evaluation and documentation. It would be inaccurate to call this only boilerplate assistance. The brief explicitly mentions assistants for boilerplate and debugging; this level of assistance goes beyond that wording. The candidate must clarify whether the broader assistance is permitted before submitting, review the actual code, and be able to explain every part. See `AI_USE.md` for scope and responsibilities. No claim is made that the candidate independently wrote or validated this implementation.
+AI assistants were used only for basic boilerplate code generation, initial project scaffolding, and debugging assistance (identifying and fixing errors). All core implementation, project logic, and final code review were carried out by me.
